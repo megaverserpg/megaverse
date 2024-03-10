@@ -534,7 +534,7 @@
 }
 
 #c4 .fo_deco img,
-#c5 .fo_deco img, {
+#c5 .fo_deco img,
 #c8 .fo_deco img {
 	grid-row: 1;
 	grid-column: 1;
