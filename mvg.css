@@ -304,8 +304,7 @@
 #c2 .forum_stats span,
 #c7 .forum_stats span {
 	background: var(--neutralDark);
-	font-size: var(--small-size);
-	padding: 0 5px;
+	padding: 5px;
 	border-radius: var(--radius);
 	text-align: center;
 	color: var(--contrast);
