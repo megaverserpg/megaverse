@@ -20,7 +20,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	background: var(--co-gradient);
+	background: linear-gradient(45deg, var(--co-1), var(--co-2));
 }
 
 /* ------------ STRUCTURE ------------ */
