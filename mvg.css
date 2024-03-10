@@ -643,6 +643,7 @@
 	grid-column: 1;
 	justify-content: end;
 	align-self: start;
+	opacity: 0;
 }
 
 #c4 .fo_stats,
