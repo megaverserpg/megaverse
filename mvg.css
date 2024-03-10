@@ -274,7 +274,6 @@
 .fo_stats {
 	display: flex;
 	gap: 10px;
-	margin: 0 auto;
 	width: fit-content;
 }
 
