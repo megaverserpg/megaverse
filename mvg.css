@@ -864,16 +864,12 @@ card {
 /*** MENU ABSOLUTE ------------ ***/
 /* NAVIGATION */
          .navig {
-	    position: absolute;
-	    left: 26px;
-	    top: 17px;
-	    z-index: 103;
             display: grid;
             align-items: center;
             z-index: 998;
             position: fixed;
-            top: 11px;
-            left: 30px;
+	    top: 1px;
+	    left: 22px;
             box-sizing: border-box;
             font-family: var(--base-font);
             transition: .5s all
