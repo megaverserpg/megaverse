@@ -980,13 +980,14 @@ card {
             border-radius: var(--radius)
         }
 
-        .nav_burger-grid>div>a, .nav_burger-grid b1 {
+        .nav_burger-grid>div>a,
+        .nav_burger-grid b1 {
             display: block;
             margin-top: 8px;
             padding: 3px 6px;
             text-transform: uppercase;
             font-size: var(--little-size);
-            letter-spacing: 1px
+            letter-spacing: 1px;
         }
       
       .nav_burger-grid b1::after {content: none}
@@ -995,7 +996,6 @@ card {
         .nav_burger-grid b1::before {
             content: '\0027E1';
             margin-right: 10px;
-            color: var(--co-2);
         }
 
         .nav_burger-grid>div>a:hover::before {
