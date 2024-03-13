@@ -991,7 +991,8 @@ card {
       
       .nav_burger-grid b1::after {content: none}
 
-        .nav_burger-grid>div>a::before {
+        .nav_burger-grid>div>a::before,
+        .nav_burger-grid b1 {
             content: '\0027E1';
             margin-right: 10px;
             color: var(--co-2);
