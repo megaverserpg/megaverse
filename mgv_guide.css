@@ -269,7 +269,7 @@ h2::after {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 36%;
+	height: 32%;
 }
 .branch {
 	display: flex;
