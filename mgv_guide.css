@@ -251,7 +251,7 @@ h2::after {
 
 .tabs-onglets a {
 	display: block;
-	width: 130px;
+	width: 155px;
 	padding: 5px;
 	background: var(--co-gradient);
 	border-radius: var(--radius);
