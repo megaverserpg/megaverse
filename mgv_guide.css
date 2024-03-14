@@ -240,11 +240,15 @@ h2::after {
 
 /* PARTICULARITÉS */
 .tabs-onglets {
-	margin-bottom: -50px;
-	display: flex;
-	gap: 20px;
-	justify-content: center;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
+
 .tabs-onglets a {
 	display: block;
 	width: 130px;
