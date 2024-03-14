@@ -728,6 +728,11 @@
     display: none;
 }
 
+.post:has(.annexe) .post_message {
+    grid-column: 1 / span 2;
+    padding: 25px;
+}
+
 /* ------------ GÉNÉRALITÉS ------------ */
 /* Emoji mis par défaut de FA
 * Les réduire les rend moins horribles à voir */
