@@ -255,6 +255,10 @@ h2::after {
 	border-radius: var(--radius);
 	text-transform: uppercase;
 	font-size: var(--little-size);
+}
+
+.tabs-onglets a:hover {
+	color: var(--contrast);
 	letter-spacing: 1px;
 }
 
