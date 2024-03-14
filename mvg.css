@@ -723,6 +723,11 @@
 	overflow: hidden;
 }
 
+/* HIDE PROFILE */
+.post:has(.annexe) .post_profile {
+    display: none;
+}
+
 /* ------------ GÉNÉRALITÉS ------------ */
 /* Emoji mis par défaut de FA
 * Les réduire les rend moins horribles à voir */
