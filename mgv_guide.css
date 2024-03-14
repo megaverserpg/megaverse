@@ -568,18 +568,15 @@ u3:hover {
 	background-size: 100% 100%;
 	color: white;
 }
-min1,
-min2,
-min3,
-min4 {
-	display: inline-block;
-	line-height: 12px;
-	padding: 0px 4px 0 2px;
-	text-shadow: 1px 1px 0 var(--base-1);
-	font-style: italic;
-	color: var(--white);
-	font-size: var(--little-size);
-	text-transform: lowercase;
+min1, min2, min3, min4 {
+    display: inline-block;
+    line-height: 12px;
+    padding: 2px 6px 4px;
+    text-shadow: 1px 1px 0 var(--base-1);
+    font-style: italic;
+    color: white;
+    font-size: var(--normal-size);
+    text-transform: lowercase;
 }
 min1 {
 	background: var(--co-1);
