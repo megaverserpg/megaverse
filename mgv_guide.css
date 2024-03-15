@@ -285,7 +285,7 @@ h2::after {
 	counter-reset: item;
 }
 
-.branch.0 { counter-reset: item -1; }
+.branch.\30 { counter-reset: item -1; }
 
 .step::before {
 	position: absolute;
