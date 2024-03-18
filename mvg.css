@@ -615,7 +615,9 @@ font-weight: 400;
 #c4 .forumtitle,
 #c5 .forumtitle,
 #c8 .forumtitle {
+	color: white;
 	font-size: var(--xxl-size);
+	line-height: var(--xxl-size);
 	margin-left: auto;
 	display: block;
 	text-transform: uppercase;
