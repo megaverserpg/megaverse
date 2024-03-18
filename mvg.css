@@ -625,6 +625,7 @@ font-weight: 400;
 	grid-row: 1;
 	grid-column: 1 / span 2;
 	width: 90%;
+	font-weight: 400;
 	text-align: right;
 	z-index: 2;
 }
