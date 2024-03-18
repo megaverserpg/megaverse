@@ -407,10 +407,10 @@ font-weight: 700;
 margin: 0;
 grid-row: 1;
 grid-column: 1;
-color: var(--contrast);
+color: white;
 font-size: var(--xl-size);
 font-family: var(--special-font);
-text-shadow: 0 0 5px var(--contrast);
+text-shadow: 0 0 5px white;
 font-weight: 400;
 }
 
