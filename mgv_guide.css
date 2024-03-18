@@ -174,7 +174,6 @@ a:hover {
 	transform: translateX(-400px);
 	transition: all 0.2s ease-out;
 }
-
 .nav_burger-cnt.open {
 	transform: translateX(0px);
 }
