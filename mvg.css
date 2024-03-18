@@ -484,7 +484,7 @@ font-weight: 400;
 	position: absolute;
 	background: transparent;
 	right: 56px;
-	color: var(--contrast);
+	color: white
 }
 
 #c3 .forum-img,
@@ -530,6 +530,7 @@ font-weight: 400;
 	text-transform: uppercase;
 	font-weight: 400;
 	margin: 0 auto 5px;
+	color: white;
 }
 
 #c3 .forum_lastpost,
