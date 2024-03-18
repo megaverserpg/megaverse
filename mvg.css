@@ -635,7 +635,7 @@ font-weight: 400;
 	grid-row: 1;
 	grid-column: 2;
 	text-align: right;
-	transform: translate(20px, -10px);
+	transform: translate(13px, -13px);
 }
 
 #c4 .fo_deco,
@@ -702,7 +702,7 @@ font-weight: 400;
 	content: '';
 	display: block;
 	height: 1px;
-	background: var(--contrast);
+	background: white;
 	margin-top: 5px;
 }
 
