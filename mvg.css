@@ -336,34 +336,34 @@
 }
 
 .cate_title::before {
-	content: '';
-	display: block;
-	width: 24vw;
-	height: 6vw;
-	border: 1px solid white;
-	border-radius: 50%;
-	grid-row: 1;
-	grid-column: 1;
-	margin: 15px -10px 0 0;
-	transform: rotate(-10deg);
-	position: relative;
-	z-index: 1;
-	animation: mini-bounce 2s ease infinite alternate;
+    content: '';
+    display: block;
+    width: 400px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 15px -10px 0 0;
+    transform: rotate(-10deg);
+    position: relative;
+    z-index: 1;
+    animation: mini-bounce 2s ease infinite alternate;
 }
 
 .cate_title::after {
-	content: '';
-	display: block;
-	width: 24vw;
-	height: 6vw;
-	border: 1px solid white;
-	border-radius: 50%;
-	grid-row: 1;
-	grid-column: 1;
-	margin: -15px 0 0 0;
-	transform: rotate(-10deg);
-	position: relative;
-	animation: mini-bounce 2s ease infinite alternate;
+    content: '';
+    display: block;
+    width: 400px;
+    height: 120px;
+    border: 1px solid white;
+    border-radius: 50%;
+    grid-row: 1;
+    grid-column: 1;
+    margin: -15px 0 0 0;
+    transform: rotate(-10deg);
+    position: relative;
+    animation: mini-bounce 2s ease infinite alternate;
 }
 
 .cate_title {
@@ -395,23 +395,21 @@
 }
 
 .cate_title h2 {
-display: flex;
-width: 24vw;
-height: 100%;
-align-items: center;
-justify-content: center;
-text-align: center;
-text-transform: uppercase;
-font-size: 18px;
-font-weight: 700;
-margin: 0;
-grid-row: 1;
-grid-column: 1;
-color: white;
-font-size: var(--xl-size);
-font-family: var(--special-font);
-text-shadow: 0 0 5px white;
-font-weight: 400;
+    display: flex;
+    width: 400px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    grid-row: 1;
+    grid-column: 1;
+    color: white;
+    font-size: var(--xl-size);
+    font-family: var(--special-font);
+    text-shadow: 0 0 5px white;
+    font-weight: 400;
 }
 
 #c3 .cate_title,
