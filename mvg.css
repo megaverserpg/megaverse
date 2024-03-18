@@ -886,6 +886,20 @@ card {
         }
 
         /* MENU BURGER (FRITES) */
+  	.nav_home {
+		position: absolute;
+		top: 10px;
+		right: 8px;
+	}
+
+	.nav_home span {
+		width: 15px;
+		height: 15px;
+		padding: 5px;
+		border-radius: 50%;
+		background: var(--co-gradient);
+	}
+
         .nav_burger {
             cursor: pointer;
             display: flex;
