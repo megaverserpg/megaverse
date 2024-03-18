@@ -27,8 +27,7 @@
 .main_forum {
 	min-width: 980px;
 	width: 70vw;
-	margin: 20px auto;
-	padding: 20px;
+	margin: 0 auto;
 	border-radius: 5px;
 }
 
