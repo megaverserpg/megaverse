@@ -527,6 +527,7 @@ font-weight: 400;
 #c6 .forumtitle {
 	display: block;
 	font-size: var(--xl-size);
+	line-height: var(--xl-size);
 	text-transform: uppercase;
 	font-weight: 400;
 	margin: 0 auto 5px;
