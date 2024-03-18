@@ -753,9 +753,7 @@
 	display: flex;
 	gap: 20px;
 }
-.flex > * {
-	flex-grow: 100;
-}
+
 .block {
 	background: var(--neutral);
 	border-radius: var(--radius);
