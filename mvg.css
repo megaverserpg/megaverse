@@ -735,6 +735,126 @@
     padding: 25px;
 }
 
+/* FORUMS */
+.forum {
+background: var(--neutral);
+padding: 20px;
+border-radius: 5px;
+position: relative;
+overflow: hidden;
+}
+
+.forum:not(#c1 .forum:first-of-type, #c3 .forum, #c6 .forum) {
+backdrop-filter: blur(10px);
+}
+
+.int_forum .cate_title span:not(:nth-child(2)) {
+    display: none;
+}
+
+.int_forum {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.int_forum .forum_desc { 
+display: grid;
+grid-template-columns: 215px 1fr;
+justify-content: space-between;
+align-items: center;
+grid-gap: 10px;
+margin-bottom: 10px;
+background: var(--neutral);
+border-radius: var(--radius);
+overflow: hidden;
+}
+
+.int_forum .forumtitle { 
+  position: relative; 
+  font-weight: 500; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  top: -33px;
+  grid-row: 1;
+  grid-column: 2; }
+
+.int_forum .forum-img { 
+grid-row: 1;
+grid-column: 1;
+justify-self: end;
+align-self: end;
+clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+z-index: 1;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+margin-bottom: -1px;
+padding: 25px 0 0 30px;
+width: 70px; 
+height: 70px; 
+background-color: var(--neutralDark);
+}
+
+.int_forum .fo_deco { 
+  grid-row: 1; 
+  grid-column: 1; }
+
+.int_forum .desc { 
+  grid-row: 1; 
+  grid-column: 2; 
+  height: 65px;
+  margin-top: 30px;
+}
+
+.int_forum .forum_stats {
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.int_forum .forum_stats span {
+    background: var(--neutralDark);
+    padding: 5px;
+    border-radius: var(--radius);
+    text-align: center;
+    color: var(--contrast);
+}
+
+.int_forum .fo_stats { 
+  grid-row: 1; 
+  grid-column: 3;
+  margin-right: 20px;}
+
+.int_forum .fo_deco::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: var(--co-2);
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.int_forum .forum_details {
+    background: var(--neutral);
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 35px;
+    border-radius: var(--radius);
+    margin-bottom: 20px;
+}  
+
+.int_forum .forum_details::before {
+    content: "\ec0c";
+    font-family: var(--font-ic);
+    color: var(--co-1);
+}
+
 /* ------------ GÉNÉRALITÉS ------------ */
 /* Emoji mis par défaut de FA
 * Les réduire les rend moins horribles à voir */
@@ -744,8 +864,6 @@
 
 
 /* liens du forum */
-
-
 
 
 
