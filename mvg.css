@@ -747,8 +747,13 @@ font-weight: 400;
 }
 
 /* HIDE PROFILE */
-.post:has(.annexe) .post_profile {
+.post:has(.annexe) .post_profile,
+.post:has(.annexe) .post_avatar {
     display: none;
+}
+
+.post:has(.annexe) .post_message {
+	margin: 0;
 }
 
 .post:has(.annexe) .post_message {
