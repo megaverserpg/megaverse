@@ -1397,7 +1397,7 @@ more {
 
 .wiz {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: repeat(2, 1fr);
 	gap: 5px;
 	background-color: var(--neutralDark);
 	padding: 5px;
@@ -1428,6 +1428,7 @@ a.groupe {
 duo.ok { 
 	  padding: 0 5px; background: var(--co-3);
 	  text-transform: uppercase;
+	  text-align: center;
 	  font-size: var(--little-size);
 	  border-radius: var(--radius);
 	  letter-spacing: 1px;
