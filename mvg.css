@@ -1318,7 +1318,7 @@ more {
 
 .modele_1 {
 	background: var(--neutral);
-	max-width: 700px;
+	width: 700px;
 	margin: auto;
 	line-height: 1.5em;
 	border-radius: var(--radius);
