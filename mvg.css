@@ -1418,7 +1418,7 @@ duo.ok {
 	  border-left: 4px solid var(--co-1);
   }
   res { 
-	  border-left: 4px solid var(--co-1);
+	  border-left: 4px solid var(--co-2);
   } 
   .pl, inv { 
 	  display: flex;
