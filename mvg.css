@@ -1405,6 +1405,7 @@ more {
 	position: relative;
 	border-radius: var(--radius);
 	border-bottom: 1px solid var(--co-1);
+	margin-bottom: 10px;
 }
 
 .dim {
