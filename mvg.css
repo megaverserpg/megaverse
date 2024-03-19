@@ -933,7 +933,6 @@ newsareal1 .topicslist_infos {
 
 #newsareal1 .topicslist_infos:hover {
     width: 100%;
-    padding: 0 5px;
     background: var(--co-gradient);
     border-radius: var(--radius);
     color: white;
@@ -943,6 +942,8 @@ newsareal1 .topicslist_infos {
     width: 100%;
     font-size: var(--little-size);
     letter-spacing: 1px;
+    padding: 0 5px;
+    border-radius: var(--radius);
 }
 
 #newsareal1 .topicslist_infos:hover a {
