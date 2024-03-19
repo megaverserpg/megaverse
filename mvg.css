@@ -662,11 +662,12 @@
 #c4 .desc,
 #c5 .desc,
 #c8 .desc {
-	grid-row: 2;
-	grid-column: 1;
-	transform: translateY(30px);
-	height: 125px;
-	overflow: auto;
+    grid-row: 2;
+    grid-column: 1;
+    transform: translateY(30px);
+    height: 90px;
+    overflow: auto;
+    margin-bottom: 30px;
 }
 
 #c4 .forum_stats,
