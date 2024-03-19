@@ -911,6 +911,7 @@ background-color: var(--neutralDark);
 #newsareal1 .topicslist_infos {
     min-height: 0;
     border-radius: var(--radius);
+    background: var(--neutral);
     padding: 0;
 }
 
