@@ -1394,10 +1394,37 @@ more {
     border-radius: var(--radius);
     border-bottom: 1px solid var(--co-1);
 }
+
+.wiz {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 5px;
+	background-color: var(--neutralDark);
+	padding: 5px;
+	z-index: 1;
+	position: relative;
+	border-radius: var(--radius);
+	border-bottom: 1px solid var(--co-1);
+}
+
+.dim {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	background-color: var(--neutralDark);
+	padding: 5px;
+	z-index: 1;
+	position: relative;
+	border-radius: var(--radius);
+	border-bottom: 1px solid var(--co-1);
+}
+
+
 a.groupe { 
 	  text-align: right; 
 	  border-radius: var(--radius);
   } 
+
 duo.ok { 
 	  padding: 0 5px; background: var(--co-3);
 	  text-transform: uppercase;
@@ -1405,6 +1432,7 @@ duo.ok {
 	  border-radius: var(--radius);
 	  letter-spacing: 1px;
   } 
+
   pris, res { 
 	  border-radius: var(--radius); 
 	  background: var(--neutralDarker); 
@@ -1414,12 +1442,15 @@ duo.ok {
 	  letter-spacing: 1px;
 	  font-weight: 700;
   }
+
   pris { 
 	  border-left: 4px solid var(--co-1);
   }
+
   res { 
 	  border-left: 4px solid var(--co-2);
   } 
+
   .pl, inv { 
 	  display: flex;
 	  justify-content: center;
@@ -1428,17 +1459,16 @@ duo.ok {
 	  width: 25px;
 	  border-radius: var(--radius);
   } 
+
   .pl {
 	  background: var(--co-1);
   } 
+
   inv {
 	  background: var(--co-2);
   } 
+
   .grp {text-align: right}
-  .titanium {color: #FFABB7} 
-  .chromium {color: #96C7F0}
-  .copper {color: #FFC886}
-  .iridium {color: #C8BAFF}
 
 /*** ------------------------------- ***/
 /*** MENU ABSOLUTE ------------ ***/
