@@ -1383,6 +1383,63 @@ more {
 	bottom: -10px;
 }
 
+/* MODÈLES ADMIN */
+.fc {
+    display: grid;
+    grid-template-columns: 102px 1fr auto 1fr;
+    gap: 5px;
+    background-color: var(--neutralDark);
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+    border-radius: var(--radius);
+    border-bottom: 1px solid var(--co-1);
+}
+  a.groupe { 
+	  text-align: right; 
+	  border-radius: var(--radius);
+  } 
+  duo.ok { 
+	  padding: 0 5px; background: var(--co-3);
+	  text-transform: uppercase;
+	  font-size: var(--little-size);
+	  border-radius: var(--radius);
+	  letter-spacing: 1px;
+  } 
+  pris, res { 
+	  border-radius: var(--radius); 
+	  background: var(--neutralDarker); 
+	  padding: 0 5px; 
+	  text-transform: uppercase; 
+	  font-size: var(--little-size);
+	  letter-spacing: 1px;
+	  font-weight: 700;
+  }
+  pris { 
+	  border-left: 4px solid var(--co-1);
+  }
+  res { 
+	  border-left: 4px solid var(--co-1);
+  } 
+  .pl, inv { 
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  color: white;
+	  width: 25px;
+	  border-radius: var(--radius);
+  } 
+  .pl {
+	  background: var(--co-1);
+  } 
+  inv {
+	  background: var(--co-2);
+  } 
+  .titanium {color: #FFABB7} 
+  .chromium {color: #96C7F0}
+  .copper {color: #FFC886}
+  .iridium {color: #C8BAFF}
+
 /*** ------------------------------- ***/
 /*** MENU ABSOLUTE ------------ ***/
 /* NAVIGATION */
