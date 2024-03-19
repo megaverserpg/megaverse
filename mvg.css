@@ -1434,6 +1434,7 @@ duo.ok {
   inv {
 	  background: var(--co-2);
   } 
+  .grp {text-align: right}
   .titanium {color: #FFABB7} 
   .chromium {color: #96C7F0}
   .copper {color: #FFC886}
