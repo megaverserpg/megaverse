@@ -1383,7 +1383,6 @@ more {
 	bottom: -10px;
 }
 
-/* MODÈLES ADMIN */
 .fc {
     display: grid;
     grid-template-columns: 102px 1fr auto 1fr;
@@ -1395,11 +1394,11 @@ more {
     border-radius: var(--radius);
     border-bottom: 1px solid var(--co-1);
 }
-  a.groupe { 
+a.groupe { 
 	  text-align: right; 
 	  border-radius: var(--radius);
   } 
-  duo.ok { 
+duo.ok { 
 	  padding: 0 5px; background: var(--co-3);
 	  text-transform: uppercase;
 	  font-size: var(--little-size);
