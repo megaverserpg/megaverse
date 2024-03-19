@@ -1373,12 +1373,12 @@ more {
 	position: absolute;
 }
 .modele_1::before {
-	color: var(--co-2);
+	color: var(--co-1);
 	left: -5px;
 	top: -10px;
 }
 .modele_1::after {
-	color: var(--co-1);
+	color: var(--co-2);
 	right: -5px;
 	bottom: -10px;
 }
