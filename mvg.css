@@ -910,6 +910,10 @@ background-color: var(--neutralDark);
     display: none;
 }
 
+#newsareal1 .topicslist_infos:first-of-type {
+    display: none;
+}
+
 #newsareal1 .topicslist_infos {
     min-height: 0;
     border-radius: var(--radius);
