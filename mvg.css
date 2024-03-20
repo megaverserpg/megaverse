@@ -2131,3 +2131,32 @@ div.sceditor-dropdown .button:hover {
 	border-radius: 5px;
 	color: white;
 }
+
+/* COULEURS DANS LES CODES */
+/*** COPY CODES ***/
+.hljs-string,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-strong,
+.hljs-emphasis,
+.hljs-quote {
+    color: var(--co-2) !important;
+}
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type,
+.hljs-title,
+.hljs-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+    color: var(--textColor) !important;
+}
+
+.hljs-section,
+.hljs-name {
+    color: var(--co-1) !important;
+}
