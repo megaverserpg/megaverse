@@ -1427,11 +1427,36 @@ more {
     border-radius: var(--radius);
 }
 
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    background-color: var(--neutralDark);
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+    border-radius: var(--radius);
+    border-bottom: 1px solid var(--co-1);
+    margin-bottom: 10px;
+}
 
 a.groupe { 
 	  text-align: right; 
 	  border-radius: var(--radius);
-  } 
+}
+
+.cont a.groupe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--neutralDark);
+}
+
+.cont span {
+    font-size: var(--little-size);
+    line-height: var(--little-size);
+}
 
 duo.ok { 
 	  padding: 0 5px; background: var(--co-3);
