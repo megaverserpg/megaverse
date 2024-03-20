@@ -2147,7 +2147,6 @@ div.sceditor-dropdown .button:hover {
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-type,
-.hljs-title,
 .hljs-attr,
 .hljs-selector-id,
 .hljs-selector-class,
@@ -2156,6 +2155,7 @@ div.sceditor-dropdown .button:hover {
     color: var(--textColor) !important;
 }
 
+.hljs-title,
 .hljs-section,
 .hljs-name {
     color: var(--co-1) !important;
