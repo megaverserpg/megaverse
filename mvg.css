@@ -1430,7 +1430,7 @@ more {
 .cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    gap: 10px;
     background-color: var(--neutralDark);
     padding: 5px;
     z-index: 1;
