@@ -1409,15 +1409,22 @@ more {
 }
 
 .dim {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 5px;
-	background-color: var(--neutralDark);
-	padding: 5px;
-	z-index: 1;
-	position: relative;
-	border-radius: var(--radius);
-	border-bottom: 1px solid var(--co-1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    background-color: var(--neutralDark);
+    padding: 5px;
+    z-index: 1;
+    position: relative;
+    border-radius: var(--radius);
+    border-bottom: 1px solid var(--co-1);
+}
+
+.dim a {
+    background: var(--neutralDarker);
+    padding: 0 5px;
+    border-radius: var(--radius);
 }
 
 
