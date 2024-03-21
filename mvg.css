@@ -2433,6 +2433,7 @@ transform: translateX(-20%);
   }
 
   #userRelEvol,
+  #userContent,
   .collec {
     width: 100%;
     background: var(--white);
@@ -2444,7 +2445,8 @@ transform: translateX(-20%);
     display: none;
 }
 
-#userRelEvol { margin-top: var(--spacing) }
+#userRelEvol,
+#userContent { margin-top: var(--spacing) }
 
 button.more {
     position: absolute;
