@@ -2213,6 +2213,9 @@ transform: translateX(-20%);
 .wombat-aside.open #wombat {
     height: 100vh;
     border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #wombat {
