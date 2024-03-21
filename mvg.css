@@ -2371,3 +2371,25 @@ visibility: visible;
   
    #field_id3 label, #field_id4 label, #field_id36 label, #field_id37 label, #field_id5 label, #field_id2 label,
    #field_id3 field, #field_id4 field, #field_id36 field, #field_id37 field, #field_id5 field, #field_id2 field {display: inline-block}
+  .user_contacts #field_id:nth-of-type(2) {
+    display: none;
+  }
+  
+  .user_contacts > * {
+    position: relative;
+  }
+  
+  #user_avatar {
+    height: 327px;
+    border: 4px solid var(--neutralDark);
+    margin-bottom: 6px;
+  }
+  
+  .user_contacts {
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+    background: var(--neutralDark);
+    border-radius: var(--radius);
+  }
+
