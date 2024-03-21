@@ -2402,6 +2402,7 @@ visibility: visible;
     letter-spacing: 1px;
     border-radius: var(--radius);
     padding: 2px 5px;
+    color: white;
 }
   
   #user_avatar {
