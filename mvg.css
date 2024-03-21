@@ -2213,7 +2213,7 @@ visibility: visible;
 #wombat {
     position: relative;
     background: var(--neutralDarker);
-    border-radius: 0;
+    border-radius: 5px;
     height: 100vh;
 }
 
@@ -2423,7 +2423,6 @@ visibility: visible;
     border-radius: var(--radius);
   }
 
-
   #userContent,
   #userInventory,
   #userRelEvol,
@@ -2433,6 +2432,8 @@ visibility: visible;
     border-radius: var(--radius);
     padding: 5px 12px;
   }
+
+#userRelEvol { margin-top: var(--spacing) }
 
 button.more {
     position: absolute;
