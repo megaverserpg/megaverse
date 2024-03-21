@@ -2473,3 +2473,192 @@ button.more {
   }
   
   .collec.hidden { visibility: hidden; opacity: 0; }
+
+.post_infos > .user_field .field_content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    border: 1px solid var(--co-1);
+    padding: 2px;
+}
+
+
+  .ps_online {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+  
+  .post_pseudo {
+    font-weight: 400;
+    font-family: var(--special-font);
+    font-size: var(--title-size);
+    text-transform: uppercase;
+}
+  
+  .post_rank {
+    display: block;
+    width: 200px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    background: var(--neutral);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+  .post_rank b1 {font-size: 9px}
+  
+  .post_rank b1::before {content: none}
+  .post_rank b1::after {content: '\0027E1\000020' !important}
+  
+  .field-cw-tw {
+    position: relative;
+    width: 45px;
+    font-size: var(--small-size);
+    transition: opactiy 0.5s;
+  }
+  
+  .field-cw-tw .field_content {
+    position: absolute;
+    width: 200px;
+    padding: 0px 5px;
+    background: var(--neutralDarker);
+    border-radius: var(--radius);
+    z-index: 1;
+    opacity: 0;
+    transition: .5s all;
+  }
+  
+  .field-cw-tw:hover .field_content { opacity: 1 }
+  
+  .field-cw-tw .field_label {
+    background: var(--co-2);
+    padding: 0 4px 1px;
+    border-radius: var(--radius);
+    letter-spacing: 0;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .field-cw-tw .field_content {
+    position: absolute;
+    width: 200px;
+    padding: 0px 5px;
+    background: var(--neutralDarker);
+    border-radius: var(--radius);
+    z-index: 1;
+    opacity: 0;
+    transition: .5s all;
+  }
+  
+  .field_separator,
+  .field-avatar .field_label,
+  .field-credits .field_label,
+  .field-pronom .field_label,
+  .field-dialogues .field_label{
+    display: none;
+  }
+  
+  .field-rpgiste {
+    position: absolute;
+    left: 50px;
+    font-size: var(--inter-size);
+    line-height: var(--inter-size);
+  }
+  
+  .field-messages,
+  .field-gallions,
+  .field-dimension,
+  .field-avatar,
+  .field-credits,
+  .field-dialogues,
+  .field-pronom {
+    position: absolute;
+    top: 58%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .field-messages .field_content {
+    text-align: center;
+    width: 80px;
+  }
+  
+  .field-messages .field_content, .field-gallions .field_content, .field-dimension .field_content {
+    font-size: var(--title-size);
+    font-family: var(--font-2);
+  }
+  
+  .field-gallions {
+    width: 115px;
+    left: 109px;
+    border-left: 1px solid var(--co-2);
+  }
+  
+  .field-dimension {
+    left: 224px;
+    width: fit-content;
+    padding: 0 var(--spacing);
+    border-left: 1px solid var(--co-2);
+    border-right: 1px solid var(--co-2);
+  }
+  
+  .field-avatar,
+  .field-credits,
+  .field-pronom,
+  .field-dialogues {
+    left: 39%;
+    width: fit-content;
+    font-size: var(--little-size);
+  }
+  
+  .field-avatar {
+    top: 53%;
+  }
+  
+  .field-credits {
+    top: 69%;
+  }
+  
+  .field-dialogues {
+    top: 85%;
+  }
+  
+  .field-pronom {
+    top: 100%;
+  }
+  
+  .field-avatar .field_content::before {
+    content: "ft. “ ";
+  }
+  
+  .field-credits .field_content::before {
+    content: "par “ ";
+  }
+  
+  .field-dialogues .field_content::before {
+    content: "en “ ";
+  }
+  
+  .field-avatar .field_content::before,
+  .field-credits .field_content::before,
+  .field-dialogues .field_content::before,
+  .field-pronom .field_content::before {
+    font-family: var(--font-2);
+    font-style: italic;
+  }
+  
+  .post_userinfo {
+    max-height: 145px;
+    padding: 5px;
+    overflow: auto !important;
+  }
