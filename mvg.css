@@ -2222,6 +2222,11 @@ visibility: visible;
 .pr_title {
     margin: 0 auto !important;
 }
+
+.profile_field label {
+    color: var(--co-2);
+    font-weight: 600;
+}
   
   #pr_icon label {display: none}
   #pr_icon .field_uneditable img {
@@ -2246,6 +2251,7 @@ visibility: visible;
     grid-row: 1 / span 3;
     grid-column: 1 / span 2;
     overflow: auto;
+    height: 201px;
   }
   
   #field_id9 label {
@@ -2256,7 +2262,7 @@ visibility: visible;
   #userGame > * {
     background: var(--white);
     border-radius: var(--radius);
-    padding: 0 5px;
+    padding: 0 12px;
   }
   
   /* userInfos */
@@ -2368,7 +2374,9 @@ visibility: visible;
 
 #field_id3, #field_id4, #field_id36, #field_id37, #field_id5, #field_id2 {
     display: flex;
+    align-items: center;
     gap: 5px;
+    font-size: var(--inter-size);
   }
   
    #field_id3 label, #field_id4 label, #field_id36 label, #field_id5 label, #field_id2 label,
@@ -2382,12 +2390,27 @@ visibility: visible;
   .user_contacts > * {
     position: relative;
   }
+
+.pr_links a {
+    width: 30%;
+    background: var(--co-gradient);
+    font-size: var(--small-size);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: var(--radius);
+    padding: 2px 5px;
+}
   
   #user_avatar {
-    height: 327px;
-    border: 4px solid var(--neutralDark);
-    margin-bottom: 6px;
+    height: 360px;
+    border: 4px solid var(--white);
+    border-radius: var(--radius);
+    margin: var(--spacing) 0;
   }
+
+#user_avatar img {
+    max-width: 220px !important;
+}
   
   .user_contacts {
     justify-content: space-around;
