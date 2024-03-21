@@ -2368,6 +2368,8 @@ visibility: visible;
     display: flex;
     gap: 5px;
   }
+
+#field_id37 label {display: none}
   
    #field_id3 label, #field_id4 label, #field_id36 label, #field_id37 label, #field_id5 label, #field_id2 label,
    #field_id3 field, #field_id4 field, #field_id36 field, #field_id37 field, #field_id5 field, #field_id2 field {display: inline-block}
