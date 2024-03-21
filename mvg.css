@@ -2214,7 +2214,7 @@ visibility: visible;
     position: relative;
     background: var(--neutralDarker);
     border-radius: 5px;
-    height: 100vh;
+    max-height: 100vh;
 }
 
   .pr_entete {
