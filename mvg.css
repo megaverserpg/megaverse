@@ -2433,7 +2433,6 @@ transform: translateX(-20%);
     border-radius: var(--radius);
   }
 
-  #userInventory,
   #userRelEvol,
   .collec {
     width: 100%;
@@ -2441,6 +2440,10 @@ transform: translateX(-20%);
     border-radius: var(--radius);
     padding: 12px;
   }
+
+#userInventory label, #userRelEvol label {
+    display: none;
+}
 
 #userRelEvol { margin-top: var(--spacing) }
 
