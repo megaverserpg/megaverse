@@ -2243,6 +2243,7 @@ visibility: visible;
   #field_id9 {
     grid-row: 1 / span 3;
     grid-column: 1 / span 2;
+    overflow: auto;
   }
   
   #field_id9 label {
@@ -2254,7 +2255,6 @@ visibility: visible;
     background: var(--neutralDark);
     border-radius: var(--radius);
     padding: 0 5px;
-    overflow: auto;
   }
   
   /* userInfos */
