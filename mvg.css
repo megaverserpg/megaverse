@@ -2211,10 +2211,10 @@ visibility: visible;
 }
 
 #wombat {
+    position: relative;
     background: var(--neutralDarker);
     border-radius: 0;
     height: 100vh;
-    overflow: auto;
 }
 
   .pr_entete {
