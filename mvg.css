@@ -2216,10 +2216,10 @@ visibility: visible;
     gap: 0 var(--spacing);
     align-items: center; 
   }
-  
-  .pr_title {
-    margin: 0;
-  }
+
+.pr_title {
+    margin: 0 auto !important;
+}
   
   #pr_icon label {display: none}
   #pr_icon .field_uneditable img {
@@ -2254,6 +2254,7 @@ visibility: visible;
     background: var(--neutralDark);
     border-radius: var(--radius);
     padding: 0 5px;
+    overflow: auto;
   }
   
   /* userInfos */
@@ -2362,3 +2363,11 @@ visibility: visible;
     height: 82px;
     overflow: auto;
   }
+
+#field_id3, #field_id4, #field_id36, #field_id37, #field_id5, #field_id2 {
+    display: flex;
+    gap: 5px;
+  }
+  
+   #field_id3 label, #field_id4 label, #field_id36 label, #field_id37 label, #field_id5 label, #field_id2 label,
+   #field_id3 field, #field_id4 field, #field_id36 field, #field_id37 field, #field_id5 field, #field_id2 field {display: inline-block}
