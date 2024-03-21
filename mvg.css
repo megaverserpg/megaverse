@@ -2648,6 +2648,11 @@ button.more {
   .field-dialogues .field_content::before {
     content: "en “ ";
   }
+
+.field-messages .field_label, .field-gallions .field_label, .field-dimension .field_label, .field-avatar .field_label, .field-credits .field_label, .field-dialogues .field_label, .field-pronom .field_label {
+    color: var(--co-2);
+    font-weight: 600;
+}
   
   .field-avatar .field_content::before,
   .field-credits .field_content::before,
@@ -2655,6 +2660,8 @@ button.more {
   .field-pronom .field_content::before {
     font-family: var(--font-2);
     font-style: italic;
+    color: var(--co-2);
+    font-weight: 600;
   }
   
   .post_userinfo {
