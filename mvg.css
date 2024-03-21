@@ -2433,7 +2433,6 @@ transform: translateX(-20%);
     border-radius: var(--radius);
   }
 
-  #userContent,
   #userInventory,
   #userRelEvol,
   .collec {
