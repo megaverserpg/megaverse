@@ -2208,7 +2208,11 @@ transform: translateX(-20%);
     opacity: 1;
     transform: translateX(0);
     visibility: visible;
+}
+
+.wombat-aside.open #wombat {
     height: 100vh;
+    border-radius: 0;
 }
 
 #wombat {
