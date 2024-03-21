@@ -2386,8 +2386,11 @@ visibility: visible;
     position: relative;
   }
 
-.pr_links a {
-    width: 30%;
+.pr_links a, #userRelEvol .tabs-onglets > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background: var(--co-gradient);
     font-size: var(--small-size);
     text-transform: uppercase;
