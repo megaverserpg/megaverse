@@ -2210,7 +2210,12 @@ transform: translateX(0);
 visibility: visible;
 }
 
-#wombat { background: var(--neutralDarker)}
+#wombat {
+    background: var(--neutralDarker);
+    border-radius: 0;
+    height: 100vh;
+    overflow: auto;
+}
 
   .pr_entete {
     display: grid;
