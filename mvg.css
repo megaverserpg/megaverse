@@ -2418,3 +2418,34 @@ visibility: visible;
     border-radius: var(--radius);
   }
 
+
+  #userContent,
+  #userInventory,
+  #userRelEvol,
+  .collec {
+    width: 100%;
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 5px 12px;
+  }
+  
+  button.more { position: relative }
+  
+  .collec {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing);
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    z-index: 1;
+    transition: .5s all;
+  }
+  
+  .collec.hidden { visibility: hidden; opacity: 0; }
