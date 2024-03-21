@@ -2257,6 +2257,7 @@ transform: translateX(-20%);
     grid-column: 1 / span 2;
     overflow: auto;
     height: 201px;
+    border: 12px solid var(--white);
   }
   
   #field_id9 label {
@@ -2268,7 +2269,6 @@ transform: translateX(-20%);
     background: var(--white);
     border-radius: var(--radius);
     padding: 0 12px;
-    border: 12px solid var(--white);
   }
   
   /* userInfos */
@@ -2346,6 +2346,7 @@ transform: translateX(-20%);
     display: block;
     font-weight: 600;
     color: var(--co-2);
+    font-size: var(--small-size);
   }
   
   #field_id10 field {
