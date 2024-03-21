@@ -2262,7 +2262,7 @@ transform: translateX(-20%);
   #field_id9 {
     grid-column: 1 / span 2;
     overflow: auto;
-    height: 201px;
+    height: 206px;
     border: 12px solid var(--white);
   }
   
@@ -2275,6 +2275,7 @@ transform: translateX(-20%);
     background: var(--white);
     border-radius: var(--radius);
     padding: 0 12px;
+    font-size: var(--little-size);
   }
   
   /* userInfos */
