@@ -2433,8 +2433,14 @@ visibility: visible;
     border-radius: var(--radius);
     padding: 5px 12px;
   }
-  
-  button.more { position: relative }
+
+button.more {
+    position: absolute;
+    right: -25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
   
   .collec {
     position: fixed;
