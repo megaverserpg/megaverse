@@ -2386,7 +2386,7 @@ visibility: visible;
     position: relative;
   }
 
-.pr_links a, #userInventory .tabs-onglets > a {
+.pr_links a, #wombat .tabs-onglets > a {
     display: flex;
     justify-content: center;
     align-items: center;
