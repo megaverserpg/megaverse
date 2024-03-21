@@ -2210,6 +2210,8 @@ transform: translateX(0);
 visibility: visible;
 }
 
+#wombat { background: var(--neutralDarker)}
+
   .pr_entete {
     display: grid;
     grid-template-columns: 1fr auto;
