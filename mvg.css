@@ -2300,11 +2300,6 @@ visibility: visible;
     font-style: italic;
   }
   
-  #field_id1 field, #field_id-4 field {
-    font-weight: 600;
-    color: var(--co-2);
-  }
-  
   #field_id-6, #field_id-13, #field_id7 {
     text-align: center;
   }
