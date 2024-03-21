@@ -2205,16 +2205,16 @@ transform: translateX(-20%);
 
 /* effet de transition pour la fenêtre */
 .wombat-aside.open {
-opacity: 1;
-transform: translateX(0);
-visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+    height: 100vh;
 }
 
 #wombat {
     position: relative;
     background: var(--neutralDarker);
     border-radius: 5px;
-    max-height: 100vh;
 }
 
   .pr_entete {
