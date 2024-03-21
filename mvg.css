@@ -2616,7 +2616,7 @@ button.more {
   .field-credits,
   .field-pronom,
   .field-dialogues {
-    left: 39%;
+    left: 365px;
     width: fit-content;
     font-size: var(--little-size);
   }
