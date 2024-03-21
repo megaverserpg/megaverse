@@ -2268,6 +2268,7 @@ visibility: visible;
     background: var(--white);
     border-radius: var(--radius);
     padding: 0 12px;
+    border: 12px solid var(--white);
   }
   
   /* userInfos */
@@ -2431,7 +2432,7 @@ visibility: visible;
     width: 100%;
     background: var(--white);
     border-radius: var(--radius);
-    padding: 5px 12px;
+    padding: 12px;
   }
 
 #userRelEvol { margin-top: var(--spacing) }
