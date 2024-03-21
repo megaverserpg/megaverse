@@ -2164,3 +2164,201 @@ div.sceditor-dropdown .button:hover {
 .hljs-name {
     color: var(--co-1) !important;
 }
+
+/*** ------------------------------- ***/
+/*** WOMBAT PROFILS EN POP UP ---- ***/
+
+/* Fond atténué */
+.wombat-overlay {
+position: fixed;
+z-index: 990;
+inset: 0;
+opacity: 0;
+visibility: hidden;
+width: 100%;
+height: 100%;
+transition: 0.2s opacity ease;
+background: var(--neutral);
+}
+
+/* effet de transition du fond atténué */
+.wombat-overlay.open {
+opacity: 0.5;
+visibility: visible;
+}
+
+/* Fenêtre du popup */
+.wombat-aside {
+position: fixed;
+inset: 0;
+z-index: 999;
+transition: 0.2s all ease;
+visibility: hidden;
+opacity: 0;
+width: 90%;
+max-width: 800px;
+box-shadow: var(--shadowBox);
+border-radius: 10px;
+height: max-content;
+transform: translateX(-20%);
+}
+
+/* effet de transition pour la fenêtre */
+.wombat-aside.open {
+opacity: 1;
+transform: translateX(0);
+visibility: visible;
+}
+
+  .pr_entete {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0 var(--spacing);
+    align-items: center; 
+  }
+  
+  .pr_title {
+    margin: 0;
+  }
+  
+  #pr_icon label {display: none}
+  #pr_icon .field_uneditable img {
+    width: 200px;
+    height: 97px;
+    object-fit: cover;
+    border-radius: var(--radius);
+  }
+  
+  .pr_entete::after {
+    content: "";
+    display: block;
+    grid-column: 1 / span 2;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: var(--co-gradient);
+    border-radius: 50%;
+  }
+  
+  #field_id9 {
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+  }
+  
+  #field_id9 label {
+    display: none;
+  }
+  
+  .userInfos,
+  #userGame > * {
+    background: var(--neutralDark);
+    border-radius: var(--radius);
+    padding: 0 5px;
+  }
+  
+  /* userInfos */
+  
+  #field_id1, #field_id-4, #field_id10 {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 0 var(--spacing);
+  }
+  
+  #field_id1::before, #field_id-4::before, #field_id10::before {
+    content: '\e979';
+    grid-row: 1 / span 2;
+    font-family: var(--font-ic);
+    color: var(--co-1);
+  }
+  
+  #field_id1::before { content: '\e99c' }
+  #field_id-4::before { content: '\e9db' }
+  #field_id10::before { content: '\ecfe' }
+  
+  #field_id1::after, #field_id-4::after, #field_id10::after {
+    content: "";
+    grid-column: 1 / span 2;
+    width: 100%;
+    height: 1px;
+    margin: 5px 0;
+    background: var(--co-gradient);
+  }
+  
+  #field_id1 label, #field_id-4 label {
+    font-family: var(--font-2);
+    font-style: italic;
+  }
+  
+  #field_id1 field, #field_id-4 field {
+    font-weight: 600;
+    color: var(--co-2);
+  }
+  
+  #field_id-6, #field_id-13, #field_id7 {
+    text-align: center;
+  }
+  #field_id-6, #field_id-13 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+  #field_id-6 label, #field_id-13 label {
+    font-size: 0;
+  }
+  #field_id7 label {
+    display: none;
+  }
+  #field_id-6 label span, #field_id-13 label span, #field_id7 field {
+    font-size: var(--normal-size);
+    font-family: var(--font-2);
+    font-style: italic;
+  }
+  
+  #field_id-6 field, #field_id-13 field {
+    font-weight: 600;
+    color: var(--co-2);
+  }
+  
+  /* cwtw */
+  #field_id10 {
+    position: relative;
+  }
+  
+  #field_id10 label {
+    grid-row: 1 / span 2;
+  }
+  
+  #field_id10 label::after {
+    content: "afficher au survol";
+    display: block;
+    font-weight: 600;
+    color: var(--co-2);
+  }
+  
+  #field_id10 field {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s all;
+  }
+  
+  #field_id10:hover field {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #field_id10 field {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    padding: 5px;
+    background: var(--neutralDarker);
+    border-radius: var(--radius);
+    height: 82px;
+    overflow: auto;
+  }
