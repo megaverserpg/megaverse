@@ -2616,7 +2616,7 @@ transform: translateX(-20%);
   }
 
 #field_id-6 field::after { content: "messages" }
-#field_id-13 label::after { content: "gallions" }
+#field_id-13 field::after { content: "gallions" }
   
   #field_id-6 .field_uneditable, #field_id-13 .field_uneditable {
     font-weight: 600;
