@@ -2750,6 +2750,7 @@ button.more {
     height: 60%;
     margin: auto;
     z-index: 1;
+    overflow: auto;
     transition: .5s all;
   }
   
