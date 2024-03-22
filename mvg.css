@@ -2600,7 +2600,6 @@ transform: translateX(-20%);
   #field_id-6 field, #field_id-13 field {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
     gap: 10px;
   }
 
