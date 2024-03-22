@@ -2603,20 +2603,20 @@ transform: translateX(-20%);
     flex-direction: row-reverse;
     gap: 10px;
   }
-  #field_id-6 label, #field_id-13 label {
-    font-size: 0;
-  }
-  #field_id7 label {
+
+#field_id-6 label,
+#field_id-13 label,
+#field_id7 label {
     display: none;
   }
   #field_id-6 label span, #field_id-13 label span, #field_id7 field,
-  #field_id-6 field::before, #field_id-13 label::before {
+  #field_id-6 field::after, #field_id-13 label::after {
     font-family: var(--font-2);
     font-style: italic;
   }
 
-#field_id-6 field::before { content: "messages" }
-#field_id-13 label::before { content: "gallions" }
+#field_id-6 field::after { content: "messages" }
+#field_id-13 label::after { content: "gallions" }
   
   #field_id-6 .field_uneditable, #field_id-13 .field_uneditable {
     font-weight: 600;
