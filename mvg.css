@@ -2756,23 +2756,21 @@ button.more {
   .collec.hidden { visibility: hidden; opacity: 0; }
 
 #badges-profil {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     gap: var(--spacing);
 }
 #badges-profil img {
-    width: 60px;
+    width: 100%;
 }
 #badges-profil .badge, .js-badges-profil .badge {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
 /*Badges obtenus*/
-#badges-profil .obtenu, .js-badges-profil .obtenu {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-}
+.nope {filter: grayscale(100%) !important}
+.yes {filter: grayscale(0) !important}
+
 
 .post_infos > .user_field .field_content img {
     width: 100px;
@@ -2969,3 +2967,11 @@ button.more {
     padding: 5px;
     overflow: auto !important;
   }
+
+.user_profile-wombat strong {
+    color: var(--co-1);
+}
+
+.user_profile-wombat i {
+    color: var(--contrast);
+}
