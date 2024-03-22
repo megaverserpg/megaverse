@@ -1684,7 +1684,7 @@ duo.ok {
 }
 
 .branch {
-    margin: 30px;
+    margin: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
