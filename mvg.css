@@ -2610,7 +2610,7 @@ transform: translateX(-20%);
     display: none;
   }
   #field_id-6 label span, #field_id-13 label span, #field_id7 field,
-  #field_id-6 field::after, #field_id-13 label::after {
+  #field_id-6 field::after, #field_id-13 field::after {
     font-family: var(--font-2);
     font-style: italic;
   }
