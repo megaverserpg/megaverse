@@ -2873,6 +2873,10 @@ button.more {
     font-size: var(--inter-size);
     line-height: var(--inter-size);
   }
+
+.field-rpgiste .field_label {
+    display: none;
+}
   
   .field-messages,
   .field-gallions,
