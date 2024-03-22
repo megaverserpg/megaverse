@@ -2546,7 +2546,8 @@ transform: translateX(-20%);
     border: 12px solid var(--white);
   }
   
-  #field_id9 label {
+  #field_id9 label,
+  #field_id40 label {
     display: none;
   }
   
