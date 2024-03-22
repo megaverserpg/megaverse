@@ -1467,6 +1467,7 @@ duo.ok {
 	  text-transform: uppercase;
 	  text-align: center;
 	  font-size: var(--little-size);
+	  color: white;
 	  border-radius: var(--radius);
 	  letter-spacing: 1px;
   } 
