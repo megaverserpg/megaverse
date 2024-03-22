@@ -2609,15 +2609,15 @@ transform: translateX(-20%);
     display: none;
   }
   #field_id-6 label span, #field_id-13 label span, #field_id7 field,
-  #field_id-6 field::before, #field_id-13 label span::before {
+  #field_id-6 field::before, #field_id-13 label::before {
     font-family: var(--font-2);
     font-style: italic;
   }
 
 #field_id-6 field::before { content: "messages" }
-#field_id-13 label span::before { content: "gallions" }
+#field_id-13 label::before { content: "gallions" }
   
-  #field_id-6 field, #field_id-13 field {
+  #field_id-6 .field_uneditable, #field_id-13 .field_uneditable {
     font-weight: 600;
     color: var(--co-2);
   }
