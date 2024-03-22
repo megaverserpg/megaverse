@@ -1701,10 +1701,10 @@ duo.ok {
     left: 50%;
     transform: translateX(-50%);
     display: block;
-    width: 165px;
+    width: 132px;
     padding: 5px;
-    font-size: var(--inter-size);
-    line-height: var(--inter-size);
+    font-size: var(--small-size);
+    line-height: var(--small-size);
     background-color: var(--neutralDarker);
     border-radius: var(--radius);
     max-height: 65px;
