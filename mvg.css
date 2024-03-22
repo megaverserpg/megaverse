@@ -1131,7 +1131,7 @@ card {
 	margin: 0 auto;
 	width: 100%;
 }
-.text-block span:first-child {
+.num_pseudo span:first-child {
 	display: block;
 	font-family: var(--special-font);
 	font-size: var(--xxl-size);
