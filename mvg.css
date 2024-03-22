@@ -2597,7 +2597,7 @@ transform: translateX(-20%);
   #field_id-6, #field_id-13, #field_id7 {
     text-align: center;
   }
-  #field_id-6, #field_id-13 {
+  #field_id-6 field, #field_id-13 field {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -2621,6 +2621,7 @@ transform: translateX(-20%);
   #field_id-6 .field_uneditable, #field_id-13 .field_uneditable {
     font-weight: 600;
     color: var(--co-2);
+	  line-height: 170%;
   }
   
   /* cwtw */
