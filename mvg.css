@@ -1545,7 +1545,7 @@ duo.ok {
 	--step1: "sensation de vide et de manque constant, le·a daemonis est asservi·e par ses envies et refuse de l'admettre. ses réactions sont erratiques et excessives.";
 	--step2: 'prise de conscience mais incapacité à gérer ses obsessions qui continuent de dominer ses pensées.';
 	--step3: "élaboration de mécanismes d'adaptation, les obsessions sont toujours présentes mais iel en est moins esclave.";
-	--step4: 'le contrôle se raffermit en dépit de rechute.';
+	--step4: 'le contrôle se raffermit en dépit de rechutes.';
 	--step5: 'la sensation de vide et de manque demeure présente mais assourdie, iel est plus stable dans ses relations et son quotidien.';
 }
 
@@ -1707,7 +1707,7 @@ duo.ok {
     line-height: var(--inter-size);
     background-color: var(--neutralDarker);
     border-radius: var(--radius);
-    height: 65px;
+    max-height: 65px;
     overflow: auto;
     opacity: 0;
     visibility: hidden;
@@ -1732,8 +1732,8 @@ duo.ok {
 	bottom: 30px;
 }
 .step:not(.HERE) {
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
 }
 .step.HERE::after {
