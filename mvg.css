@@ -2757,7 +2757,7 @@ button.more {
 
 #badges-profil {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(60px,1fr));
     gap: var(--spacing);
 }
 #badges-profil img {
