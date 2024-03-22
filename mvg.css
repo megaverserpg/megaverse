@@ -2608,11 +2608,14 @@ transform: translateX(-20%);
   #field_id7 label {
     display: none;
   }
-  #field_id-6 label span, #field_id-13 label span, #field_id7 field {
-    font-size: var(--normal-size);
+  #field_id-6 label span, #field_id-13 label span, #field_id7 field,
+  #field_id-6 field::before, #field_id-13 label span::before {
     font-family: var(--font-2);
     font-style: italic;
   }
+
+#field_id-6 field::before { content: "messages" }
+#field_id-13 label span::before { content: "gallions" }
   
   #field_id-6 field, #field_id-13 field {
     font-weight: 600;
