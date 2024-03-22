@@ -1541,6 +1541,22 @@ duo.ok {
 	--step5: "l'instinct est fiable et les réflexes s'imposent telle une évidence, sans pour autant prendre le pas sur l'animagus qui peut écouter ou faire taire à volonté cette nouvelle part d'iel.";
 }
 
+.lg1 {
+    --step1: "transformation intensément douloureuse uniquement à la pleine lune, rage difficile voire impossible à canaliser, violence exacerbée, force incontrôlée.";
+    --step2: "transformation légèrement moins douloureuse (pleine lune), les émotions sont progressivement canalisées.";
+    --step3: "maîtrise de la force qu'iels sont capables de moduler selon les besoins.";
+    --step4: "transformation totale en dehors des pleines lunes.";
+    --step5: "capacité d'utiliser les sens lupins au quotidien sans prendre leur forme loup·ve.";
+}
+
+.lg2 {
+    --step1: "incapacité à distinguer ses émotions de celles plus brutes et impulsives du/de la loup·ve (territorial·e, possessif·ve, etc).";
+    --step2: "commence à entendre la voix du/de la loup·ve, envahissante qu'iel soit en accord ou en désaccord avec l'humain·e.";
+    --step3: "meilleures compréhension et cohésion avec son loup·ve (physique, mental et émotions), éveil de l'instinct.";
+    --step4: "reprise du contrôle de l'humain·e sur le·a loup·ve.";
+    --step5: "symbiose totale entre les deux parties, ne forment désormais plus qu'un.";
+}
+
 .daemonis1 {
 	--step1: "sensation de vide et de manque constant, le·a daemonis est asservi·e par ses envies et refuse de l'admettre. ses réactions sont erratiques et excessives.";
 	--step2: 'prise de conscience mais incapacité à gérer ses obsessions qui continuent de dominer ses pensées.';
