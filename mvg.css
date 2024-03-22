@@ -1724,6 +1724,8 @@ duo.ok {
 .step {
 	position: relative;
 	transition: all 0.3s;
+	scrollbar-width: thin;
+	scrollbar-color: var(--co-2) var(--neutralDarker);
 	cursor: pointer;
 	counter-increment: item;
 	z-index: 1;
@@ -1732,8 +1734,8 @@ duo.ok {
 	bottom: 30px;
 }
 .step:not(.HERE) {
-	width: 15px;
-	height: 15px;
+	width: 14px;
+	height: 14px;
 	border-radius: 50%;
 }
 .step.HERE::after {
@@ -1743,10 +1745,10 @@ duo.ok {
 	align-items: center;
 	clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 	background: var(--co-1);
-	width: 30px;
-	height: 40px;
+	width: 24px;
+	height: 28px;
 	color: white;
-	font-size: var(--large-size);
+	font-size: var(--medium-size);
 	font-family: var(--special-font);
 }
 .step:not(.done):not(.HERE) {
