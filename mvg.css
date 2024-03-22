@@ -2735,17 +2735,17 @@ button.more {
     bottom: 0;
     margin: auto;
 }
-  
+
+
+/* BADGES DANS LE PROFIL */
+/*Badges*/
+
   .collec {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--spacing);
     width: 70%;
     height: 70%;
     margin: auto;
@@ -2754,6 +2754,25 @@ button.more {
   }
   
   .collec.hidden { visibility: hidden; opacity: 0; }
+
+#badges-profil {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--spacing);
+}
+#badges-profil img {
+    width: 80px;
+}
+#badges-profil .badge, .js-badges-profil .badge {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+/*Badges obtenus*/
+#badges-profil .obtenu, .js-badges-profil .obtenu {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
 
 .post_infos > .user_field .field_content img {
     width: 100px;
