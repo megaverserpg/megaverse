@@ -1695,6 +1695,7 @@ duo.ok {
     border-radius: 50%;
     counter-reset: item;
 }
+.branch.\30 { counter-reset: item -1; }
 .step::before {
     position: absolute;
     bottom: 20px;
