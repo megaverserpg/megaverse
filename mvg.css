@@ -2746,8 +2746,8 @@ button.more {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     margin: auto;
     z-index: 1;
     transition: .5s all;
@@ -2762,7 +2762,7 @@ button.more {
     gap: var(--spacing);
 }
 #badges-profil img {
-    width: 80px;
+    width: 60px;
 }
 #badges-profil .badge, .js-badges-profil .badge {
   filter: grayscale(100%);
