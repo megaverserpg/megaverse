@@ -2746,6 +2746,17 @@ button.more {
 /* BADGES DANS LE PROFIL */
 /*Badges*/
 
+.titre_choco {
+    font-size: var(--xl-size);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: var(--special-font);
+    line-height: 100%;
+    grid-column: 1 / -1;
+    color: var(--co-2);
+    border-bottom: 1px solid;
+}
+
   .collec {
     position: fixed;
     top: 0;
