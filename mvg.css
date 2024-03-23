@@ -966,7 +966,7 @@ newsareal1 .topicslist_infos {
 }
 
 .block {
-	background: var(--neutral);
+	background: var(--neutralDarker);
 	border-radius: var(--radius);
 	padding: var(--spacing);
 }
