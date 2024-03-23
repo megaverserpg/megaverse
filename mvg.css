@@ -269,6 +269,7 @@
 }
 
 .fo_links a {
+	display: inline-block;
 	background-color: var(--co-2);
 	margin-right: 5px;
 	padding: 0 5px;
