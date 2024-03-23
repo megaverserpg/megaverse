@@ -1272,29 +1272,32 @@ more, .more {
 	font-style: italic;
 } /*** INFOBULLES ***/ /* Tooltip container */
 .tooltip {
-	color: white;
+	color: var(--contrast);
 	position: relative;
 	display: inline-block;
 } /* Tooltip text */
 .tooltip .toolcnt {
-	visibility: hidden;
-	position: absolute;
-	bottom: 45px;
-	left: -100px;
-	right: -100px;
-	margin: 0 auto;
-	background-color: var(--neutralDarker);
-	color: var(--contrast);
-	font-size: var(--little-size);
-	padding: 5px;
-	border-radius: var(--radius);
-	z-index: 1;
-	text-transform: none !important;
-	font-family: var(--font);
-	font-style: normal;
-	max-width: 200px;
-	opacity: 0;
-	transition: opacity 0.6s;
+    visibility: hidden;
+    position: absolute;
+    bottom: 45px;
+    left: -100px;
+    right: -100px;
+    margin: 0 auto;
+    background-color: var(--neutralDarker);
+    color: var(--contrast);
+    font-size: var(--little-size);
+    line-height: var(--normal-size);
+    padding: 5px;
+    border-radius: var(--radius);
+    z-index: 1;
+    text-transform: none !important;
+    font-family: var(--font);
+    color: var(--textColor);
+    font-weight: normal;
+    font-style: normal;
+    max-width: 200px;
+    opacity: 0;
+    transition: opacity 0.6s;
 }
 .tooltip::after {
 	content: '';
