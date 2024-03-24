@@ -413,6 +413,10 @@
     font-weight: 400;
 }
 
+.cate_title span:not(:nth-child(2)) {
+    display: none;
+}
+
 #c3 .cate_title,
 #c6 .cate_title {
 	display: none;
