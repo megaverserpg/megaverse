@@ -2997,7 +2997,7 @@ button.more {
     overflow: auto !important;
   }
 
-.user_profile-wombat strong {
+.user_profile-wombat strong:not(.pr_title strong) {
     color: var(--co-1);
 }
 
