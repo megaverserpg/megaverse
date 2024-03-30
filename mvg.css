@@ -2498,7 +2498,7 @@ transform: translateX(-20%);
     visibility: visible;
 }
 
-.wombat-aside.open #wombat {
+.wombat-aside #wombat {
     height: 100vh;
     border-radius: 0;
     display: flex;
