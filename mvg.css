@@ -2648,12 +2648,6 @@ transform: translateX(-20%);
     font-size: var(--small-size);
   }
   
-  #field_id10 field {
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s all;
-  }
-  
   #field_id10:hover field {
     opacity: 1;
     visibility: visible;
@@ -2669,8 +2663,11 @@ transform: translateX(-20%);
     padding: 5px;
     background: var(--neutralDarker);
     border-radius: var(--radius);
-    height: 82px;
+    height: 67px;
     overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s all;
   }
 
 #field_id3, #field_id4, #field_id36, #field_id37, #field_id5, #field_id2 {
