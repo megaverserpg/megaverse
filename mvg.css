@@ -2748,8 +2748,8 @@ button.more {
     top: 0;
     bottom: 0;
     margin: auto;
+    box-shadow: 0 0 10px var(--neutral);
 }
-
 
 /* BADGES DANS LE PROFIL */
 /*Badges*/
