@@ -1067,15 +1067,16 @@ ellipsis:nth-child(4) {
 	text-shadow: 0 0 3px;
 }
 annee {
-	position: relative;
-	display: block;
-	font-size: var(--xxl-size);
-	font-family: var(--font-2);
-	font-style: italic;
-	letter-spacing: -5px;
-	margin: -33px 20px -25px;
-	color: var(--co-3);
-	z-index: 0;
+    position: relative;
+    display: block;
+    font-size: var(--xl-size);
+    line-height: 100%;
+    font-family: var(--font-2);
+    font-style: italic;
+    letter-spacing: -2px;
+    margin: 0px 0 -15px 10px;
+    color: var(--co-3);
+    z-index: 0;
 }
 card {
 	position: relative;
