@@ -1084,7 +1084,6 @@ card {
 	padding: var(--spacing);
 	border-radius: var(--radius);
 	background: var(--neutralDark);
-	backdrop-filter: blur(3px);
 }
 
 /* FICHE 2 */
@@ -1248,24 +1247,6 @@ card {
 }
 .monevenement.cache {
 	display: none;
-}
-annee {
-	display: block;
-	font-size: var(--xxl-size);
-	font-family: var(--special-font);
-	font-style: italic;
-	letter-spacing: -5px;
-	margin: 5px 0 -15px;
-	color: var(--co-3);
-	opacity: 0.5;
-}
-card {
-	position: relative;
-	display: block;
-	padding: 20px;
-	background: var(--neutralDark);
-	border-radius: var(--radius);
-	backdrop-filter: blur(2px);
 }
 more, .more {
 	display: flex !important;
