@@ -23,19 +23,6 @@
 	background: linear-gradient(45deg, var(--co-1), var(--co-2));
 }
 
-html#sceditor_smilies::-webkit-scrollbar {
-	width: 2px;
-	height: 2px;
-}
-
-html#sceditor_smilies::-webkit-scrollbar-track-piece {
-	background-color: var(--neutralDarker);
-}
-
-html#sceditor_smilies::-webkit-scrollbar-thumb {
-	background: linear-gradient(45deg, var(--co-1), var(--co-2));
-}
-
 /* ------------ STRUCTURE ------------ */
 .main_forum {
 	min-width: 980px;
