@@ -2012,6 +2012,7 @@ div.sceditor-toolbar {
 	padding: 7px 0 !important;
 	border-radius: var(--radius) var(--radius) 0 0 !important;
 	border-bottom: 1px solid var(--white) !important;
+	text-align: center;
 }
 
 /* Conteneur des groupes d'outils */
