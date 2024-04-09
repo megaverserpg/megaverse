@@ -1911,6 +1911,7 @@ duo.ok {
             z-index: 101;
             box-sizing: border-box;
             background: var(--neutralDarker);
+	    line-height: 17px;
             transform: translateX(-400px);
             transition: all .2s ease-out
         }
