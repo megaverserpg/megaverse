@@ -236,7 +236,7 @@ a:hover {
 }
 
 .nav_menu h2 {
-	display: flex;
+    display: flex;
     align-items: center;
     gap: 10px;
     text-align: right;
@@ -246,6 +246,7 @@ a:hover {
     font-family: var(--font-2);
     text-transform: uppercase;
     font-size: var(--large-size);
+    font-weight: 400;
     line-height: 112%;
 }
 
