@@ -785,7 +785,7 @@ position: relative;
 overflow: hidden;
 }
 
-.forum:not(#c1 .forum:first-of-type, #c3 .forum, #c6 .forum) {
+.forum:not(#c1 .forum:first-of-type, #c3 .forum, #c6 .forum, .forum.int_forum) {
 backdrop-filter: blur(10px);
 }
 
