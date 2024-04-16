@@ -544,6 +544,7 @@
     display: block;
     font-size: var(--xl-size);
     line-height: var(--xl-size);
+    font-family: var(--special-font);
     text-transform: uppercase;
     font-weight: 400;
     margin: 0 auto -5px;
