@@ -530,24 +530,25 @@
 	animation: bounce 2s 1s ease infinite alternate;
 }
 
-#c3 .forumtitle span:first-child,
-#c6 .forumtitle span:first-child {
-	display: block;
-	font-size: var(--xl-size);
-	line-height: var(--xl-size);
-	text-transform: uppercase;
-	font-weight: 400;
-	margin: 0 auto;
-	color: white;
-	text-align: center;
+#c3 .forumtitle span:first-child, #c6 .forumtitle span:first-child {
+    display: block;
+    font-size: var(--xl-size);
+    line-height: var(--xl-size);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 auto -5px;
+    color: white;
+    text-align: center;
 }
 
-#c3 .forumtitle span:last-child,
-#c6 .forumtitle span:last-child {
-	display: block;
-	font-weight: 400;
-	color: white;
-	text-align: center;
+#c3 .forumtitle span:last-child, #c6 .forumtitle span:last-child {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+    font-family: var(--font);
+    font-size: var(--small-size);
+    text-transform: uppercase;
 }
 
 #c3 .forum_lastpost,
