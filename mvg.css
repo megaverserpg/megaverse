@@ -532,7 +532,7 @@
 
 #c3 .forumtitle span:last-child, #c6 .forumtitle span:last-child {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 5px !important;
     color: white;
     text-align: center;
     font-family: var(--font);
