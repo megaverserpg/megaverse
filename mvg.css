@@ -542,8 +542,8 @@
 	text-align: center;
 }
 
-#c3 .forumtitle span:last,
-#c6 .forumtitle span:last {
+#c3 .forumtitle span:last-child,
+#c6 .forumtitle span:last-child {
 	display: block;
 	font-weight: 400;
 	color: white;
