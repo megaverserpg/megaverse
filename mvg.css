@@ -1539,6 +1539,478 @@ duo.ok {
 
   .grp {text-align: right}
 
+/*** ---------------------------- SMS ------------------------------- ***/
+#blog { width: 600px; margin: 0 auto; background: var(--neutralDark); border-radius: 30px; position: relative; }
+  
+  #blog .container {
+    background: transparent;
+    position: relative;
+    padding-top: 90px;
+    z-index: 1;
+  }
+  
+  #blog .page-title {
+    margin: 0 auto;
+    -webkit-text-fill-color: var(--contrast);
+    font-size: 30px;
+  }
+  
+  #blog .links_bar:first-child > span:first-child a {
+    color: var(--contrast);
+  }
+  
+  #blog .links_bar:first-child {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    padding: 30px;
+    border: none;
+    font-weight: 400;
+    font-size: 0;
+  }
+  
+  #blog .links_bar:first-child a {
+    background: none;
+  }
+  
+  #blog .links_bar:first-child > span:first-child a:first-child::before {
+    content: "\ebaf";
+    font-family: var(--font-ic);
+    font-size: var(--large-size);
+  }
+  
+  #blog .links_bar:first-child > span:first-child a:last-child::before {
+    content: "\ebcc";
+    font-family: var(--font-ic);
+    font-size: var(--large-size);
+  }
+  
+  .sms .start-watching::before,
+  .sms .stop-watching::before {
+    font-size: var(--xxl-size);
+    position: absolute;
+    right: 25px;
+    top: -17px;
+  }
+  
+  #blog .container .blog_post {
+    background: transparent;
+  }
+  
+  #blog .container .blog_details {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: none;
+  }
+  
+  #blog .container .blog_author {display: none}
+  
+  #blog .container ul.profile-icons span {
+    border: 1px solid var(--contrast); color: var(--contrast);
+    background: transparent;
+  }
+  
+  orm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    -webkit-mask: linear-gradient(to bottom, var(--neutralDarker), var(--neutral), transparent);
+    border-radius: 30px 30px 0 0;
+    opacity: .5;
+  }
+  
+  #blog .wrapped {
+    width: calc(100% - 80px);
+    margin: 0 auto 20px;
+    border-radius: 20px;
+  }
+  
+  .sms .wrapped {
+    background: var(--neutral);
+    border: 1px solid var(--neutral);
+    padding: 40px 12px 12px;
+    box-shadow: 0 0 4px rgba(255,255,255,.04), inset 0 0 10px var(--neutral);
+  }
+  
+  #blog .like_button {
+    position: static;
+  }
+  
+  #blog .pagination {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .sms .has_prev {
+    border: none;
+    padding: 0;
+  }
+
+  .sms .has_prev .left {
+    display: none !important;
+  }
+  
+  .sms .blog_comment {position: relative}
+  
+  .sms .blog_comment:not(.has_prev) {
+    position: relative;
+    border: none;
+    padding-left: 55px;
+  }
+  
+  .sms .blog_comment:not(:first-child, .has_prev) {
+    margin-top: 50px;
+  }
+  
+  #blog .blog_online:not(:empty) {
+    font-size: 0;
+  }
+  
+  #blog .blog_online:not(:empty)::before {
+    content: "";
+    display: inline-block;
+    margin: 0 2px 4px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: green;
+  }
+  
+  .sms .blog_comment .profile-icons {
+    flex-wrap: wrap;
+    max-width: 75px;
+    justify-content: end;
+  }
+  
+  .sms .blog_comment .profile-icons span {background: transparent: color: var(--co-1)}
+  
+  .sms .blog_comment:not(.has_prev) .comment_details {
+    margin-left: -51px;
+    margin-bottom: -10px;
+  }
+  
+  .sms .comment_content > div {
+    display: block;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    max-width: 305px
+  }
+  
+  .sms .blog_comment > .flex {
+    position: relative;
+    margin: 15px 0 5px;
+    align-items: stretch;
+  }
+  
+  .sms .blog_comment:nth-child(odd) > .flex > .comment_content > div { margin-left: 5px; background: var(--neutral); }
+  .sms .blog_comment:nth-child(odd) > .flex > .comment_content > div::after {
+    content: "";
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    height: 15px;
+    width: 15px;
+    background-color: var(--neutral);
+    position: absolute;
+    left: -10px;
+    bottom: 13px;
+  }
+  
+  .sms .blog_comment:not(.has_prev):nth-child(odd) .flex {
+    flex-flow: row-reverse; justify-content: start;
+  }
+  
+  .sms .blog_comment:not(.has_prev):nth-child(even) .flex {
+    justify-content: flex-end;
+  }
+  
+  .sms .wrapped > .blog_comment:nth-child(even) .flex .comment_content > div {
+    background: var(--neutralDarker);
+    margin-left: auto;
+    margin-right: 60px;
+  }
+  
+  .sms .blog_comment:nth-child(even) .flex .comment_content > div::after { 
+    content: "";
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    height: 15px;
+    width: 15px;
+    background-color: var(--neutralDarker);
+    position: absolute;
+    left: auto;
+    right: 45px;
+    bottom: 13px;
+  }
+  
+  .sms .blog_comment:nth-child(even) .left { display: flex; flex-flow: row-reverse; gap: 10px; }
+  
+  .sms .comment_stats {
+    align-self: start;
+    height: 100%;
+    margin: 0 30px;
+    opacity: 0; visibility: hidden; transition: .5s all;
+  }
+  
+  .sms .flex:hover > .comment_stats {opacity: 1; visibility: visible}
+  
+  .sms .blog_comment .fa_like_div {
+    padding: 0;
+    position: static;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 2px;
+    margin-left: -28px;
+    margin-right: -49px;
+    align-self: stretch;
+    justify-content: space-between;
+  }
+  
+  .sms .fa_like_div img {
+    width: 15px;
+    height: 14px;
+  }
+  
+  .sms .blog_nameline {
+    flex-shrink: 0;
+    position: absolute;
+    top: -10px;
+    font-size: 10px;
+  }
+  
+  .sms .blog_comment:nth-child(odd) .left .blog_nameline {
+    left: 60px;
+  }
+  
+  .sms .blog_comment:nth-child(even) .left .blog_nameline {
+    right: 60px;
+  }
+  
+  .sms .blog_comment .fa_like_list:not(:empty) { font-size: 0; padding: 2px 4px; margin: 10px -10px -10px; border-radius: 0 0 10px 10px; }
+  .sms .blog_comment .fa_like_list:not(:empty) a {
+    margin-left: 5px;
+    font-size: var(--small-size);
+  }
+  
+  button.rep-button .rep-nb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+    font-size: 7px;
+    background: var(--co-1);
+    color: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .sms blockquote:has(cite) {
+    position: relative;
+    border: none !important;
+    padding: 5px !important;
+    margin: 0 0 5px 0px;
+    border-radius: 5px;
+    font-family: var(--font) !important;
+    font-size: var(--little-size);
+    opacity: .7;
+  }
+  
+  .sms blockquote div {
+    padding-left: 5px;
+    border-left: 1px solid var(--co-1);
+  }
+  
+  .sms blockquote cite {
+    margin-left: 0;
+  color: var(--co-1);
+  }
+  
+  .sms blockquote:has(cite) cite::before {
+    content: "\e9d7\000020 reply to";
+    background: none;
+    font-family: var(--font-ic);
+    font-size: var(--small-size);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .sms jr {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 380px;
+    text-align: center;
+    font-size: var(--small-size);
+    letter-spacing: 1px;
+  }
+  
+  .sms jr>* {
+    flex-shrink: 0;
+  }
+  
+  .sms jr::before, .sms jr::after {
+    content: '';
+    display: block;
+    width: inherit;
+    height: 1px;
+    background: var(--neutralDarker);
+  }
+  
+  .sms .comment_avatar {
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .sms .blog_comment img {
+    max-width: 285px;
+  }
+  
+  /**-----------------------------BLOG-------------------------------***/  
+  .mim .start-watching::before,
+  .mim .stop-watching::before {
+    content: "s'abonner";
+    background: var(--neutral);
+    font-family: var(--font);
+    font-size: var(--normal-size);
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: var(--radius);
+  } 
+  .mim .stop-watching::before {content: "abonné·e"; color: var(--contrast)}
+  .mim .container .fa_like_list:not(:empty)::before {
+    content: "suivi·e par";
+    font-size: var(--little-size);
+  }
+  
+  .fa_like_list:not(:empty) a {
+    font-size: var(--little-size);
+  }
+  
+  .fa_like_list:not(:empty) a {
+    margin-left: 5px;
+  }
+  
+  .fa_like_list:not(:empty) a:not(:last-child)::after {
+    content: ",";
+  }
+  
+  .fa_like_list:not(:empty) {
+    font-size: 0;
+  }
+  
+  .mim .comment_details .left {
+    display: flex;
+    gap: var(--spacing);
+  }
+  
+  .mim .blog_comment .like_button {
+    position: absolute !important;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  .mim .blog_comment .like_button img {
+    width: 20px;
+    height: 21px;
+  }
+  
+  .mim .blog_comment {
+    position: relative;
+    background: var(--neutralDarker) !important;
+    overflow: hidden;
+    padding: 12px;
+    border-radius: 20px;
+  }
+  
+  .mim .blog_comment:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+  
+  .mim .blog_comment > .flex {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0 20px;
+    background: var(--bg-gradient);
+    margin: -40px -12px 20px;
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  .mim .blog_comment > .flex::before {
+    content: "";
+    position: absolute;
+    top: 52px;
+    left: 0;
+    right: 0;
+    bottom: 32px;
+    display: block;
+    height: auto;
+    background: var(--neutral);
+  }
+  
+  .mim .comment_content {
+    width: 100%;
+  }
+  
+  .mim .blog_comment .profile-icons {
+    position: absolute;
+    top: 18px;
+    right: 14px;
+  }
+  
+  .mim .blog_comment .profile-icons span {
+    background: var(--neutralDarker);
+    border: 1px solid;
+    color: var(--contrast);
+  }
+  
+  .mim .comment_avatar {
+    position: relative;
+    background: var(--neutralDarker);
+    width: 70px;
+    height: 70px;
+    margin-left: -12px;
+    padding: 5px;
+    border-radius: 0 0 50%;
+  }
+  
+  .mim .comment_avatar::after {
+    content: ""; position: absolute; top: 70px; left: -4px; 
+    box-shadow: 0 -50px 0 0 var(--neutralDarker); width: 37px; 
+    height: 61px; border-radius: 45% 0 0 0;
+  }
+  
+  .mim .comment_avatar img {
+    position: absolute;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .mim .like_pplist {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    padding-right: 50px;
+    border-radius: 0 0 20px 20px;
+    background: var(--neutralDarker);
+    text-align: left;
+  }
+
 /*** ÉVOLUTION JAUGE PROFIL ***/
 .occlu1 {
 	--step1: "l'occumens s'efforce de vider totalement son esprit grâce à la méditation.";
