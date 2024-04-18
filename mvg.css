@@ -2119,7 +2119,7 @@ duo.ok {
 }
 
 .mim_stories { overflow: auto; padding-bottom }
-.mim_stories a { flex-shrink: 0; text-align: center }
+.mim_stories a { flex-shrink: 0; text-align: center; font-size: var(--little-size) }
 .mim_stories::-webkit-scrollbar { height: 1px !important; }
 
 /*** ÉVOLUTION JAUGE PROFIL ***/
