@@ -1797,6 +1797,8 @@ duo.ok {
     margin-left: 5px;
     font-size: var(--small-size);
   }
+
+.fa_like_list:not(:empty) {margin: 0}
   
   button.rep-button .rep-nb {
     display: flex;
