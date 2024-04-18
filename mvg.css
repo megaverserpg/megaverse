@@ -1792,7 +1792,7 @@ duo.ok {
     right: 60px;
   }
   
-  .sms .blog_comment .fa_like_list:not(:empty) { font-size: 0; padding: 2px 4px; margin: 10px -10px -10px; border-radius: 0 0 10px 10px; }
+  .sms .blog_comment .fa_like_list:not(:empty) { font-size: 0 !important; padding: 2px 4px; margin: 10px -10px -10px; border-radius: 0 0 10px 10px; }
   .sms .blog_comment .fa_like_list:not(:empty) a {
     margin-left: 5px;
     font-size: var(--small-size);
@@ -1911,7 +1911,7 @@ duo.ok {
   }
   
   .fa_like_list:not(:empty) {
-    font-size: 0;
+    font-size: 0 !important;
   }
   
   .mim .comment_details .left {
