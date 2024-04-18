@@ -2118,6 +2118,10 @@ duo.ok {
 	border-radius: 13px;
 }
 
+.mim_stories { overflow: auto; padding-bottom }
+.mim_stories a { flex-shrink: 0; }
+.mim_stories::-webkit-scrollbar { height: 1px !important; }
+
 /*** ÉVOLUTION JAUGE PROFIL ***/
 .occlu1 {
 	--step1: "l'occumens s'efforce de vider totalement son esprit grâce à la méditation.";
