@@ -1318,7 +1318,7 @@ cwtw:hover::before {
 .sep-title {display: grid; grid-template: 1fr / 1fr; width: fit-content; margin: 0 auto; font-family: var(--special-font); font-size: var(--xxl-size); line-height: var(--xxl-size);}
 .sep-title > * {grid-row: 1; grid-column: 1; display: block; transition: all .5s; transition-delay: .5s}
 .sep-title > span:first-child {margin: -2px 0 0 -2px; color: transparent; -webkit-text-stroke: 1px var(--co-1); text-stroke: 1px var(--co-1); -webkit-mask: linear-gradient(to bottom, var(--co-1) 48%, transparent 0)}
-.sep-title > span:nth-child(2) {margin: 2px -5px 0 5px; color: transparent; -webkit-text-stroke: .5px var(--co-2); text-stroke: .5px var(--co-2); -webkit-mask: linear-gradient(to bottom, transparent 52%, var(--co-2) 0)}
+.sep-title > span:nth-child(2) {margin: 2px -5px 0 5px; color: transparent; -webkit-text-stroke: 1px var(--co-2); text-stroke: 1px var(--co-2); -webkit-mask: linear-gradient(to bottom, transparent 52%, var(--co-2) 0)}
 .sep-title > span:nth-child(3) {align-self: center; background: var(--co-gradient); color: white; width: calc(100% + 4px); height: fit-content; text-align: center; border-radius: var(--radius); font-family: var(--font); font-size: var(--small-size); text-transform: uppercase; height: .5px}
 .sep-title > span:nth-child(3) span {visibility: hidden; opacity: 0; transition: .5s all; transition-delay: 0s} .sep-title:hover > span {transition-delay: 0s} .sep-title:hover > span:first-child {transform: translate(4px, -11px)}
 .sep-title:hover > span:nth-child(2) {transform: translate(-4px, 10px)} .sep-title:hover > span:nth-child(3) {height: 15px; width: 100%;}
