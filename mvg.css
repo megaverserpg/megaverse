@@ -1834,7 +1834,7 @@ duo.ok {
     font-size: var(--small-size);
   }
 
-.fa_like_list:not(:empty) {margin: 0}
+.sms .blog_comment .fa_like_list:not(:empty) {margin: 0}
   
   button.rep-button .rep-nb {
     display: flex;
