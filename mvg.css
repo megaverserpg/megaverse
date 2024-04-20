@@ -1946,7 +1946,7 @@ duo.ok {
     content: ",";
   }
   
-  .fa_like_list:not(:empty) {
+  .mim .fa_like_list:not(:empty) {
     font-size: 0 !important;
   }
   
