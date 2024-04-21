@@ -1455,7 +1455,7 @@ t7 {display: block; width: fit-content; margin: 0 auto; text-transform: uppercas
 
 .fc {
     display: grid;
-    grid-template-columns: 102px 1fr auto 1fr;
+    grid-template-columns: 102px 190px auto 1fr;
     gap: 5px;
     background-color: var(--neutralDark);
     padding: 5px;
