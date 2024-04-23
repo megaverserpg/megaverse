@@ -1300,7 +1300,7 @@ cwtw:hover::before {
 /* AES TYPO */
 .empty-title { position: relative; text-align: center}
 .empty-title::after {content: ""; display: block; margin: var(--spacing) auto 0; width: 60px; height: 2px; background: var(--co-2); }
-.empty-title a { position: absolute; width: 100%; height: 100%; z-index: 1; }
+.empty-title a { position: absolute; left: 0; width: 100%; height: 100%; z-index: 1; }
 .empty-title a:nth-child(1) { -webkit-clip-path: polygon(0 0, 100% 0, 50% 50%); clip-path: polygon(0 0, 100% 0, 50% 50%); }
 .empty-title a:nth-child(2) { -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 50%); clip-path: polygon(100% 0, 100% 100%, 50% 50%); }
 .empty-title a:nth-child(3) { -webkit-clip-path: polygon(0 100%, 50% 50%, 100% 100%); clip-path: polygon(0 100%, 50% 50%, 100% 100%); }
