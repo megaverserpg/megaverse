@@ -28,7 +28,7 @@
 	min-width: 980px;
 	width: 70vw;
 	margin: 0 auto;
-	border-radius: 5px;
+	border-radius: var(--radius);
 }
 
 /* ------------ MENU & FLOATING ELEMENTS ------------ */
@@ -167,7 +167,7 @@
 .c1_links a {
 	background-color: var(--co-2);
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: var(--radius);
 	font-size: var(--little-size);
 	text-align: center;
 }
@@ -277,7 +277,7 @@
 	background-color: var(--co-2);
 	margin-right: 5px;
 	padding: 0 5px;
-	border-radius: 5px;
+	border-radius: var(--radius);
 	font-size: var(--little-size);
 	color: white;
 	text-transform: lowercase;
@@ -757,7 +757,7 @@
 	width: 100%;
 	background-color: var(--co-2);
 	padding: 5px;
-	border-radius: 5px;
+	border-radius: var(--radius);
 	text-align: center;
 	color: white;
 }
@@ -791,7 +791,7 @@
 .forum {
 background: var(--neutral);
 padding: 20px;
-border-radius: 5px;
+border-radius: var(--radius);
 position: relative;
 overflow: hidden;
 }
@@ -1855,7 +1855,7 @@ duo.ok {
     border: none !important;
     padding: 5px !important;
     margin: 0 0 5px 0px;
-    border-radius: 5px;
+    border-radius: var(--radius);
     font-family: var(--font) !important;
     font-size: var(--little-size);
     opacity: .7;
@@ -3072,7 +3072,7 @@ div.sceditor-dropdown .button:hover {
 	font-size: var(--small-size);
 	font-weight: 600;
 	padding: 2px 5px;
-	border-radius: 5px;
+	border-radius: var(--radius);
 	color: white;
 }
 
@@ -3161,7 +3161,7 @@ transform: translateX(-20%);
 #wombat {
     position: relative;
     background: var(--neutralDarker);
-    border-radius: 5px;
+    border-radius: var(--radius);
 }
 
   .pr_entete {
@@ -3482,7 +3482,7 @@ button.more {
     letter-spacing: 1px;
     background: var(--neutral);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: var(--radius);
     text-align: center;
 }
   
