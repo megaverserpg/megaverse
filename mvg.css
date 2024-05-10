@@ -1652,7 +1652,7 @@ duo.ok {
     background: transparent;
   }
   
-  .sms orm {
+  .sms orm, #blog orm {
     position: absolute;
     top: 0;
     left: 0;
