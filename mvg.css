@@ -1652,7 +1652,7 @@ duo.ok {
     background: transparent;
   }
   
-  orm {
+  .sms orm {
     position: absolute;
     top: 0;
     left: 0;
