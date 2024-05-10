@@ -281,7 +281,7 @@
 	background-color: var(--co-2);
 	margin-right: 5px;
 	padding: 0 5px;
-	border-radius: var(--radius);
+	border-radius: var(--xs-radius);
 	font-size: var(--little-size);
 	color: white;
 	text-transform: lowercase;
