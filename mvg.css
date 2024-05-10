@@ -93,7 +93,7 @@
 	padding: 5px;
 	height: 100%;
 	background: var(--neutralDark);
-	border-bottom: 1px solid var(--neutralDark);
+	border-bottom: 1px solid var(--white);
 	transition: 0.5s all;
 }
 
