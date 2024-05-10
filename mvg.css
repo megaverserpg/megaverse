@@ -42,6 +42,10 @@
 	height: 135px;
 }
 
+.ascenseur a i {
+    color: white !important;
+}
+
 /* boutton light/dark */
 
 /* ------------ CATÉGORIES ------------ */
