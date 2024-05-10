@@ -137,6 +137,7 @@
 	grid-row: 1 / span 2;
 	padding: 0;
 	background-color: transparent;
+	border-radius: 0;
 }
 
 #c1 .forum:first-of-type .forum_avatar.lastpostavatar,
