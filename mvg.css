@@ -495,13 +495,13 @@
 #c6 .cp-stars {
 	position: absolute;
 	background: transparent;
-	right: 56px;
+	right: 0;
 }
 
 #c3 .forum-img,
 #c6 .forum-img {
 	position: absolute;
-	right: -25px;
+	right: 7px;
 }
 
 #c3 .forum:nth-child(1) .forum-img,
@@ -515,18 +515,15 @@
 }
 
 #c3 .forum:nth-child(2) .forum-img,
-#c6 .forum:nth-child(2) .forum-img {
-	top: 50px;
+#c6 .forum:nth-child(2) .forum-img,
+#c3 .forum:nth-child(3) .forum-img,
+#c6 .forum:nth-child(3) .forum-img {
+	top: 5px;
 }
 #c3 .forum:nth-child(2) .cp-stars,
 #c6 .forum:nth-child(2) .cp-stars {
 	top: 10px;
 	animation: rev-bounce 2s 2s ease infinite alternate;
-}
-
-#c3 .forum:nth-child(3) .forum-img,
-#c6 .forum:nth-child(3) .forum-img {
-	top: 33px;
 }
 #c3 .forum:nth-child(3) .cp-stars,
 #c6 .forum:nth-child(3) .cp-stars {
