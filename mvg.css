@@ -1609,7 +1609,7 @@ duo.ok {
   .grp {text-align: right}
 
 /*** ---------------------------- SMS ------------------------------- ***/
-#blog { width: 600px; margin: 0 auto; background: var(--neutralDark); border-radius: 30px; position: relative; }
+#blog { width: 600px; margin: 0 auto; background: var(--neutral); border-radius: 30px; position: relative; }
   
   #blog .container {
     background: transparent;
@@ -1680,7 +1680,7 @@ duo.ok {
     background: transparent;
   }
   
-  .sms orm, #blog orm {
+  #blog orm {
     position: absolute;
     top: 0;
     left: 0;
@@ -1693,7 +1693,7 @@ duo.ok {
     background-size: cover;
     -webkit-mask: linear-gradient(to bottom, var(--neutralDarker), var(--neutral), transparent);
     border-radius: 30px 30px 0 0;
-    opacity: .5;
+    opacity: .6;
   }
   
   #blog .wrapped {
