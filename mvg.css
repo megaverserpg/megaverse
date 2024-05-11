@@ -1981,6 +1981,7 @@ duo.ok {
   
   .mim .fa_like_list:not(:empty) {
     font-size: 0 !important;
+    margin: 0;
   }
   
   .mim .comment_details .left {
