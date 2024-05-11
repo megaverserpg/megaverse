@@ -1008,8 +1008,8 @@ newsareal1 .topicslist_infos {
 	border-radius: var(--radius);
 }
 .prez_ics img {
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	border: 1px solid var(--co-1);
 }
@@ -1021,25 +1021,30 @@ newsareal1 .topicslist_infos {
 }
 .prez_aes .sub-4 {
 	position: relative;
-	margin: -20px 34px 30px 135px;
+	margin: 0 35px 35px 150px;
 	font-size: var(--small-size);
 	font-style: italic;
 }
 .prez_aes .sub-4::before {
-	content: '\00201C';
-	position: absolute;
-	left: -45px;
-	font-family: var(--special-font);
-	font-size: var(--xxl-size);
-	color: var(--co-1);
+    content: '\00201C';
+    position: absolute;
+    top: -30px;
+    left: -35px;
+    font-family: var(--special-font);
+    font-size: var(--xxl-size);
+    font-style: normal;
+    color: var(--co-1);
 }
 .prez_aes .sub-4::after {
-	content: '\00201D';
-	position: absolute;
-	right: -30px;
-	font-family: var(--special-font);
-	font-size: var(--xxl-size);
-	color: var(--co-1);
+    content: '\00201D';
+    position: absolute;
+    right: -25px;
+    bottom: -25px;
+    font-family: var(--special-font);
+    font-size: var(--xxl-size);
+    line-height: 0;
+    font-style: normal;
+    color: var(--co-1);
 }
 .prez_kw {
 	position: relative;
