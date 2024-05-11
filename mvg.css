@@ -994,10 +994,18 @@ newsareal1 .topicslist_infos {
 	border-radius: var(--radius);
 	padding: var(--spacing);
 }
+.prez {
+    width: 700px;
+    background: var(--neutral);
+    margin: auto;
+    border-radius: var(--radius);
+    padding: 20px;
+}
+.prez_aes t1 {margin-left: auto} 
 .prez_av {
 	width: 200px;
 	height: 320px;
-	border-radius: var(--radius) 0;
+	border-radius: var(--radius);
 }
 .prez_ics img {
 	width: 100px;
@@ -1071,6 +1079,7 @@ ellipsis:nth-child(4) {
 }
 .prez_anec {
 	position: relative;
+	width: 100%;
 }
 .prez_anec::after {
 	position: absolute;
