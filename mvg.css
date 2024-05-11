@@ -1333,7 +1333,7 @@ ellipsis:nth-child(4) {
 }
 
 .block {
-	background: var(--neutralDark);
+	background: var(--neutral);
 	border-radius: var(--radius);
 	padding: var(--spacing);
 }
