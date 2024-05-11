@@ -994,38 +994,39 @@ newsareal1 .topicslist_infos {
 	border-radius: var(--radius);
 	padding: var(--spacing);
 }
-.prez {
+.fiche {
     width: 700px;
     background: var(--neutral);
     margin: auto;
     border-radius: var(--radius);
     padding: 20px;
 }
-.prez_aes t1 {margin-left: auto} 
-.prez_av {
+.fiche_aes t1 {margin: 0 auto} 
+.fiche_av {
 	width: 200px;
 	height: 320px;
 	border-radius: var(--radius);
 }
-.prez_ics img {
+.fiche_ics img {
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
 	border: 1px solid var(--co-1);
 }
-.prez_ics img:first-of-type {
+.fiche_ics img:first-of-type {
 	transform: translate(0, 20px);
 }
-.prez_ics img:last-of-type {
+.fiche_ics img:last-of-type {
 	transform: translate(-20px, -10px);
 }
-.prez_aes .sub-4 {
+.fiche_aes .sub-4 {
 	margin: -45px 35px 30px 150px;
 }
-.prez_kw {
+.fiche_kw {
 	position: relative;
+	width: 100%;
 }
-.prez_kw::before {
+.fiche_kw::before {
 	position: absolute;
 	top: -10px;
 	left: -4px;
@@ -1058,11 +1059,10 @@ ellipsis:nth-child(3) {
 ellipsis:nth-child(4) {
 	transform: rotate(-3deg);
 }
-.prez_anec {
+.fiche_rs {
 	position: relative;
-	width: 100%;
 }
-.prez_anec::after {
+.fiche_rs::after {
 	position: absolute;
 	bottom: -10px;
 	right: 30px;
