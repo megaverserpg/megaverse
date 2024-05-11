@@ -1020,31 +1020,7 @@ newsareal1 .topicslist_infos {
 	transform: translate(-20px, -10px);
 }
 .prez_aes .sub-4 {
-	position: relative;
-	margin: 0 35px 35px 150px;
-	font-size: var(--small-size);
-	font-style: italic;
-}
-.prez_aes .sub-4::before {
-    content: '\00201C';
-    position: absolute;
-    top: -30px;
-    left: -35px;
-    font-family: var(--special-font);
-    font-size: var(--xxl-size);
-    font-style: normal;
-    color: var(--co-1);
-}
-.prez_aes .sub-4::after {
-    content: '\00201D';
-    position: absolute;
-    right: -25px;
-    bottom: -25px;
-    font-family: var(--special-font);
-    font-size: var(--xxl-size);
-    line-height: 0;
-    font-style: normal;
-    color: var(--co-1);
+	margin: -45px 35px 30px 150px;
 }
 .prez_kw {
 	position: relative;
