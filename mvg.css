@@ -504,20 +504,14 @@
 	right: 7px;
 }
 
-#c3 .forum:nth-child(1) .forum-img,
-#c6 .forum:nth-child(1) .forum-img {
-	top: 20px;
-}
 #c3 .forum:nth-child(1) .cp-stars,
 #c6 .forum:nth-child(1) .cp-stars {
 	top: 0;
 	animation: bounce 2s 2s ease infinite alternate;
 }
 
-#c3 .forum:nth-child(2) .forum-img,
-#c6 .forum:nth-child(2) .forum-img,
-#c3 .forum:nth-child(3) .forum-img,
-#c6 .forum:nth-child(3) .forum-img {
+#c3 .forum .forum-img,
+#c6 .forum .forum-img {
 	top: 5px;
 }
 #c3 .forum:nth-child(2) .cp-stars,
