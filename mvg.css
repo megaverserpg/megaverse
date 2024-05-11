@@ -1333,6 +1333,8 @@ ellipsis:nth-child(4) {
 	padding: var(--spacing);
 }
 
+.block .block { background: var(--neutralDark)}
+
 .deco_top {
 	position: relative;
 }
