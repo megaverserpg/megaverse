@@ -1598,7 +1598,7 @@ duo.ok {
 	  align-items: center;
 	  color: white;
 	  width: 25px;
-	  border-radius: var(--radius);
+	  border-radius: var(--xs-radius);
   } 
 
   .pl {
