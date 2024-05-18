@@ -992,6 +992,7 @@ newsareal1 .topicslist_infos {
 .fiche_ics img {
 	width: 80px;
 	height: 80px;
+	object-fit: cover;
 	border-radius: 50%;
 	border: 1px solid var(--co-1);
 }
