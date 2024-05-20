@@ -1379,8 +1379,8 @@ ellipsis:nth-child(4) {
     visibility: hidden;
     position: absolute;
     bottom: 30px;
-    left: -100px;
-    right: -100px;
+    left: -150px;
+    right: -150px;
     margin: 0 auto;
     background-color: var(--neutralDarker);
     color: var(--contrast);
@@ -1394,7 +1394,8 @@ ellipsis:nth-child(4) {
     color: var(--textColor);
     font-weight: normal;
     font-style: normal;
-    max-width: 200px;
+    max-width: 300px;
+    width: fit-content;
     opacity: 0;
     transition: opacity 0.6s;
 }
