@@ -966,6 +966,7 @@ newsareal1 .topicslist_infos {
     letter-spacing: 1px;
     padding: 0 5px;
     border-radius: var(--radius);
+    color: var(--textColorAccent);
 }
 
 #newsareal1 .topicslist_infos:hover a {
