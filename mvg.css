@@ -1269,11 +1269,13 @@ cwtw:hover::before {
 	background: var(--neutralDarker);
 	box-shadow: 5px 0 5px var(--neutral);
 	z-index: 1;
+	font-size: var(--little-size);
 }
 .fiche3 > .block:first-of-type b5,
 .fiche3 > .block:first-of-type b6 {
 	display: inline-block;
-	width: 145px;
+	width: 125px;
+        font-size: var(--small-size);
 }
 .fiche3 > .block:last-of-type {
 	background: var(--neutralDark);
