@@ -925,7 +925,8 @@ background-color: var(--neutralDark);
     display: none;
 }
 
-#newsareal1 .topicslist_infos:first-of-type {
+#newsareal1 .topicslist_infos:first-child,
+#newsareal1 .topicslist_infos:nth-child(2) {
     display: none;
 }
 
@@ -950,6 +951,7 @@ newsareal1 .topicslist_infos {
 }
 
 #newsareal1 .topicslist_infos .topic_author,
+
 #newsareal1 .topic_pagination-desc {
     display: none;
 }
