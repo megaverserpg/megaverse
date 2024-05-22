@@ -949,7 +949,8 @@ newsareal1 .topicslist_infos {
     padding: 0;
 }
 
-#newsareal1 .topicslist_infos .topic_author {
+#newsareal1 .topicslist_infos .topic_author,
+#newsareal1 .topic_pagination-desc {
     display: none;
 }
 
