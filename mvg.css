@@ -915,12 +915,6 @@ background-color: var(--neutralDark);
 
 /*** ------------------------------- ***/
 /*** PAGES D'ACCUEIL ------------ ***/
-#newsareal1 {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
 .topicslist_infos img {
     display: none;
 }
@@ -934,6 +928,7 @@ background-color: var(--neutralDark);
     min-height: 0;
     border-radius: var(--radius);
     background: var(--neutral);
+    margin-bottom: 6px;
     padding: 0;
 }
 
@@ -970,6 +965,7 @@ newsareal1 .topicslist_infos {
     padding: 0 5px;
     border-radius: var(--radius);
     color: var(--textColorAccent);
+    font-weight: 400;
 }
 
 #newsareal1 .topicslist_infos:hover a {
