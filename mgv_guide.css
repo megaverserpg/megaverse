@@ -281,7 +281,9 @@ h2::after {
 }
 
 .tabs-onglets a {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 155px;
 	padding: 5px;
 	background: var(--co-gradient);
