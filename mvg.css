@@ -4072,7 +4072,8 @@ transform: translateX(-20%);
     margin: 0 auto !important;
 }
 
-#userData {
+.userDataChildren {
+    display: flex;
     flex-direction: column;
     gap: 20px;
 }
