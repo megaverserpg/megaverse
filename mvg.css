@@ -4072,6 +4072,27 @@ transform: translateX(-20%);
     margin: 0 auto !important;
 }
 
+#userData {
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#userData label {
+    font-size: var(--little-size);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#userData label::before {
+    content: "\2727\00263E\00A0";
+    color: var(--co-1);
+}
+
+#userData textarea {
+    width: 100%;
+}
+
 .profile_field label {
     color: var(--co-2);
     font-weight: 600;
