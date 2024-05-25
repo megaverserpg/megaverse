@@ -4073,7 +4073,6 @@ transform: translateX(-20%);
 }
 
 #userData {
-    display: flex !important;
     flex-direction: column;
     gap: 20px;
 }
