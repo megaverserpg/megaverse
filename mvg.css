@@ -4013,8 +4013,8 @@ z-index: 999;
 transition: 0.2s all ease;
 visibility: hidden;
 opacity: 0;
-width: 90%;
-max-width: 800px;
+width: fit-content;
+max-width: 900px;
 box-shadow: var(--shadowBox);
 border-radius: 10px;
 height: max-content;
@@ -4036,16 +4036,20 @@ transform: translateX(-20%);
     align-items: center;
 }
 
-.flex.pr_sjts {
-    flex-direction: column;
-    gap: 0;
-    justify-content: space-between;
+.wombat-aside.open .pr_ctnr {
+    height: calc(100vh - 40px);
 }
   
 #wombat {
     position: relative;
     background: var(--neutralDarker);
     border-radius: var(--radius);
+}
+
+.flex.pr_sjts {
+    flex-direction: column;
+    gap: 0;
+    justify-content: space-between;
 }
 
   .pr_entete {
