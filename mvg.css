@@ -379,7 +379,7 @@ outline: 1px solid var(--co-2);
     float: right;
 }
 
-fa_usermenu table tr {
+#fa_usermenu table tr {
     display: flex;
     justify-content: center;
     flex-direction: column;
