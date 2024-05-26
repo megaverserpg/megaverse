@@ -109,61 +109,12 @@ background: var(--neutral);
 border: var(--border);
 }
 
-/*** ------------------------------- ***/
-/*** EDITEUR DE TEXTE -------------- ***/
-/* Editeur de texte */
-.sceditor-container {
-border: var(--border) !important;
-}
-
-/* Barre d'outils de l'éditeur de texte*/
-div.sceditor-toolbar {
-background: var(--neutral) !important;
-border-bottom: var(--border) !important;
-}
-
-/* Conteneur des groupes d'outils */
-div.sceditor-group {
-background: var(--neutralDark) !important;
-border-bottom: var(--border) !important;
-}
-
-/* Bouton d'un outil */
-a.sceditor-button {
-height: 26px !important;
-/*ne pas retirer*/
-width: 26px !important;
-/*ne pas retirer*/
-}
-
-/* Conteneur de la zone de texte */
-.sceditor-container iframe,
-.sceditor-container textarea {
-background-color: var(--neutral) !important;
-width: 100% !important;
-margin: 0 !important;
-padding: 5px !important;
-min-height: 250px !important;
-border-radius: 0 0 var(--radius) var(--radius);
-}
-
-/*Boîte Smiley*/
-body#sce_smilies_body {
-background: transparent !important;
-}
-
 /* Autre champs de texte */
 textarea {
 background: var(--neutralDark);
 border: var(--border);
 border-radius: var(--radius);
 color: var(--textColor) !important;
-}
-
-/*suppression de l'image-lien \"aller à la page suivante\" */
-.page-topic span a:last-child,
-.pag-img {
-display: none;
 }
 
 /*** ------------------------------- ***/
@@ -3500,21 +3451,19 @@ duo.ok {
 
 /*** ------------------------------- ***/
 /*** ÉDITEUR DE TEXTE ------------ ***/
+
+/*suppression de l'image-lien \"aller à la page suivante\" */
+.page-topic span a:last-child,
+.pag-img {
+display: none;
+}
+
 div#quickreply_content .h3 + br {
 	display: none;
 }
 
-.quickreply {
-	padding: 5px !important;
-}
-
-.sceditor-container {
-	background: transparent !important;
-	border: none !important;
-}
-
 /* Barre d'outils de l'éditeur de texte*/
-div.sceditor-toolbar {
+.sceditor-toolbar {
 	background: var(--neutralDarker) !important;
 	margin: 0 !important;
 	padding: 7px 0 !important;
@@ -3523,23 +3472,19 @@ div.sceditor-toolbar {
 	text-align: center;
 }
 
-/* Conteneur des groupes d'outils */
-.sceditor-group {
-	background: transparent !important;
-	border: 1px solid transparent !important;
-	border-radius: var(--radius) !important;
-}
-
 /* Conteneur de la zone de texte */
 .sceditor-container iframe,
-.sceditor-container textarea {
-	background-color: transparent !important;
-	/*ne pas supprimer*/
+.sceditor-container textarea {	
+	border-radius: 0 0 var(--radius) var(--radius);
+	min-height: 250px !important;
+	background-color: var(--neutralDark) !important;
+        backdrop-filter: blur(20px);
 	width: 100% !important;
 	margin: 0 !important;
 	padding: 5px !important;
-	/*ne pas supprimer*/
-	min-height: 250px !important;
+	min-height: 300px !important;
+	line-height: 175%;
+	font-size: var(--normal-size) !important;
 }
 
 /*Boîte Smiley*/
@@ -3547,7 +3492,6 @@ body#sce_smilies_body {
 	background: transparent !important;
 }
 
-#quick_reply #textarea_content,
 div.sceditor-container,
 body div.sceditor-group,
 a.sceditor-button:hover,
@@ -3583,15 +3527,10 @@ div.sceditor-dropdown {
 }
 
 #message-box #textarea_content {
-	overflow: hidden;
 }
 
 #message-box textarea {
 	height: 500px !important;
-}
-
-.sceditor-container {
-	background: var(--base-6) !important;
 }
 
 /* compteur de mots */
@@ -3656,16 +3595,6 @@ div.sceditor-dropdown .button {
 div.sceditor-dropdown .button:hover {
 	color: var(--co-1) !important;
 	background: var(--neutralDark) !important;
-}
-
-/* zone de texte */
-.sceditor-container iframe,
-.sceditor-container textarea {
-	display: block;
-	width: 100% !important;
-	height: 300px !important;
-	line-height: 175%;
-	font-size: var(--normal-size) !important;
 }
 
 /* icone menu edition */
