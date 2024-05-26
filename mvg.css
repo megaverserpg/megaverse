@@ -527,7 +527,7 @@ clip-path: polygon(
 .switcheroo {color: var(--textColor);margin: auto;}
 
 /* Positionnement des ronds */
-.switcheroo__squircles {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;margin: 0;padding: 0;list-style: none;gap: 15px;}
+.switcheroo__squircles {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;margin: 0 20px;padding: 0;list-style: none;gap: 15px;}
 
 /* AFFICHAGE DES COMPTES ---*/
 
