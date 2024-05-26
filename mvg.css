@@ -4501,7 +4501,7 @@ button.more {
   
   .field-dimension {
     left: 224px;
-    width: fit-content;
+    width: 120px;
     padding: 0 var(--spacing);
     border-left: 1px solid var(--co-2);
     border-right: 1px solid var(--co-2);
