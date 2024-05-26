@@ -503,7 +503,7 @@ right: 5px;
 
 /* Croix du bouton suppression */
 #fa_toolbar #fa_right #notif_list li a.delete:before {
-content: '\\f12a';
+content: '\f12a';
 display: inline-block;
 font-family: 'Ionicons';
 font-style: normal;
