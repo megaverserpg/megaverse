@@ -3462,6 +3462,15 @@ div#quickreply_content .h3 + br {
 	display: none;
 }
 
+.quickreply .button2 {
+    background: var(--co-gradient);
+    margin: 0 10px;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    font-size: var(--little-size);
+    letter-spacing: 1px;
+}
+
 /* Barre d'outils de l'éditeur de texte*/
 .sceditor-toolbar {
 	background: var(--neutralDarker) !important;
@@ -3556,6 +3565,19 @@ div.sceditor-dropdown label {
 #sceditor_smilies {
 	color: gray !important;
 	outline: none !important;
+}
+
+#smilies_categ select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding-bottom: 5px;
+    color: gray;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid;
 }
 
 .sceditor-dropdown a:hover {
