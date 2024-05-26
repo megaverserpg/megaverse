@@ -295,6 +295,7 @@ padding: 4px 4px;
 
 /* Lien \"Bienvenue (pseudo)\" */
 #fa_welcome {
+	margin-right: 5px;
 }
 
 /* Lien \"notification\"*/
@@ -309,52 +310,142 @@ background: var(--neutralDark);
 }
 
 /* MENU bienvenue [ET] liste des notifications */
-ul#fa_menulist,
-ul#notif_list {
-border: var(--border);
-background: var(--neutralDark);
-border-radius: 5px;
-right: 6px;
-left: initial !important;
-top: 45px;
-z-index: 999;
-position: absolute;
-display: none;
+ul#fa_menulist, ul#notif_list {
+    border: var(--border);
+    background: var(--neutralDark);
+    backdrop-filter: blur(20px);
+    outline-offset: 3px;
+    outline: 1px solid var(--neutralDark);
+    border-radius: 5px;
+    right: 18px;
+    left: initial !important;
+    top: 55px;
+    z-index: 999;
+    position: absolute;
+    padding: var(--spacing) var(--spacing) 10px;
+    display: none;
 }
 
 /* MENU BIENVENUE ---*/
 /* conteneur */
 #fa_menulist {
-width: 350px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 20px;
+    width: 350px;
 }
 
 /* Colonne gauche du menu de bienvenue avec avatar */
 #fa_usermenu {
-float: left;
-padding: 15px;
-text-align: center;
-min-height: 250px;
+grid-column: 1 / span 2;
+    padding: 15px;
+    text-align: center;
+    min-height: 140px;
+    margin: -20px -20px 0px;
 }
 
 /* Image de l'avatar dans le menu de bienvenue */
 #fa_usermenu img {
+float: left;
 object-fit: cover;
 object-position: center;
-width: 120px;
-height: 120px;
+width: 110px;
+height: 110px;
 display: block;
-margin-bottom: 10px;
+border-radius: 50%;
+outline-offset: 3px;
+outline: 1px solid var(--co-2);
 }
 
-/* Liens du menu de bienvenue */
 #fa_menulist li {
-margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 110%;
+    background: var(--neutralDarker);
+    padding: 3px;
+    border-radius: var(--xs-radius);
+    text-transform: lowercase;
 }
 
-/* Séparateur du menu de bienvenue */
-#fa_toolbar #fa_right .fa_separator {
-margin: 5px 0 5px 150px;
-border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+#fa_menulist .fa_separator, #fa_menulist li:last-of-type {
+    display: none;
+}
+
+#fa_usermenu table {
+    margin-right: 8px;
+    margin-top: 10px;
+    width: 165px !important;
+    float: right;
+}
+
+#fa_usermenu #fa_ranktitle {
+    margin: 0 10px 0 5px;
+    text-align: center;
+    float: right;
+    width: 160px;
+    font-size: var(--small-size);
+    line-height: 160%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#fa_usermenu #fa_ranktitle b1 {
+    display: block;
+    font-style: italic;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-family: var(--font-2);
+    font-size: var(--normal-size);
+}
+
+#fa_ranktitle::after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    margin: 10px 0 0;
+    background: var(--co-gradient);
+}
+
+div#fa_usermenu .first {
+    display: flex;
+    align-items: center;
+    background: var(--co-gradient);
+    border-radius: var(--xs-radius);
+    margin-right: 3px;
+    padding: 0 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: var(--small-size);
+}
+
+#fa_usermenu table tbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fa_usermenu table td:nth-child(2) {
+    display: none;
+}
+
+div#fa_usermenu .bold {
+    font-family: var(--font-2);
+    line-height: 100%;
+    font-size: var(--title-size);
+    font-style: italic;
+    color: var(--co-1);
+}
+
+#fa_menulist li:has(a[href="https://its4am.forumactif.com/admin"]) {
+    grid-column: 1 / span 2;
+    background: transparent;
+    border-top: 1px solid var(--co-1);
+    border-radius: 0;
+    margin-top: 10px;
+    padding-top: 5px;
 }
 
 /* LISTE DES NOTIFICATIONS ---*/
