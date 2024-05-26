@@ -312,7 +312,7 @@ background: var(--neutralDark);
 /* MENU bienvenue [ET] liste des notifications */
 ul#fa_menulist, ul#notif_list {
     border: var(--border);
-    background: var(--neutralDark);
+    background: var(--neutral);
     backdrop-filter: blur(20px);
     outline-offset: 3px;
     outline: 1px solid var(--neutralDark);
