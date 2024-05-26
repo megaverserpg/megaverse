@@ -591,6 +591,10 @@ li.switcheroo__squircle.switcheroo__squircle--button::before {
     background: var(--co-gradient);
 }
 
+.switcheroo__squircle.switcheroo__squircle--button .switcheroo__popper {
+    display: none;
+}
+
 /* Bouton de suppression */
 .switcheroo__delete {
 display: grid;
@@ -618,7 +622,23 @@ transform: scale(1);
 /* TOOLTIP - INFOBULLE DU PSEUDO ---*/
 
 /* Conteneur du pseudo */
-.switcheroo__popper {background-color: var(--neutralDarker);padding: 0.3rem 1rem;position: absolute;width: -webkit-max-content;width: max-content;border-radius: 5px;z-index: 0;opacity: 0;transition: opacity 64ms var(--ease), transform 128ms var(--ease-bounce);pointer-events: none;color: var(--textColor);/* left: 155%; */top: 50%;transform-origin: left;transform: translateY(-50%) scale(0.98);}
+.switcheroo__popper {
+background-color: var(--neutralDarker);
+padding: 0.3rem 1rem;
+position: absolute;
+width: -webkit-max-content;
+width: max-content;
+border-radius: 5px;
+z-index: 0;
+opacity: 0;
+transition: opacity 64ms var(--ease), transform 128ms var(--ease-bounce);
+pointer-events: none;
+color: var(--textColor);
+left: 155%;
+top: 50%;
+transform-origin: left;
+transform: translateY(-50%) scale(0.98);
+}
 
 /* Flèche tooltip */
 .switcheroo__popper:before {
