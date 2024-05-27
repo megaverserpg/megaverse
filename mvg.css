@@ -322,8 +322,15 @@ ul#fa_menulist, ul#notif_list {
     top: 55px;
     z-index: 999;
     position: absolute;
-    padding: var(--spacing) var(--spacing) 10px;
     display: none;
+}
+
+ul#notif_list {
+    padding: var(--spacing);
+}
+
+ul#fa_menulist {
+    padding: var(--spacing) var(--spacing) 10px;
 }
 
 /* MENU BIENVENUE ---*/
