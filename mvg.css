@@ -906,6 +906,7 @@ background: var(--contrastLight);
 
 #c1 .forum:first-of-type .forumtitle {
     margin: auto;
+    border-bottom: none;
 }
 
 #c1 .forums {
