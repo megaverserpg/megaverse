@@ -453,7 +453,7 @@ div#fa_usermenu .bold {
     color: var(--co-1);
 }
 
-#fa_menulist li:has(a[href="https://its4am.forumactif.com/admin"]) {
+#fa_menulist li:has(a[href="/admin"]) {
     grid-column: 1 / span 2;
     background: transparent;
     border-top: 1px solid var(--co-1);
