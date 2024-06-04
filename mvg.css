@@ -1116,7 +1116,6 @@ background: var(--contrastLight);
 	grid-row: 1 / span 4;
 	grid-column: 1;
 	margin: -20px 0 -20px -20px;
-	border-radius: var(--radius) 0 0 var(--radius);
 	overflow: hidden;
 }
 
