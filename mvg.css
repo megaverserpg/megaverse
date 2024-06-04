@@ -314,6 +314,7 @@ ul#fa_menulist, ul#notif_list {
     border: var(--border);
     background: var(--neutral);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     outline-offset: 3px;
     outline: 1px solid var(--neutralDark);
     border-radius: 5px;
@@ -1574,7 +1575,8 @@ overflow: hidden;
 }
 
 .forum:not(#c1 .forum:first-of-type, #c3 .forum, #c6 .forum, .forum.int_forum) {
-backdrop-filter: blur(10px);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
 }
 
 .int_forum .cate_title span:not(:nth-child(2)) {
@@ -3467,7 +3469,8 @@ duo.ok {
             z-index: 101;
             box-sizing: border-box;
             background: var(--neutralDark);
-            backdrop-filter: blur(35px);
+            backdrop-filter: blur(20px);
+	    -webkit-backdrop-filter: blur(20px);
 	    line-height: 17px;
             transform: translateX(-400px);
             transition: all .2s ease-out
@@ -3599,6 +3602,7 @@ div#quickreply_content .h3 + br {
 	min-height: 250px !important;
 	background-color: var(--neutralDark) !important;
         backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
 	width: 100% !important;
 	margin: 0 !important;
 	padding: 5px !important;
