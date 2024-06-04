@@ -173,7 +173,8 @@ a:hover {
             z-index: 101;
             box-sizing: border-box;
             background: var(--neutralDark);
-            backdrop-filter: blur(35px);
+            backdrop-filter: blur(20px);
+	    -webkit-backdrop-filter: blur(20px);
 	    line-height: 17px;
             transform: translateX(-400px);
             transition: all .2s ease-out
