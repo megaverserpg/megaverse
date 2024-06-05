@@ -1977,7 +1977,7 @@ more, .more {
 	margin: -25px auto;
 	width: 50px;
 	height: 50px;
-	background: radial-gradient(var(--co-1), var(--co-2));
+	background: radial-gradient(var(--co-2), var(--co-1));
 	border-radius: 50%;
 	font-family: var(--font-2);
 	font-style: italic;
@@ -2057,7 +2057,7 @@ cwtw:hover::before {
 	font-size: var(--little-size);
 	font-family: var(--font-2);
 	border-radius: 50%;
-	background: radial-gradient(var(--co-1), var(--co-2));
+	background: radial-gradient(var(--co-2), var(--co-1));
 }
 .fiche3_av {
 	margin: -20px;
