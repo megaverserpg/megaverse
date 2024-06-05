@@ -4437,7 +4437,7 @@ button.more {
     letter-spacing: 1px;
     background: var(--white);
     padding: 5px;
-    border-radius: var(--xs-radius);
+    border-radius: var(--radius);
     text-align: center;
 }
   
