@@ -2810,6 +2810,108 @@ duo.ok {
   .sms .blog_comment img {
     max-width: 285px;
   }
+
+.ormstory {
+	position: relative;
+	display: grid;
+	grid-template: 455px / 260px;
+	width: 260px;
+	height: 455px;
+	margin: 0 auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.ormstory > * {
+	grid-row: 1;
+	grid-column: 1;
+	z-index: 2;
+}
+.ormvid {
+	width: 260px;
+	height: 455px;
+	object-fit: cover;
+	object-position: center;
+	z-index: 1;
+}
+.ormstory > .flex {
+	justify-content: space-between;
+	align-items: center;
+	height: 43px;
+	padding: 10px;
+}
+.ormstory a {
+	color: white !important;
+}
+.ormstory_live {
+	z-index: 2;
+	justify-self: end;
+	align-self: start;
+	display: block;
+	padding: 3px 14px;
+	border-radius: 5px;
+	background-image: linear-gradient(141deg, #bf0488, #da0338);
+	box-shadow: 0 0 5px #5c5c5c;
+	font-weight: 600;
+	font-size: 0.7rem;
+	letter-spacing: 1px;
+	color: white;
+}
+.ormstory_livecomm.desc {
+	align-self: flex-end;
+	height: 350px;
+	margin: 5px 0 50px;
+	box-sizing: border-box;
+	padding: 265px 30px 20px 15px;
+	text-align: left;
+	font-size: 11px;
+	text-shadow: 0 0 2px #111;
+	color: white;
+}
+.ormstory_type {
+	position: relative;
+	align-self: flex-end;
+	width: 80%;
+	border: 1px solid var(--gray);
+	border-radius: var(--radius);
+	color: var(--gray);
+	padding: 3px 20px;
+	margin: 0 0 10px 10px;
+}
+.ormstory_type::after {
+	content: '\eb03';
+	font-family: cappuccicons;
+	color: #ff0000;
+	position: absolute;
+	right: -32px;
+	bottom: -2px;
+	font-size: 21px;
+}
+.ormstory_flyingemoji {
+	display: block;
+	align-self: flex-end;
+	justify-self: flex-end;
+	width: 70px;
+}
+.ormstory_bg {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(transparent, rgb(12, 12, 12));
+	z-index: 1;
+}
+.ormstory .tabs-onglets {
+	display: flex;
+	gap: 10px;
+	margin: 10px;
+	position: absolute;
+	z-index: 1;
+	width: calc(100% - 20px);
+}
+.ormstory .tabs-onglets a {
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: white;
+}
   
   /**-----------------------------BLOG-------------------------------***/  
   .mim .start-watching::before,
