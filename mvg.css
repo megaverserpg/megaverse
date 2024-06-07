@@ -1071,8 +1071,8 @@ opacity: 1;
 #c2 .forum_stats span,
 #c7 .forum_stats span {
 	background: var(--neutralDark);
-	padding: 5px;
-	border-radius: var(--radius);
+	padding: 5px 10px;
+	border-radius: var(--xs-radius);
 	text-align: center;
 	color: var(--contrast);
 }
