@@ -1556,7 +1556,7 @@ backdrop-filter: blur(20px);
 
 .int_forum .forum_desc { 
 display: grid;
-grid-template-columns: 215px 1fr;
+grid-template-columns: 215px 1fr 230px;
 justify-content: space-between;
 align-items: center;
 grid-gap: 10px;
