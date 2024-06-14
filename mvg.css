@@ -4431,6 +4431,7 @@ transform: translateX(-20%);
 
   #userRelEvol,
   #userContent {
+    min-width: 285px;
     width: 100%;
     background: var(--white);
     border-radius: var(--radius);
