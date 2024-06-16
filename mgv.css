@@ -831,6 +831,7 @@ opacity: 1;
 }
 
 .tabs ul li {
+	position: relative;
 	height: 100%;
 }
 
