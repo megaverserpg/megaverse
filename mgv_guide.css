@@ -463,6 +463,9 @@ bu {
 	letter-spacing: -0.5px;
 	color: var(--contrast);
 }
+b, strong {
+color: var(--co-2);
+}
 b1,
 b2,
 b3,
