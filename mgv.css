@@ -2414,6 +2414,7 @@ ellipsis:nth-child(4) {
 .cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     gap: 10px;
     background-color: var(--neutralDark);
     padding: 5px;
