@@ -3581,11 +3581,12 @@ duo.ok {
 
         /* contenu */
         .nav_burger-grid {
-            transform: translateY(0px);
-            display: grid;
-            grid-template: repeat(4, auto) / 240px;
-            width: 980px;
-            margin: 0 auto
+    transform: translateY(0px);
+    display: grid;
+    gap: var(--spacing);
+    align-content: space-evenly;
+    margin: auto;
+    height: 100%;
         }
 
         .nav_burger-grid>div {
