@@ -3581,14 +3581,18 @@ duo.ok {
 
         /* contenu */
         .nav_burger-grid {
-    transform: translateY(0px);
-    display: grid;
-    gap: var(--spacing);
-    align-content: space-evenly;
-    margin: auto;
-    padding-right: 5px;
-    height: 100%;
+    	transform: translateY(0px);
+    	display: grid;
+    	gap: var(--spacing);
+    	align-content: space-evenly;
+    	margin: auto;
+    	padding-right: 5px;
+    	height: 100%;
         }
+
+        .nav_burger-grid .sub-2 {
+	    margin: 0;
+	}
 
         .nav_burger-grid>div {
             display: flex;
