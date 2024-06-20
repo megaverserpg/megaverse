@@ -3586,6 +3586,7 @@ duo.ok {
     gap: var(--spacing);
     align-content: space-evenly;
     margin: auto;
+    padding-right: 5px;
     height: 100%;
         }
 
