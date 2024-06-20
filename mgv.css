@@ -2215,6 +2215,10 @@ ellipsis:nth-child(4) {
 	padding: var(--spacing);
 }
 
+/* onglets dans les messages */
+.msg_ong_contenu > div.ongContent {display: block}
+.msg_ong_contenu > div:not(.ongContent) {display: none}
+
 .txt_mod1 .block { background: var(--neutralDark)}
 
 .deco_top {
