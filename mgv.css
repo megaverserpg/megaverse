@@ -2076,12 +2076,11 @@ cwtw:hover::before {
 .fiche3 > .block:last-of-type > .desc {
 	padding: 0 20px;
 }
-.fiche3 > .block:last-of-type > .desc > card {
+.fiche3 card {
 	position: relative;
-	cursor: pointer;
 	counter-increment: item;
 }
-.fiche3 > .block:last-of-type > .desc > card::before {
+.fiche3 card::before {
 	content: counter(item);
 	position: absolute;
 	top: -5px;
