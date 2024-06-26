@@ -3634,7 +3634,6 @@ duo.ok {
     	transform: translateY(0px);
     	display: grid;
     	gap: var(--spacing);
-    	align-content: space-evenly;
     	margin: auto;
     	padding-right: 5px;
     	height: 100%;
