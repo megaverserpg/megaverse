@@ -1364,6 +1364,11 @@ opacity: 1;
 	gap: 30px;
 }
 
+#c3 .forum_lastpost span.cp,
+#c6 .forum_lastpost span.cp {
+    color: white;
+}
+
 .fo_deco {
     display: grid;
 }
