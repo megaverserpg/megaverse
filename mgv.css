@@ -845,6 +845,7 @@ opacity: 1;
 	padding: 5px;
 	height: 100%;
 	background: var(--neutralDark);
+	border-radius: var(--radius);
 	border-bottom: 1px solid var(--white);
 	transition: 0.5s all;
 }
