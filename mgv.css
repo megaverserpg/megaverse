@@ -817,7 +817,23 @@ opacity: 1;
 	text-transform: uppercase;
 }
 
-.tabs ul li a:focus {
+/* onglet sélectionné */
+.showForum {
+    border-left: 5px solid var(--co-2);
+}
+
+.showForum::after {
+    content: "";
+    position: absolute;
+    right: -9px;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background: var(--neutralDark);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+
+.showForum:focus {
 	background: var(--neutralDarker);
 }
 
@@ -846,7 +862,7 @@ opacity: 1;
 	height: 100%;
 	background: var(--neutralDark);
 	border-radius: var(--radius);
-	border-bottom: 1px solid var(--white);
+	border-bottom: none !important;
 	transition: 0.5s all;
 }
 
