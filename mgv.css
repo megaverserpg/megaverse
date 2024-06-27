@@ -817,26 +817,6 @@ opacity: 1;
 	text-transform: uppercase;
 }
 
-/* onglet sélectionné */
-.showForum {
-    border-left: 5px solid var(--co-2);
-}
-
-.showForum::after {
-    content: "";
-    position: absolute;
-    right: -9px;
-    display: block;
-    width: 10px;
-    height: 20px;
-    background: var(--neutralDarker);
-    clip-path: polygon(0 0, 0% 100%, 100% 50%);
-}
-
-.showForum:focus {
-	background: var(--neutralDarker);
-}
-
 .tabs ul {
 	grid-row: 1;
 	list-style-type: none;
@@ -900,6 +880,23 @@ opacity: 1;
 
 .tab-content.active {
 	opacity: 1;
+}
+
+/* onglet sélectionné */
+.showForum {
+    background: var(--neutralDarker);
+    border-left: 5px solid var(--co-2);
+}
+
+.showForum::after {
+    content: "";
+    position: absolute;
+    right: -9px;
+    display: block;
+    width: 10px;
+    height: 20px;
+    background: var(--neutralDarker);
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
 }
 
 /* cate spéciales : index */
