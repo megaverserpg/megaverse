@@ -4866,7 +4866,6 @@ button.more {
   outline: 1px solid var(--co-1);
   text-align: center;
   line-height: 235%;
-  letter-spacing: 1px;
   font-size: var(--small-size);
   text-shadow: 0px 0px 5px var(--co-2);
   color: var(--contrast);
