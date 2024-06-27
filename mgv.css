@@ -841,6 +841,7 @@ opacity: 1;
 	padding: 5px;
 	height: 100%;
 	background: var(--neutral);
+	backdrop-filter: blur(20px);
 	border-left: 5px solid transparent;
 	border-radius: var(--radius);
 	border-bottom: none !important;
