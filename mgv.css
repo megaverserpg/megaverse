@@ -1364,8 +1364,8 @@ opacity: 1;
 	gap: 30px;
 }
 
-#c3 .forum_lastpost span.cp,
-#c6 .forum_lastpost span.cp {
+#c3 .forum_lastpost span.c1,
+#c6 .forum_lastpost span.c1 {
     color: white;
 }
 
