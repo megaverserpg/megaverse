@@ -885,8 +885,8 @@ opacity: 1;
 
 /* onglet sélectionné */
 .showForum {
-    background: var(--neutralDarker);
-    border-left: 5px solid var(--co-2);
+    background: var(--neutralDarker) !important;
+    border-left: 5px solid var(--co-2) !important;
 }
 
 .showForum::after {
