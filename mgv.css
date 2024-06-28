@@ -4829,16 +4829,16 @@ button.more {
 }
 
 /* séparateur signature */
-.signature_div {
+.sepa_sign {
   margin: 50px auto 0;
   width: 400px;
   position: relative;
 }
-.signature_div .mask {
+.sepa_sign .mask {
   overflow: hidden;
   height: 20px;
 }
-.signature_div .mask:after {
+.sepa_sign .mask:after {
   content: '';
   display: block;
   margin: -25px auto 0;
@@ -4847,7 +4847,7 @@ button.more {
   border-radius: 125px / 12px;
   box-shadow: 0 0 8px var(--white);
 }
-.signature_div span {
+.sepa_sign span {
   width: 35px;
   height: 35px;
   position: absolute;
@@ -4859,7 +4859,7 @@ button.more {
   box-shadow: 0 2px 4px var(--white);
   background: var(--co-gradient);
 }
-.signature_div span i {
+.sepa_sign span i {
   position: absolute;
   top: 4px;
   bottom: 4px;
