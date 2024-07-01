@@ -2198,10 +2198,10 @@ telepathy::after {margin-left: 10px}
 .empty-title a:nth-child(4):hover ~ .fill-text:before { --fill-from: circle(0% at 0% 50%); --fill-to: circle(150% at 0% 50%); -webkit-animation: fill-text 3s forwards; animation: fill-text 3s forwards; } 
 @-webkit-keyframes fill-text { 0% { -webkit-clip-path: var(--fill-from); clip-path: var(--fill-from); } 100% { -webkit-clip-path: var(--fill-to); clip-path: var(--fill-to); color: var(--contrast); } } 
 @keyframes fill-text { 0% { -webkit-clip-path: var(--fill-from); clip-path: var(--fill-from); } 100% { -webkit-clip-path: var(--fill-to); clip-path: var(--fill-to); color: var(--contrast); } }
-.fill-text { color: transparent; -webkit-text-stroke: .5px var(--contrast); text-stroke: .5px var(--contrast); font-size: var(--xl-size); font-family: var(--font-2) } 
-.fill-text:before { content: attr(data-text); position: absolute; }
+.fill-text {display: grid;color: transparent; -webkit-text-stroke: .5px var(--contrast); text-stroke: .5px var(--contrast); font-size: var(--xl-size); font-family: var(--font-2) } 
+.fill-text:before {content: attr(data-text); position: absolute; grid-row: 1; grid-column: 1}
 
-.sep-title {display: grid; grid-template: 1fr / 1fr; width: fit-content; margin: 0 auto; font-family: var(--special-font); font-size: var(--xxl-size); line-height: var(--xxl-size);}
+.sep-title {display: grid; grid-template: 1fr / 1fr; width: fit-content; white-space: nowrap; margin: 0 auto; font-family: var(--special-font); font-size: var(--xxl-size); line-height: var(--xxl-size);}
 .sep-title > * {grid-row: 1; grid-column: 1; display: block; transition: all .5s; transition-delay: .5s}
 .sep-title > span:first-child {margin: -2px 0 0 -2px; color: transparent; -webkit-text-stroke: 1px var(--co-1); text-stroke: 1px var(--co-1); -webkit-mask: linear-gradient(to bottom, var(--co-1) 48%, transparent 0)}
 .sep-title > span:nth-child(2) {margin: 2px -5px 0 5px; color: transparent; -webkit-text-stroke: 1px var(--co-2); text-stroke: 1px var(--co-2); -webkit-mask: linear-gradient(to bottom, transparent 52%, var(--co-2) 0)}
