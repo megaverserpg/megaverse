@@ -4460,6 +4460,7 @@ transform: translateX(-20%);
     left: 0;
     right: 0;
     z-index: 1;
+    margin-left: auto;
     display: block;
     padding: 5px;
     background: var(--neutralDarker);
@@ -4475,7 +4476,7 @@ transform: translateX(-20%);
 
 #field_id10 textarea {
     width: 100%;
-    height: 55px;
+    height: 46px;
 }
 
 #field_id3, #field_id4, #field_id36, #field_id37, #field_id5, #field_id2 {
