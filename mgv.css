@@ -4464,12 +4464,19 @@ transform: translateX(-20%);
     padding: 5px;
     background: var(--neutralDarker);
     border-radius: var(--radius);
-    height: 67px;
+    width: 230px;
+    height: 86px;
     overflow: auto;
     opacity: 0;
     visibility: hidden;
     transition: .3s all;
   }
+
+
+#field_id10 textarea {
+    width: 100%;
+    height: 55px;
+}
 
 #field_id3, #field_id4, #field_id36, #field_id37, #field_id5, #field_id2 {
     display: flex;
