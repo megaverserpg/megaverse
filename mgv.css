@@ -1733,7 +1733,7 @@ background-color: var(--neutralDark);
 #newsareal1 .topicslist_infos {
     min-height: 0;
     border-radius: var(--radius);
-    background: var(--neutral);
+    background: var(--neutral) !important;
     margin-bottom: 6px;
     padding: 0;
 }
@@ -1759,7 +1759,7 @@ newsareal1 .topicslist_infos {
 
 #newsareal1 .topicslist_infos:hover {
     width: 100%;
-    background: var(--co-gradient);
+    background: var(--co-gradient) !important;
     border-radius: var(--radius);
     color: white;
 }
