@@ -3180,7 +3180,7 @@ duo.ok {
 }
 .mim_grid {
 	display: grid;
-	grid-template-columns: repeat(4, 104px);
+	grid-template: repeat(4, 104px) / repeat(4, 104px);
 	gap: var(--spacing);
 	padding: var(--spacing);
 	border: 1px solid var(--neutralDark);
