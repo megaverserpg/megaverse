@@ -4237,7 +4237,7 @@ transition: 0.2s all ease;
 visibility: hidden;
 opacity: 0;
 width: fit-content;
-max-width: 900px;
+max-width: 950px;
 height: 100vh;
 box-shadow: var(--shadowBox);
 border-radius: 10px;
