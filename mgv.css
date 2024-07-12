@@ -4513,14 +4513,16 @@ transform: translateX(-20%);
 }
   
   #user_avatar {
+    width: 225px;
     height: 360px;
     border: 4px solid var(--white);
     border-radius: var(--radius);
   }
 
 #user_avatar img {
+    width: 220px;
+    height: 352px;
     border-radius: var(--radius);
-    max-width: 220px !important;
 }
   
   .user_contacts {
