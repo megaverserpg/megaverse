@@ -3226,6 +3226,15 @@ duo.ok {
 	left: 89px;
 	font-size: var(--small-size);
 }
+.verified::after {
+    content: "";
+    display: inline-block;
+    margin: 0 0 -3px 5px;
+    width: 20px;
+    height: 20px;
+    background: url(https://www.aht.li/3861205/verif.png);
+    background-size: cover;
+}
 .mim_post {
 	position: relative;
 	background: var(--neutralDarker);
