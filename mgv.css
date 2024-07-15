@@ -3168,7 +3168,7 @@ duo.ok {
 	mask-composite: exclude;
 	animation: rotate 5s 1s linear infinite;
 }
-.mim_pr img {
+.mim_pr > img {
 	margin: 7px;
 	width: 46px;
 	height: 46px;
