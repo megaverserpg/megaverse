@@ -2093,7 +2093,7 @@ cwtw:hover::before {
 	background: var(--neutralDark);
 }
 .fiche3 > .block:last-of-type > .desc {
-	padding: 0 20px;
+	padding: 0 5px 20px 0;
 }
 .fiche3 card {
 	position: relative;
