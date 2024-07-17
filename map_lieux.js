@@ -359,7 +359,6 @@ var markersData = [
             },
         ];
       
-      
 var alternateMarkersData = [
             {
                 "title": "Nebula Veil",
