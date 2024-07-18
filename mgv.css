@@ -96,12 +96,12 @@ margin-bottom: 20px;
 
 /* MENUS DEROULANTS --- */
 select {
-background: transparent;
-border: var(--border);
-border-radius: 5px;
-font-size: var(--normal-size);
-padding: 1px 4px;
-color: var(--textColor);
+    background: var(--neutral);
+    border: 1px solid var(--co-2);
+    border-radius: var(--radius);
+    font-size: var(--normal-size);
+    padding: 0 7px;
+    color: var(--textColor);
 }
 
 option {
