@@ -408,16 +408,7 @@ b3,
 i3,
 ba3,
 t5,
-t6 span span,
-.forumtitle:not(
-		.forumtitle:has(t6),
-		#c3 .forumtitle,
-		#c6 .forumtitle,
-		.forumtitle:has(span)
-	),
-.tabs ul li a span:nth-child(2),
-h1,
-.panel:has(.fld_connexion) .h3::after {
+t6 span span {
 	background: var(--co-gradient);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
