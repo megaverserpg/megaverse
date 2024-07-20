@@ -374,7 +374,7 @@ b1::after,
 b2::after,
 b3::after,
 b4::after {
-	content: 'Â :';
+	content: ' :';
 }
 
 b5 > span,
