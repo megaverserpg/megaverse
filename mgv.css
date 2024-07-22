@@ -3231,6 +3231,19 @@ duo.ok {
 	width: 440px;
 	margin: 0 auto;
 }
+
+.mim_post-ctnt .tabs-onglets a {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: var(--co-2);
+	border-radius: 50%;
+	margin: auto 5px;
+}
+.mim_post-ctnt .tabs-onglets a.ongSelected {
+	background: var(--co-gradient);
+}
+
 .mim .mim_acc-ps {
 	position: absolute;
 	top: 33px;
