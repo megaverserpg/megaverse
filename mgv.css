@@ -3259,7 +3259,7 @@ duo.ok {
 	border-radius: 0 0 0 var(--radius);
 	font-size: var(--little-size);
 }
-.mim_post img {
+.mim_post .pic {
 	width: 100%;
 	border-radius: 13px;
 }
