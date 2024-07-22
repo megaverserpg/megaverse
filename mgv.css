@@ -2663,6 +2663,15 @@ duo.ok {
     padding: 40px 12px 12px;
     box-shadow: 0 0 4px rgba(255,255,255,.04), inset 0 0 10px var(--neutral);
   }
+
+.sms .like_button {
+    opacity: 0;
+    transition: .5s all;
+}
+
+.sms .flex:hover .like_button {
+    opacity: 1;
+}
   
   #blog .like_button {
     position: static;
