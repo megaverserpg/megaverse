@@ -3005,7 +3005,7 @@ duo.ok {
 	gap: 10px;
 	margin: 10px;
 	position: absolute;
-	z-index: 1;
+	z-index: 3;
 	width: calc(100% - 20px);
 }
 .ormstory .tabs-onglets a {
