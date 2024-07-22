@@ -3300,6 +3300,7 @@ duo.ok {
 	opacity: 0;
 	transition: opacity 0.6s;
 }
+.tags .toolcnt { margin: 0; }
 .tags:hover .toolcnt::after {
 	visibility: visible;
 	opacity: 1;
