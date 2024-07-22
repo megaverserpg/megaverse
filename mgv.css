@@ -3265,14 +3265,14 @@ duo.ok {
 	border-radius: 13px;
 }
 
-.mim .tags {
+.tags {
 	position: relative;
 	height: fit-content;
 }
-.mim .tags::after {
+.tags::after {
 	content: 'none';
 }
-.mim .tags .toolcnt::after {
+.tags .toolcnt::after {
 	content: '';
 	visibility: hidden;
 	position: absolute;
@@ -3287,11 +3287,11 @@ duo.ok {
 	opacity: 0;
 	transition: opacity 0.6s;
 }
-.mim .tags:hover .toolcnt::after {
+.tags:hover .toolcnt::after {
 	visibility: visible;
 	opacity: 1;
 }
-.mim .tags::after {
+.tags::after {
 	content: none;
 }
 
