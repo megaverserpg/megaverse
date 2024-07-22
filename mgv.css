@@ -3265,14 +3265,14 @@ duo.ok {
 	border-radius: 13px;
 }
 
-.mim_post .tags {
+.mim .tags {
 	position: relative;
 	height: fit-content;
 }
-.mim_post .tags::after {
+.mim .tags::after {
 	content: 'none';
 }
-.mim_post .tags .toolcnt::after {
+.mim .tags .toolcnt::after {
 	content: '';
 	visibility: hidden;
 	position: absolute;
@@ -3287,11 +3287,11 @@ duo.ok {
 	opacity: 0;
 	transition: opacity 0.6s;
 }
-.mim_post .tags:hover .toolcnt::after {
+.mim .tags:hover .toolcnt::after {
 	visibility: visible;
 	opacity: 1;
 }
-.mim_post .tags::after {
+.mim .tags::after {
 	content: none;
 }
 
