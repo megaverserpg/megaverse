@@ -3254,8 +3254,8 @@ duo.ok {
     content: "";
     display: inline-block;
     margin: 0 0 -3px 5px;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background: url(https://www.aht.li/3861205/verif.png);
     background-size: cover;
 }
