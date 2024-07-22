@@ -2710,7 +2710,6 @@ duo.ok {
   
   .sms .blog_comment .profile-icons {
     flex-wrap: wrap;
-    max-width: 75px;
     justify-content: end;
   }
   
@@ -2818,7 +2817,9 @@ duo.ok {
   
   .sms .blog_comment .fa_like_list:not(:empty) { font-size: 0 !important; padding: 2px 4px; margin: 10px -10px -10px; border-radius: 0 0 10px 10px; }
   .sms .blog_comment a {
+    display: block;
     margin-left: 5px;
+    height: fit-content;
     font-size: var(--small-size);
   }
 
