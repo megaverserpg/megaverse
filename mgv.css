@@ -929,6 +929,10 @@ opacity: 1;
 	height: 100%;
 }
 
+.forum-img {
+    font-size: var(--large-size);
+}
+
 #c1 .forum:first-of-type .forum_avatar.lastpostavatar,
 #c1 .forum:first-of-type .lastpost,
 #c1 .forum:first-of-type .forum_details,
