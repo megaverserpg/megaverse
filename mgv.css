@@ -1731,7 +1731,8 @@ background-color: var(--neutralDark);
 }
 
 #newsareal1 .topicslist_infos:first-child,
-#newsareal1 .topicslist_infos:nth-child(2) {
+#newsareal1 .topicslist_infos:nth-child(2),
+#newsareal1 .topicslist_infos:nth-child(3) {
     display: none;
 }
 
