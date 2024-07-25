@@ -617,7 +617,8 @@ position: relative;
 
 /* AJOUTER UN COMPTE ---*/
 /* button : ajouter un compte */
-.switcheroo__squircle--button {display: flex;flex-direction: column;width: 100%;border-radius: 0 !important;background: transparent;text-transform: uppercase;font-size: var(--small-size);letter-spacing: 3px;color: var(--contrast);transition: .3s all;}
+.switcheroo__squircle--button {display: flex;flex-direction: column;width: 100%;border-radius: 0 !important;background: transparent;text-transform: uppercase;font-size: var(--small-size);letter-spacing: 3px;color: var(--contrast);transition: .3s all;
+order: -1; }
 
 
 /* icon plus */
