@@ -590,7 +590,7 @@ clip-path: polygon(
 /* AFFICHAGE DES COMPTES ---*/
 
 /* Rond */
-.switcheroo__squircle {position: relative;flex-shrink: 0;min-width: 200px;display: grid;grid-template-columns: auto 1fr;align-items: center;padding: 5px;background: var(--white);border-radius: 50px;width: auto;outline: 1px solid transparent;cursor: pointer;transition: border-radius 128ms var(--ease);}
+.switcheroo__squircle {position: relative;flex-shrink: 0;width: 175px;display: grid;grid-template-columns: auto 1fr;align-items: center;padding: 5px;background: var(--white);border-radius: 50px;width: auto;outline: 1px solid transparent;cursor: pointer;transition: border-radius 128ms var(--ease);}
 
 /* Rond au survol */
 .switcheroo__squircle:hover {outline-color: var(--neutralDarker);color: var(--co-1);background: var(--co-gradient);}
@@ -671,6 +671,8 @@ top: 50%;
 transform: translateY(-50%) rotate(-45deg);
 border-radius: 2px;
 }
+
+.switcheroo__popper-text { width: 125px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 0 auto; }
 
 .switcheroo__squircle:hover .switcheroo__popper {/* opacity: 1; *//* transform: translateY(-50%) scale(1); *//* z-index: 1; *//* color: var(--co-1); *//* border-bottom: 1px solid var(--co-2); */}
 
