@@ -582,31 +582,23 @@ clip-path: polygon(
 
 /* BARRE SWITCHEROO --- */
 /* BARRE --- */
-.switcheroo {color: var(--textColor);margin: auto;}
+.switcheroo {width: 100%;color: var(--textColor);margin: auto;max-height: 135px;padding: 0 5px 5px 5px;overflow: auto;}
 
 /* Positionnement des ronds */
-.switcheroo__squircles {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;margin: 0 20px;padding: 0;list-style: none;gap: 15px;}
+.switcheroo__squircles {display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: fit-content;margin: 0 auto;padding: 0;list-style: none;gap: 7px;}
 
 /* AFFICHAGE DES COMPTES ---*/
 
 /* Rond */
-.switcheroo__squircle {position: relative;display: grid;place-items: center;background-color: var(--neutralDark);width: 35px;height: 35px;border-radius: 50%;cursor: pointer;outline: 5px solid transparent;transition: border-radius 128ms var(--ease);}
+.switcheroo__squircle {position: relative;flex-shrink: 0;min-width: 200px;display: grid;grid-template-columns: auto 1fr;align-items: center;padding: 5px;background: var(--white);border-radius: 50px;width: auto;outline: 1px solid transparent;cursor: pointer;transition: border-radius 128ms var(--ease);}
 
 /* Rond au survol */
-.switcheroo__squircle:hover {
-outline-color: var(--neutralDarker);
-border-radius: 8px;
-}
+.switcheroo__squircle:hover {outline-color: var(--neutralDarker);color: var(--co-1);background: var(--co-gradient);}
 
-.switcheroo__squircle:hover img {
-border-radius: 8px;
-}
+.switcheroo__squircle:hover img {/* border-radius: 8px; */}
 
 /* Conteneur de l'avatar */
-.switcheroo__avatar {
-width: 100%;
-aspect-ratio: 1/1;
-}
+.switcheroo__avatar {width: 30px;height: 30px;}
 
 /* Image de l'avatar */
 .switcheroo__avatar img {
@@ -621,14 +613,11 @@ position: relative;
 
 /* Avatar du compte connecté */
 .switcheroo__squircle.active,
-.switcheroo__squircle.active img {
-outline-color: var(--neutralDark);
-cursor: default;
-}
+.switcheroo__squircle.active img {outline-color: var(--co-2);cursor: default;}
 
 /* AJOUTER UN COMPTE ---*/
 /* button : ajouter un compte */
-.switcheroo__squircle--button {transition: border-radius 128ms var(--ease);width: 100%;border-radius: 0 !important;background: transparent;text-transform: uppercase;font-size: var(--small-size);letter-spacing: 3px;color: var(--contrast);transition: .3s all;}
+.switcheroo__squircle--button {display: flex;flex-direction: column;width: 100%;border-radius: 0 !important;background: transparent;text-transform: uppercase;font-size: var(--small-size);letter-spacing: 3px;color: var(--contrast);transition: .3s all;}
 
 
 /* icon plus */
@@ -638,12 +627,14 @@ font-size: 19px;
 
 .switcheroo__squircle--button:hover {
 	color: var(--co-1);
-    opacity: 1;
+	opacity: 1;
+	background: var(--neutralDarker);
 }
 
-li.switcheroo__squircle.switcheroo__squircle--button::before {
+.switcheroo__squircle--button::before {
     content: "";
     display: block;
+    margin-bottom: 10px;
     width: 100%;
     height: 1px;
     background: var(--co-gradient);
@@ -654,23 +645,7 @@ li.switcheroo__squircle.switcheroo__squircle--button::before {
 }
 
 /* Bouton de suppression */
-.switcheroo__delete {
-display: grid;
-place-items: center;
-position: absolute;
-width: 16px;
-height: 16px;
-top: -7px;
-right: -7px;
-border-radius: 50%;
-background-color: var(--co-1);
-transform: scale(0);
-opacity: 1;
-transition: transform 128ms var(--ease), opacity 64ms var(--ease);
-cursor: pointer;
-color: var(--neutral);
-line-height: 0;
-}
+.switcheroo__delete {display: grid;place-items: center;position: absolute;width: 16px;height: 16px;top: -7px;right: 14px;border-radius: 50%;background-color: var(--co-2);transform: scale(0);opacity: 1;transition: transform 128ms var(--ease), opacity 64ms var(--ease);cursor: pointer;color: white;line-height: 0;}
 
 .switcheroo__squircle:hover .switcheroo__delete {
 opacity: 1;
@@ -680,23 +655,7 @@ transform: scale(1);
 /* TOOLTIP - INFOBULLE DU PSEUDO ---*/
 
 /* Conteneur du pseudo */
-.switcheroo__popper {
-background-color: var(--neutralDarker);
-padding: 0.3rem 1rem;
-position: absolute;
-width: -webkit-max-content;
-width: max-content;
-border-radius: 5px;
-z-index: 0;
-opacity: 0;
-transition: opacity 64ms var(--ease), transform 128ms var(--ease-bounce);
-pointer-events: none;
-color: var(--textColor);
-left: 155%;
-top: 50%;
-transform-origin: left;
-transform: translateY(-50%) scale(0.98);
-}
+.switcheroo__popper {text-align: center;pointer-events: none;color: var(--contrast);font-size: var(--little-size);}
 
 /* Flèche tooltip */
 .switcheroo__popper:before {
@@ -712,17 +671,11 @@ transform: translateY(-50%) rotate(-45deg);
 border-radius: 2px;
 }
 
-.switcheroo__squircle:hover .switcheroo__popper {
-opacity: 1;
-transform: translateY(-50%) scale(1);
-z-index: 1
-}
+.switcheroo__squircle:hover .switcheroo__popper {/* opacity: 1; *//* transform: translateY(-50%) scale(1); *//* z-index: 1; *//* color: var(--co-1); *//* border-bottom: 1px solid var(--co-2); */}
 
 /* LOGO --- retirez display:none pour retrouver le logo */
 .switcheroo__logo,
-.switcheroo__divider {
-display: none;
-}
+.switcheroo__divider {display: none;}
 
 /* MODAL : FENETRE DE CONNEXION --- */
 
