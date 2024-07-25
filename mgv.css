@@ -756,8 +756,8 @@ opacity: 1;
 .tab-content {
 	display: none;
 }
-.active {
-	display: block;
+.tab-content .active {
+	display: grid;
 }
 
 .tabs ul li a span:nth-child(2) {
