@@ -4138,10 +4138,9 @@ div.sceditor-dropdown .button:hover {
 }
 
 /* emoticon */
-.sceditor-button-twemojifa {
-    display: none;
+a.sceditor-button.sceditor-button-twemojifa {
+    display: none !important;
 }
-
 .sceditor-button-twemoji div:before {
 	content: '\f584';
 }
