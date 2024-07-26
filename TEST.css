@@ -4138,7 +4138,9 @@ div.sceditor-dropdown .button:hover {
 }
 
 /* emoticon */
-.sceditor-button-twemojifa {display: none}
+.sceditor-button-twemojifa {
+    display: none;
+}
 
 .sceditor-button-twemoji div:before {
 	content: '\f584';
