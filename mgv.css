@@ -3809,6 +3809,8 @@ body#sce_smilies_body {
 	background: transparent !important;
 }
 
+#smilies_categ select { margin-right: 5%; border: none; background: var(--co-gradient); color: white; text-transform: lowercase; width: 95%; text-align: center; border-radius: var(--radius); }
+
 div.sceditor-container,
 body div.sceditor-group,
 a.sceditor-button:hover,
@@ -3821,11 +3823,28 @@ a.sceditor-button.hover {
 	border-radius: var(--radius) !important;
 }
 
+#quickEmojInternal {
+    width: 240px !important;
+    height: 250px !important;
+    min-height: auto !important;
+    border-radius: var(--xs-radius);
+    background: var(--neutralDarker);
+}
+
+#smileyContainer iframe {
+    height: 581px;
+    background: var(--neutralDarker);
+    padding: var(--spacing);
+    border-radius: var(--radius);
+}
+
 /* dropdown */
 div.sceditor-dropdown {
-	background: var(--neutralDark) !important;
 	border: none !important;
 	margin-top: 45px !important;
+	background: transparent !important;
+	box-shadow: none !important;
+	padding: 0 !important;
 }
 
 .editeur .h3 {
@@ -4138,7 +4157,10 @@ div.sceditor-dropdown .button:hover {
 }
 
 /* emoticon */
-.sceditor-button-twemojifa div:before {
+a.sceditor-button.sceditor-button-twemojifa {
+    display: none !important;
+}
+.sceditor-button-twemoji div:before {
 	content: '\f584';
 }
 
