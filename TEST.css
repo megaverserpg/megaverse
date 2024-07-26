@@ -3821,11 +3821,29 @@ a.sceditor-button.hover {
 	border-radius: var(--radius) !important;
 }
 
+#quickEmojInternal {
+    border-radius: var(--xs-radius);
+    background: var(--neutralDarker);
+    padding: 10px;
+}
+
+#smileyContainer iframe {
+    height: 581px;
+    background: var(--neutralDarker);
+    padding: var(--spacing);
+    border-radius: var(--radius);
+}
+
 /* dropdown */
 div.sceditor-dropdown {
 	background: var(--neutralDark) !important;
 	border: none !important;
 	margin-top: 45px !important;
+}
+
+div.sceditor-dropdown {
+    background: transparent !important;
+    box-shadow: none;
 }
 
 .editeur .h3 {
