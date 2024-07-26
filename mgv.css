@@ -3808,7 +3808,6 @@ div#quickreply_content .h3 + br {
 body#sce_smilies_body {
 	background: transparent !important;
 }
-#smilies_categ select { margin-right: 5%; border: none; background: var(--co-gradient); color: white; text-transform: lowercase; width: 95%; text-align: center; border-radius: var(--radius); }
 
 div.sceditor-container,
 body div.sceditor-group,
