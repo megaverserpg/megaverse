@@ -1352,7 +1352,7 @@ opacity: 1;
 	grid-row: 1;
 	grid-column: 1;
 	width: calc(100% + 20px);
-	height: 350px;
+	height: calc(100% + 20px);
 	margin: -20px 0 0 -20px
 }
 
