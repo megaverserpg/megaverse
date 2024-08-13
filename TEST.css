@@ -944,6 +944,7 @@ opacity: 1;
 	border-radius: var(--radius);
 	font-size: var(--little-size);
 	text-align: center;
+	color: white;
 }
 
 .c1_links a.odd {background: var(--co-1grad)}
