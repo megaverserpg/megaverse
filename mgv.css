@@ -946,6 +946,8 @@ opacity: 1;
 	text-align: center;
 }
 
+.c1_links a.odd {background: var(--co-1)}
+
 #c1 .desc,
 #c2 .desc,
 #c7 .desc {
