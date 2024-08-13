@@ -939,12 +939,14 @@ opacity: 1;
 }
 
 .c1_links a {
-	background-color: var(--co-2);
+	background-color: var(--co-2grad);
 	padding: 5px;
 	border-radius: var(--radius);
 	font-size: var(--little-size);
 	text-align: center;
 }
+
+.c1_links a.odd {background: var(--co-1grad)}
 
 #c1 .desc,
 #c2 .desc,
