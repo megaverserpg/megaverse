@@ -2773,7 +2773,7 @@ duo.ok {
   }
   
   .sms .fa_like_div img {
-    width: 15px;
+    width: auto;
     height: 14px;
   }
   
