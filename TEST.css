@@ -1299,7 +1299,7 @@ opacity: 1;
 #c3 .forumtitle span:last-child, #c6 .forumtitle span:last-child {
     display: block;
     margin-bottom: 5px !important;
-    color: white;
+    color: var(--contrast);
     text-align: center;
     font-family: var(--font);
     font-size: var(--small-size);
@@ -1314,7 +1314,7 @@ opacity: 1;
     text-transform: uppercase;
     font-weight: 400;
     margin: 0 auto -5px;
-    color: white;
+    color: var(--contrast);
     text-align: center;
 }
 
