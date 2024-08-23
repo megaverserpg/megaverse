@@ -2422,6 +2422,7 @@ ellipsis:nth-child(4) {
     position: relative;
     border-radius: var(--radius);
     border-bottom: 1px solid var(--co-1);
+    line-height: 100%;
 }
 
 .wiz {
