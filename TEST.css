@@ -4608,6 +4608,10 @@ transform: translateX(-20%);
 #userRelEvol,
 #userContent {margin-top: var(--spacing);}
 
+.block:has(.userBujo) {background: transparent} 
+.userBujo label {display: none} 
+.userBujo textarea {width: 100%}
+
 button.more {
     position: absolute;
     right: -25px;
