@@ -1661,7 +1661,7 @@ background-color: var(--neutralDark);
     background: var(--neutral);
     padding: 0 10px;
     display: flex;
-    justify-content: space-between;
+    gap: var(--spacing);
     align-items: center;
     min-height: 35px;
     border-radius: var(--radius);
