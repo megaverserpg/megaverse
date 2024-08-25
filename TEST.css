@@ -5060,7 +5060,7 @@ button.more {
   .mini_sounds i { display: block; width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
   .mini_sounds br {display: none} .mini_sounds strong {color: white !important; font-weight: 400 !important}
   .mini_buttons {display: flex; justify-content: space-between; align-items: center; }
-  .mini_buttons h3 { display: block; width: fit-content; }
+  .mini_buttons h3 { display: block !important; width: fit-content; }
   .mini_button {display: flex !important; justify-content: center; align-items: center; padding: 1px 0 0 5px; width: 35px; height: 35px; background: white; color: var(--co-2); border-radius: 50%; outline-offset: 3px; outline: 1px solid transparent; transition: all .3s}
   .mini_button:hover {outline-color: white}
   .mini_button a { font-size: var(--large-size) !important; color: var(--co-2) !important; border: none !important}
