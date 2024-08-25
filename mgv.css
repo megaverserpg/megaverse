@@ -4948,6 +4948,11 @@ button.more {
 }
 
 /* AESTHETICS PROFILS */
+.pr_ctnr {
+	font-size: var(--inter-size);
+	line-height: 140%;
+}
+
 /*timeline*/
 .pp_timeline {position:relative;display:grid;grid-template-columns:1fr;justify-items:center;align-items:center;margin:0 auto}
 .pp_timeline::before { content: ''; display: block; grid-column: 1; grid-row: 1; width: 1px; height: 100%; background: var(--co-gradient); }
