@@ -4953,6 +4953,10 @@ button.more {
     line-height: 130%;
 }
 
+.pr_ctnr .cp { 
+    display: inline; width: auto !important; font-family: 'cappuccicons' !important; speak: never; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
 /*timeline*/
 .pp_timeline {position:relative;display:grid;grid-template-columns:1fr;justify-items:center;align-items:center;margin:0 auto}
 .pp_timeline::before { content: ''; display: block; grid-column: 1; grid-row: 1; width: 1px; height: 100%; background: var(--co-gradient); }
