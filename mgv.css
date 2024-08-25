@@ -4949,8 +4949,8 @@ button.more {
 
 /* AESTHETICS PROFILS */
 .pr_ctnr {
-	font-size: var(--inter-size);
-	line-height: 140%;
+	font-size: 14px;
+	line-height: 120%;
 }
 
 /*timeline*/
