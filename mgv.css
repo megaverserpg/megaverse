@@ -4974,6 +4974,18 @@ button.more {
 
 /**timeline2**/
 .pp_scroll tr { display: grid; grid-template-columns: 65px 1fr; gap: 10px}
-.pp_scroll td:first-child {border-right: 1px solid var(--co-2) !important; justify-self: flex-end;display: flex;gap: 10px;}
-.pp_scroll td:first-child::after { content: ""; display: block; width: 9px; height: 9px; background: var(--co-1); border-radius: 50%; margin-right: -6px; margin-top: 9px; }
+.pp_scroll td:first-child {position: relative; border-right: 1px solid var(--co-2) !important;}
+.pp_scroll td:first-child::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: -4px;
+    width: 7px;
+    height: 7px;
+    background: var(--co-1);
+    border-radius: 50%;
+    margin-top: 9px;
+    flex-shrink: 0;
+}
 .pp_scroll tbody td:last-child {margin-bottom: 20px;display: block;padding-right: 3px;}
