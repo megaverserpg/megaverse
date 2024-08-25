@@ -4991,3 +4991,69 @@ button.more {
     flex-shrink: 0;
 }
 .pp_scroll tbody td:last-child {margin-bottom: 20px;display: block;padding-right: 3px;}
+
+/* BUJO */
+.userBujo {font-size: var(--inter-size)}
+  .bujo_grid1 {display: grid; grid-template: repeat(2, auto) / 60% calc(40% - var(--spacing)); gap: var(--spacing)} 
+  .bujo_grid1>td:first-child {grid-row: 1; grid-column: 1}
+  .bujo_grid1>td:nth-child(2) {grid-row: 2; grid-column: 1} 
+  .bujo_grid1>td:nth-child(3) {grid-row: 1 / -1; grid-column: 2}
+  .bujoCntnr {position: relative}
+  .bujoDesc {display: block; background: var(--white); border: var(--spacing) solid var(--white); border-radius: var(--xs-radius)}
+  .bujo {background: var(--white); border: var(--spacing) solid var(--white); border-radius: var(--xs-radius)}
+  .bujo2 {display: grid; gap: var(--spacing);  grid-template-columns: repeat(2, 1fr)}
+  .bujo3 {display: grid; gap: var(--spacing); grid-template-columns: repeat(3, 1fr); text-align: center}
+  .bujo4 {display: grid; gap: var(--spacing); grid-template-columns: repeat(4, 1fr)}
+  .bujo5 {display: grid; gap: var(--spacing); grid-template-columns: repeat(5, 1fr)}
+  .bujo5 .bujoInv {height: 180px;}
+  .bujoMax { display: grid; gap: var(--spacing); grid-template-columns: repeat(auto-fit, minmax(175px, 1fr)); }
+  .habits {align-items: end;}
+  .h5 {position: absolute; top: -8px; left: 15px; z-index: 1; padding: 0 10px; color: white; font-family: var(--font-2); background: var(--co-1); border-radius: var(--xs-radius)}
+  .habitudes > td {background: var(--white); border-radius: var(--xs-radius)}
+  .bujoInv {position: relative; height: 100%; background: var(--white); background-size: cover; background-position: center; padding: 0; border-radius: var(--xs-radius);}
+  .bujoInv h3 { position: absolute; left: 5px; bottom: 5px; padding: 5px 10px !important; }
+  .bujoInv:hover .bujoCard { opacity: 1; }
+  .bujoInv .bujoCard { height: 100%; opacity: 0; transition: opacity .5s; }
+  .bujoCard {position: relative; z-index: 1}
+  .bujoCard .desc {display: block; z-index: 1; padding: 8px; height: 100%; background: var(--neutralDarker); border-radius: 5px; text-align: justify; font-size: var(--inter-size); line-height: 150%;}
+  .playlist_ic img { width: 190px; height: 130px; border-radius: var(--xs-radius); object-fit: cover;}
+  .plCntnr {border-radius: var(--radius); overflow: hidden; border-spacing: 0; color: white}
+  .pl_entete {display: block; background: var(--co-gradient); padding: var(--spacing); opacity: 0.8; border-bottom: 2px solid white;}
+  .pl_entete td {display: block}
+  .pl_aes {display: grid; grid-template: repeat(2, auto) / 130px 1fr; gap: 0 var(--spacing)}
+  .playlist_ic {grid-column: 1; grid-row: 1 / -1;}
+  .playlist_title {grid-row: 1; grid-column: 2; align-self: end; font-family: var(--special-font); text-transform: uppercase; color: white; font-size: var(--xl-size); line-height: 100%; border-bottom: 1px solid var(--co-1);}
+  .playlist_sstitre {grid-row: 2; grid-column: 2;}
+  .pl_playlist {display: block; background: linear-gradient(45deg, var(--co-1), var(--co-2), var(--co-1)) !important; padding: var(--spacing);}
+  .pl_grid {display: grid; grid-template-columns: 25px 1fr 50px; gap: 0 var(--spacing); padding: 5px; transition: all 0.3s;}
+  .pl_grid td { display: flex; flex-direction: column; line-height: 160%; justify-content: center; }
+  .pl_grid a { border: none !important; }
+  .pl_grid:hover { filter: brightness(0.8); background: var(--co-2); border-radius: var(--xs-radius); }
+  .pr_comment {width: 80% !important; margin: 0 auto;}
+  .relations { padding: 0 20px; }
+  .liens .bujoInv {display: grid; height: 120px; background-image: url(https://tinyurl.com/5n7u5zkf); transition: .3s all; }
+  .liens .bujoInv:hover { transform: scale(1.12); }
+  .liens .bujoInv h2::before { content: none }
+  .liens .bujoInv h2 { background: var(--co-2); color: white; -webkit-text-fill-color: inherit; position: absolute; top: 0; right: 0; border-radius: 0 var(--xs-radius); padding: 1px 5px; }
+  .liens .bujoInv h3 { left: 0; bottom: 0; border-radius: 0 var(--xs-radius); background: var(--co-1); padding: 1px 5px !important; }
+  .liens .bujoInv table { grid-row: 1; grid-column: 1; }
+  .lien_bg {height: 100%; border-radius: var(--xs-radius);}
+  .lien_bg img { display: block; margin: auto; width: 90px; height: 90px; object-fit: cover; border-radius: 50%; }
+  .bag .bujoInv { height: 120px; }
+  .fashion .bujoInv { height: 132px; }
+  .bujoboard .bujoInv { height: 130px; }
+  .bujoboard1 .bujoInv { height: 130px; }
+  .bujoboard2 .bujoInv { height: 132px; }
+  .bujoInv:has(.bujoCard)::before { content: "?"; position: absolute; top: 5px; left: 5px; display: flex; justify-content: center; align-items: center; width: 13px; height: 13px; background: var(--co-1); color: white; border-radius: 50%; font-size: var(--small-size); font-weight: 600; }
+  .mini_plays br {display: none}
+  .mini_play { display: block; background: var(--co-1); border-radius: var(--radius); padding: 10px; color: white; }
+  .mini_play td { display: block } .mini_playlist { display: grid; grid-template-columns: auto 1fr; gap: 10px; }
+  .mini_playlist img { width: 80px; height: 80px; border-radius: var(--xs-radius); }
+  .mini_sounds { display: grid !important; grid-template-columns: 10% calc(90% - 15px); gap: 10px; height: 80px; }
+  .mini_sounds i { display: block; width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+  .mini_sounds br {display: none} .mini_sounds strong {color: white !important; font-weight: 400 !important}
+  .mini_buttons {display: flex; justify-content: space-between; align-items: center; }
+  .mini_buttons h3 { display: block; width: fit-content; }
+  .mini_button {display: flex !important; justify-content: center; align-items: center; padding: 1px 0 0 5px; width: 35px; height: 35px; background: white; color: var(--co-2); border-radius: 50%; outline-offset: 3px; outline: 1px solid transparent; transition: all .3s}
+  .mini_button:hover {outline-color: white}
+  .mini_button a { font-size: var(--large-size) !important; color: var(--co-2) !important; border: none !important}
