@@ -4963,3 +4963,8 @@ button.more {
 .chr {margin: 0 auto; position: relative}
 .chr h2 {font-variant:small-caps;font-size:16px;font-family: var(--complementary-font); color: var(--blanc)}
 
+/**timeline2**/
+.pp_scroll tr { display: grid; grid-template-columns: 65px 1fr; gap: 10px}
+.pp_scroll td:first-child {border-right: 1px solid var(--co-2) !important; justify-self: flex-end;display: flex;gap: 10px;}
+.pp_scroll td:first-child::after { content: ""; display: block; width: 9px; height: 9px; background: var(--co-1); border-radius: 50%; margin-right: -6px; margin-top: 9px; }
+.pp_scroll tbody td:last-child {margin-bottom: 20px;display: block;padding-right: 3px;}
