@@ -4948,9 +4948,9 @@ button.more {
 }
 
 /* AESTHETICS PROFILS */
-.pr_ctnr {
-	font-size: 14px;
-	line-height: 120%;
+.profile_field:not(#field_id9) {
+    font-size: 14px;
+    line-height: 130%;
 }
 
 /*timeline*/
