@@ -172,10 +172,11 @@ clear: both;
 #page-footer {display: flex; flex-direction: column-reverse; width: 100%; margin-bottom: 50px}
 
 .links_bar.links_qeel {
-  z-index: 1;
+    position: relative;
+    z-index: 1;
     text-transform: lowercase;
     width: fit-content;
-    margin: 0 0 -50px 150px;
+    margin: 0 0 -100px 150px;
     padding: 3px;
 }
 
@@ -939,14 +940,15 @@ opacity: 1;
 }
 
 .c1_links a {
-	background: var(--co-2);
+	background: var(--co-2grad);
 	padding: 5px;
 	border-radius: var(--radius);
 	font-size: var(--little-size);
 	text-align: center;
+	color: white;
 }
 
-.c1_links a.odd {background: var(--co-1)}
+.c1_links a.odd {background: var(--co-1grad)}
 
 #c1 .desc,
 #c2 .desc,
@@ -1227,7 +1229,7 @@ opacity: 1;
 	height: 190px;
 	width: 100%;
 	border-radius: 50%;
-	background: var(--co-gradient);
+	background: var(--base-gradient);
 	border: 1px solid white;
 	border-bottom: 25px solid white;
 	margin-top: -30px;
@@ -1298,7 +1300,7 @@ opacity: 1;
 #c3 .forumtitle span:last-child, #c6 .forumtitle span:last-child {
     display: block;
     margin-bottom: 5px !important;
-    color: white;
+    color: var(--contrast);
     text-align: center;
     font-family: var(--font);
     font-size: var(--small-size);
@@ -1313,7 +1315,7 @@ opacity: 1;
     text-transform: uppercase;
     font-weight: 400;
     margin: 0 auto -5px;
-    color: white;
+    color: var(--contrast);
     text-align: center;
 }
 
@@ -1440,7 +1442,7 @@ opacity: 1;
 	display: block;
 	width: 100%;
 	height: 100%;
-	background: var(--co-2);
+	background: var(--base-2);
 	grid-row: 1;
 	grid-column: 1;
 }
@@ -2537,7 +2539,7 @@ duo.ok {
   .grp {text-align: right}
 
 /*** ---------------------------- SMS ------------------------------- ***/
-#blog { width: 600px; margin: 0 auto; background: var(--neutral); border-radius: 30px; position: relative; }
+#blog { width: 600px; margin: 0 auto; background: var(--neutral); border-radius: 30px; position: relative; backdrop-filter: blur(20px); }
   
   #blog .container {
     background: transparent;
@@ -2553,7 +2555,7 @@ duo.ok {
   }
   
   #blog .links_bar:first-child > span:first-child a {
-    color: var(--contrast);
+    color: var(--white);
   }
   
   #blog .links_bar:first-child {
@@ -2621,7 +2623,7 @@ duo.ok {
     background-size: cover;
     -webkit-mask: linear-gradient(to bottom, var(--neutralDarker), var(--neutral), transparent);
     border-radius: 30px 30px 0 0;
-    opacity: .6;
+    opacity: .7;
   }
   
   #blog .wrapped {
@@ -2778,7 +2780,7 @@ duo.ok {
   }
   
   .sms .fa_like_div img {
-    width: 15px;
+    width: auto;
     height: 14px;
   }
   
