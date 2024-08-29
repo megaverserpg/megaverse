@@ -4244,7 +4244,7 @@ a.sceditor-button.sceditor-button-twemojifa {
 .hljs-strong,
 .hljs-emphasis,
 .hljs-quote {
-    color: var(--co-2) !important;
+    color: var(--co-1) !important;
 }
 
 .hljs-tag,
@@ -4262,7 +4262,7 @@ a.sceditor-button.sceditor-button-twemojifa {
 .hljs-title,
 .hljs-section,
 .hljs-name {
-    color: var(--co-1) !important;
+    color: var(--co-2) !important;
 }
 
 /*** ------------------------------- ***/
