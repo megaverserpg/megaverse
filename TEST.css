@@ -1052,7 +1052,7 @@ opacity: 1;
 
 .fo_links a {
 	display: inline-block;
-	background: var(--co-2grad);
+	background-color: var(--co-2grad);
 	margin-right: 5px;
 	padding: 0 5px;
 	border-radius: var(--xs-radius);
@@ -4244,7 +4244,7 @@ a.sceditor-button.sceditor-button-twemojifa {
 .hljs-strong,
 .hljs-emphasis,
 .hljs-quote {
-    color: var(--co-2) !important;
+    color: var(--co-1) !important;
 }
 
 .hljs-tag,
@@ -4262,7 +4262,7 @@ a.sceditor-button.sceditor-button-twemojifa {
 .hljs-title,
 .hljs-section,
 .hljs-name {
-    color: var(--co-1) !important;
+    color: var(--co-2) !important;
 }
 
 /*** ------------------------------- ***/
