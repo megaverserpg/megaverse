@@ -1052,7 +1052,7 @@ opacity: 1;
 
 .fo_links a {
 	display: inline-block;
-	background-color: var(--co-2);
+	background-color: var(--co-2grad);
 	margin-right: 5px;
 	padding: 0 5px;
 	border-radius: var(--xs-radius);
@@ -1523,7 +1523,7 @@ opacity: 1;
 #c5 #subforum a,
 #c8 #subforum a {
 	width: 100%;
-	background-color: var(--co-2);
+	background: var(--co-2grad);
 	padding: 5px;
 	border-radius: var(--radius);
 	text-align: center;
