@@ -1052,7 +1052,7 @@ opacity: 1;
 
 .fo_links a {
 	display: inline-block;
-	background-color: var(--co-2grad);
+	background: var(--co-2grad);
 	margin-right: 5px;
 	padding: 0 5px;
 	border-radius: var(--xs-radius);
