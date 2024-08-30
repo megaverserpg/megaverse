@@ -698,7 +698,8 @@ a.FAM-attachment-thumb{
     align-items:center
 }
 .FAM-chat-date,.FAM-chat-title{
-    width:100%
+    width:100%;
+    font-family: var(--special-font);
 }
 .FAM-chat-title{
     font-weight:600
