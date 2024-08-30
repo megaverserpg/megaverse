@@ -5022,7 +5022,7 @@ button.more {
   .bujoInv:hover .bujoCard { opacity: 1; }
   .bujoInv .bujoCard { height: 100%; opacity: 0; transition: opacity .5s; }
   .bujoCard {position: relative; z-index: 1}
-  .bujoCard .desc {display: block; z-index: 1; padding: 8px; height: 100%; background: var(--neutralDarker); border-radius: 5px; text-align: justify; font-size: var(--inter-size); line-height: 150%;}
+  .bujoCard .desc {display: block; z-index: 1; padding: 8px; height: 116px; background: var(--neutralDarker); border-radius: 5px; text-align: justify; font-size: var(--inter-size); line-height: 150%;}
   .playlist_ic img { width: 190px; height: 130px; border-radius: var(--xs-radius); object-fit: cover;}
   .plCntnr {border-radius: var(--radius); overflow: hidden; border-spacing: 0; color: white}
   .pl_entete {display: block; background: var(--co-gradient); padding: var(--spacing); opacity: 0.8; border-bottom: 2px solid white;}
