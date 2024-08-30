@@ -3779,6 +3779,7 @@ div#quickreply_content .h3 + br {
 
 .quickreply .button2 {
     background: var(--co-gradient);
+    color: white;
     margin: 0 10px;
     padding: 10px 20px !important;
     text-transform: uppercase;
