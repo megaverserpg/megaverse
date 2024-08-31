@@ -4320,6 +4320,8 @@ transform: translateX(-20%);
 
 .wombat-aside .pr_ctnr {
     height: calc(100vh - 40px);
+    padding-right: var(--spacing);
+    overflow: auto;
 }
   
 #wombat {
