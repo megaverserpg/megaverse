@@ -4613,7 +4613,7 @@ transform: translateX(-20%);
 
 .block:has(.userBujo) {background: transparent} 
 .userBujo label {display: none} 
-.userBujo textarea {width: 100%}
+.userBujo textarea {width: 100%; min-height: 500px;}
 
 button.more {
     position: absolute;
