@@ -4970,12 +4970,7 @@ button.more {
 .pp_timeline .pp_cadre{margin:20px 0}
 .pp_cadre {background: var(--co-gradient);max-width:350px;margin:0 auto}
 .pp_cadre tbody {background: var(--neutralDark); display: block; margin: -1px; padding: 10px}
-.pp_cadre.chr,.pp_cadre.chr tbody {border-radius: var(--xs-radius)}
 .pp_blockquote { margin: 0 20px; }
-
-.chr h4 {position: absolute} 
-.chr {margin: 0 auto; position: relative}
-.chr h2 {font-variant:small-caps;font-size:16px;font-family: var(--complementary-font); color: var(--blanc)}
 
 /**timeline2**/
 .pp_scroll tr { display: grid; grid-template-columns: 65px 1fr; gap: 10px}
