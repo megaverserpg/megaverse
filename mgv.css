@@ -5006,7 +5006,7 @@ button.more {
   .bujoCntnr {position: relative}
   .bujoDesc {display: block; background: var(--white); border: var(--spacing) solid var(--white); border-radius: var(--xs-radius)}
   .bujo {background: var(--white); border: var(--spacing) solid var(--white); border-radius: var(--xs-radius)}
-  .bujo2 {display: grid; gap: var(--spacing);  grid-template-columns: repeat(2, 1fr)}
+  .bujo2 {display: grid; grid-auto-rows: min-content; gap: var(--spacing);  grid-template-columns: repeat(2, 1fr)}
   .bujo3 {display: grid; gap: var(--spacing); grid-template-columns: repeat(3, 1fr); text-align: center}
   .bujo4 {display: grid; gap: var(--spacing); grid-template-columns: repeat(4, 1fr)}
   .bujo5 {display: grid; gap: var(--spacing); grid-template-columns: repeat(5, 1fr)}
@@ -5020,7 +5020,7 @@ button.more {
   .bujoInv:hover .bujoCard { opacity: 1; }
   .bujoInv .bujoCard { height: 100%; opacity: 0; transition: opacity .5s; }
   .bujoCard {position: relative; z-index: 1}
-  .bujoCard .desc {display: block; z-index: 1; padding: 8px; height: 116px; background: var(--neutralDarker); border-radius: 5px; text-align: justify; font-size: var(--inter-size); line-height: 150%;}
+  .bujoCard .desc {display: block; z-index: 1; padding: 8px; height: 100%; background: var(--neutralDarker); border-radius: 5px; text-align: justify; font-size: var(--inter-size); line-height: 150%;}
   .playlist_ic img { width: 190px; height: 130px; border-radius: var(--xs-radius); object-fit: cover;}
   .plCntnr {border-radius: var(--radius); overflow: hidden; border-spacing: 0; color: white}
   .pl_entete {display: block; background: var(--co-gradient); padding: var(--spacing); opacity: 0.8; border-bottom: 2px solid white;}
@@ -5036,7 +5036,7 @@ button.more {
   .pl_grid:hover { filter: brightness(0.8); background: var(--co-2); border-radius: var(--xs-radius); }
   .pr_comment {width: 80% !important; margin: 0 auto;}
   .relations { padding: 0 20px; }
-  .liens .bujoInv {display: grid; height: 120px; background-image: url(https://tinyurl.com/5n7u5zkf); transition: .3s all; }
+  .liens .bujoInv {display: grid; background-image: url(https://tinyurl.com/5n7u5zkf); transition: .3s all; }
   .liens .bujoInv:hover { transform: scale(1.12); }
   .liens .bujoInv h2::before { content: none }
   .liens .bujoInv h2 { background: var(--co-2); color: white; -webkit-text-fill-color: inherit; position: absolute; top: 0; right: 0; border-radius: 0 var(--xs-radius); padding: 1px 5px; }
