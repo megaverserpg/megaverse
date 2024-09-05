@@ -4623,6 +4623,12 @@ button.more {
     box-shadow: 0 0 10px var(--neutral);
 }
 
+#wombat button.more {
+    left: auto;
+    top: 0;
+    right: -25px;
+}
+
 /* BADGES DANS LE PROFIL */
 /*Badges*/
 
