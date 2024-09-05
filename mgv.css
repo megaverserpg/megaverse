@@ -4617,10 +4617,9 @@ transform: translateX(-20%);
 
 button.more {
     position: absolute;
-    right: -25px;
+    left: -25px;
     top: 0;
     bottom: 0;
-    margin: auto;
     box-shadow: 0 0 10px var(--neutral);
 }
 
