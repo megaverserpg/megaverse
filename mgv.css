@@ -4604,7 +4604,7 @@ transform: translateX(-20%);
     padding: 12px;
   }
 
-#userInventory label, #userRelEvol label {
+#userInventory label, #userRelEvol label, #userMultis label {
     display: none;
 }
 
