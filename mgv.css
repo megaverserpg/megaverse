@@ -4621,8 +4621,8 @@ transform: translateX(-20%);
 .multi { display: block; border-radius: var(--radius); overflow: hidden; background: var(--white); } 
 .multi tbody { display: flex; flex-direction: column; } 
 .multi td { display: block; } 
-.multi_img {height: 80px} 
-.multi_img img { width: 100%; height: 80px; object-fit: cover; mask: linear-gradient(to bottom, var(--co-1) 60%, transparent 100%); } 
+.multi_img {height: 110px} 
+.multi_img img { width: 100%; height: 110px; object-fit: cover; mask: linear-gradient(to bottom, var(--co-1) 60%, transparent 100%); } 
 .multi_infos { display: block; padding: 5px 10px; font-size: var(--inter-size); }
 
 button.more {
