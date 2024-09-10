@@ -5054,8 +5054,8 @@ button.more {
   .liens .bujoInv {display: grid; background-image: url(https://tinyurl.com/5n7u5zkf); transition: .3s all; }
   .liens .bujoInv:hover { transform: scale(1.12); }
   .liens .bujoInv h2::before, .multi_img td h2::before { content: none }
-  .liens .bujoInv h2, .multi_img td h2 { background: var(--co-2); color: white; -webkit-text-fill-color: inherit; position: absolute; top: 0; right: 0; border-radius: 0 var(--xs-radius); padding: 1px 5px; }
-  .liens .bujoInv h3, .multi_img td h3 { left: 0; bottom: 0; border-radius: 0 var(--xs-radius); background: var(--co-1); padding: 1px 5px !important; }
+  .liens .bujoInv h2, .multi_img td h2 { z-index: 1; background: var(--co-2); color: white; -webkit-text-fill-color: inherit; position: absolute; top: 0; right: 0; border-radius: 0 var(--xs-radius); padding: 1px 5px; }
+  .liens .bujoInv h3, .multi_img td h3 { z-index: 1; left: 0; bottom: 0; border-radius: 0 var(--xs-radius); background: var(--co-1); padding: 1px 5px !important; }
   .liens .bujoInv table { grid-row: 1; grid-column: 1; }
   .lien_bg {height: 100%; border-radius: var(--xs-radius);}
   .lien_bg img { display: block; margin: auto; width: 90px; height: 90px; object-fit: cover; border-radius: 50%; }
