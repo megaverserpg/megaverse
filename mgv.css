@@ -2216,7 +2216,7 @@ ellipsis:nth-child(4) {
 .list_rp td { display: grid; grid-template-columns: 60px 1fr auto 60px; gap: 20px; align-items: flex-end; padding: 5px; border-bottom: 1px solid var(--base-1)}
 .list_rp td.done { border-left: none; border-right: none; border-top: none; opacity: .5; transition: all .5s}
 .list_rp td.done:hover { opacity: 1; }
-.list_rp a {border-bottom: none !important}
+.list_rp a {border-bottom: none !important; font-size: var(--little-size); }
 
 .flex {
 	display: flex;
