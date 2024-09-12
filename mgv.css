@@ -3133,9 +3133,11 @@ duo.ok {
 .mim_pr {
 	position: relative;
 	height: 60px;
-	object-fit: cover;
 	border-radius: 40px;
 	z-index: 1;
+}
+.mim_pr img {
+	object-fit: cover;
 }
 .mim_pr::before {
 	content: '';
