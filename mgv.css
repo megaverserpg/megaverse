@@ -2218,6 +2218,12 @@ ellipsis:nth-child(4) {
 .list_rp td.done:hover { opacity: 1; }
 .list_rp a {border-bottom: none !important; font-size: var(--little-size); }
 
+.list_rp td.cancel { text-decoration: line-through; opacity: .6; transition: all .5s; background: var(--base-1); padding: 0px 5px 5px 5px; }
+.list_rp td.cancel h3 { font-size: 0; height: 14px; line-height: 13px; }
+.list_rp td.cancel h3::before { content: '00.00.00'; font-size: 9px; display: inline-block; text-decoration: line-through; }
+.list_rp .cancel strong { font-size: 0; line-height: 6px; }
+.list_rp .cancel strong::after { content: 'annulé'; display: inline-block; text-decoration: line-through; font-size: var(--inter-size); text-decoration-color: var(--textColor); }
+
 .flex {
 	display: flex;
 	gap: 20px;
