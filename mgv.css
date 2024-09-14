@@ -4619,6 +4619,8 @@ transform: translateX(-20%);
     padding: 12px;
   }
 
+#userRelEvol textarea { height: 360px; }
+
 #userInventory label, #userRelEvol label, #userMultis label {
     display: none;
 }
