@@ -2243,7 +2243,8 @@ ellipsis:nth-child(4) {
 .list_rp .todo strong::after,
 .list_rp .uncheck strong::after,
 .list_rp .check strong::after { content: ''; display: block; font-size: var(--little-size); text-decoration-color: var(--textColor); }
-.list_rp .todo strong::after, .list_rp .uncheck strong::after {content: 'à faire'}
+.list_rp .todo strong::after {content: 'à créer'}
+.list_rp .uncheck strong::after {content: 'à faire'}
 .list_rp .check strong::after {content: 'à jour'}
 
 .flex {
