@@ -2220,7 +2220,9 @@ ellipsis:nth-child(4) {
 .list_rp { font-size: var(--little-size); }
 
 .list_rp td { display: grid; grid-template-columns: 60px 1fr auto 60px; gap: 20px; align-items: center; padding: 4px 5px; border-bottom: 1px solid var(--base-1)}
-
+.list_rp td:not(.cancel, .todo) {
+    margin-bottom: 4px;
+}
 .list_rp td.check a::before { content: ""; display: inline-block; margin: 0 9px 1px 0; outline: 1px solid var(--co-1); outline-offset: 2px; width: 4px; height: 4px; background: var(--co-1); border-radius: 50%; }
 .list_rp td.uncheck a::before { content: ""; display: inline-block; margin: 0 9px 1px 0; outline: 1px solid var(--contrast); outline-offset: 2px; width: 4px; height: 4px; border-radius: 50%; }
 
