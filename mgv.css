@@ -437,6 +437,20 @@ div#fa_usermenu .first {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: var(--small-size);
+    justify-content: center;
+}
+
+#fa_usermenu table tbody {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+#fa_usermenu table tbody tr:last-of-type {
+    width: 100%;
+    grid-column: 1 / -1;
+    display: block;
+    text-align: -webkit-center;
 }
 
 #fa_usermenu table tbody {
