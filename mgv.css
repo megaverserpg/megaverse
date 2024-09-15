@@ -2237,8 +2237,14 @@ ellipsis:nth-child(4) {
 .list_rp td.cancel strong::after { content: 'annulé'; display: block; text-decoration: line-through; font-size: var(--little-size); text-decoration-color: var(--textColor); }
 
 .list_rp td.todo { transition: all .5s; background: var(--co-gradient); border-radius: var(--radius); }
-.list_rp .todo strong { font-size: 0; line-height: 1px; }
-.list_rp .todo strong::after { content: 'à faire'; display: block; font-size: var(--little-size); text-decoration-color: var(--textColor); }
+.list_rp .todo strong,
+.list_rp .uncheck strong, 
+.list_rp .check strong { font-size: 0; line-height: 1px; }
+.list_rp .todo strong::after,
+.list_rp .uncheck strong::after,
+.list_rp .check strong::after { content: ''; display: block; font-size: var(--little-size); text-decoration-color: var(--textColor); }
+.list_rp .todo strong::after, .list_rp .uncheck strong::after {content: 'à faire'}
+.list_rp .check strong::after {content: 'à jour'}
 
 .flex {
 	display: flex;
