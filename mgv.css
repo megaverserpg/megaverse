@@ -5033,6 +5033,15 @@ button.more {
 .pp_cadre tbody {background: var(--neutralDark); display: block; margin: -1px; padding: 10px}
 .pp_blockquote { margin: 0 20px; }
 
+.pp_timeline2 > tbody { position: relative; display: flex; gap: 4px; overflow: auto !important; padding: 0 0 9px; }
+.pp_timeline2::before { content: ""; display: block; height: 1px; background: var(--co-gradient); margin: 6px 0 -12px; }
+.pp_timeline2 > tbody { position: relative; display: flex; gap: 4px; overflow: auto !important; padding: 0 0 9px; }
+.pp_timeline2 tr { flex-shrink: 0; display: block; }
+.pp_timeline2 > tbody > tr::before { content: ""; display: block; margin: 6px auto 6px; width: 11px; height: 11px; background: var(--co-gradient); border-radius: 50%; }
+.pp_timeline2 .pp_cadre { max-width: 200px; }
+.pp_timeline2 tr { flex-shrink: 0; display: block; }
+.pp_timeline2 .pp_cadre td { display: block; height: 105px; padding-right: 5px; overflow: auto; }
+
 /**timeline2**/
 .pp_scroll tr { display: grid; grid-template-columns: 65px 1fr; gap: 10px}
 .pp_scroll td:first-child {position: relative; border-right: 1px solid var(--co-2) !important;}
