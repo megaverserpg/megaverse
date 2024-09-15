@@ -5040,7 +5040,7 @@ button.more {
 .pp_timeline2 > tbody > tr::before { content: ""; display: block; margin: 20px auto 6px; width: 11px; height: 11px; background: var(--co-gradient); border-radius: 50%; }
 .pp_timeline2 .pp_cadre { max-width: 200px; }
 .pp_timeline2 .pp_cadre td { display: block; height: 85px; padding-right: 5px; overflow: auto; }
-.pp_timeline2 h3 { position: absolute; top: -50px; left: 0; right: 0; margin: 0 auto !important; width: fit-content; }
+.pp_timeline2 h4 { position: absolute; top: -50px; left: 0; right: 0; margin: 0 auto !important; width: fit-content; }
 
 /**timeline2**/
 .pp_scroll tr { display: grid; grid-template-columns: 65px 1fr; gap: 10px}
