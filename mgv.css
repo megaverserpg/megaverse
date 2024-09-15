@@ -5063,7 +5063,7 @@ button.more {
   .bujo4 {display: grid; gap: var(--spacing); grid-template-columns: repeat(4, 1fr)}
   .bujo5 {display: grid; gap: var(--spacing); grid-template-columns: repeat(5, 1fr)}
   .bujo5 .bujoInv {height: 180px;}
-  .bujoMax { display: grid; gap: var(--spacing); grid-template-columns: repeat(auto-fit, minmax(175px, calc(50% - 10px))); justify-content: center; }
+  .bujoMax { display: grid; gap: var(--spacing); grid-template-columns: repeat(auto-fit, minmax(calc(50% - 10px), .4fr)); justify-content: center; }
   .habits {align-items: end;}
   .h5 {position: absolute; top: -8px; left: 15px; z-index: 1; padding: 0 10px; color: white; font-family: var(--font-2); background: var(--co-1); border-radius: var(--xs-radius)}
   .habitudes > td {background: var(--white); border-radius: var(--xs-radius)}
