@@ -453,11 +453,6 @@ div#fa_usermenu .first {
     text-align: -webkit-center;
 }
 
-#fa_usermenu table tbody {
-    display: flex;
-    justify-content: space-between;
-}
-
 #fa_usermenu table td:nth-child(2) {
     display: none;
 }
