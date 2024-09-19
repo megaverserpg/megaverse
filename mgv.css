@@ -4763,6 +4763,7 @@ button.more {
 }
   
   .post_rank {
+    z-index: 2;
     display: block;
     width: 200px;
     font-weight: 600;
