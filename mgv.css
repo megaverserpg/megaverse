@@ -5122,8 +5122,10 @@ button.more {
   .bujoboard2 .bujoInv { height: 132px; }
   .bujoInv:has(.bujoCard)::before { content: "?"; position: absolute; top: 5px; left: 5px; display: flex; justify-content: center; align-items: center; width: 13px; height: 13px; background: var(--co-1); color: white; border-radius: 50%; font-size: var(--small-size); font-weight: 600; }
   .mini_plays br {display: none}
-  .mini_play { display: block; background: var(--co-1); border-radius: var(--radius); padding: 10px; color: white; text-align: left }
-  .mini_play td { display: block } .mini_playlist { display: grid; grid-template-columns: auto 1fr; gap: 10px; }
+  .mini_play { display: block; background: var(--co-1); border-radius: var(--radius); padding: 10px; color: white; text-align: left; transition: .3s; }
+  .mini_play:hover { transform: scale(1.05); }
+  .mini_play td { display: block } 
+  .mini_playlist { display: grid; grid-template-columns: auto 1fr; gap: 10px; }
   .mini_playlist img { width: 80px; height: 80px; border-radius: var(--xs-radius); }
   .mini_sounds { display: grid !important; grid-template-columns: 10% calc(90% - 15px); grid-auto-rows: 18px; gap: 5px 10px; height: 80px; }
   .mini_sounds i { display: block; width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
