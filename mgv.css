@@ -3216,7 +3216,7 @@ duo.ok {
 	border: 1px solid var(--neutralDark);
 	border-radius: 20px;
 }
-.mim_stories img {
+.mim_stories > a > img {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
