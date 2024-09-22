@@ -5043,6 +5043,11 @@ button.more {
 .pp_timeline2 .pp_cadre td { display: block; height: 85px; padding-right: 5px; overflow: auto; }
 .pp_timeline2 h4 { position: absolute; top: -50px; left: 0; right: 0; margin: 0 auto !important; width: fit-content; }
 
+/*bordure haut dégradé*/
+.pp_cadre1 { margin: 0 auto; }
+.pp_cadre1 tbody { display: block; padding: 10px; }
+.pp_cadre1::before { content: ''; height: 1px; display: block; background: var(--co-gradient); }
+
 /**timeline2**/
 .pp_scroll tr { display: grid; grid-template-columns: 65px 1fr; gap: 10px}
 .pp_scroll td:first-child {position: relative; border-right: 1px solid var(--co-2) !important;}
@@ -5137,3 +5142,4 @@ button.more {
   .mini_button {display: flex !important; justify-content: center; align-items: center; padding: 1px 0 0 5px; width: 35px; height: 35px; background: white; color: var(--co-2); border-radius: 50%; outline-offset: 3px; outline: 1px solid transparent; transition: all .3s}
   .mini_button:hover {outline-color: white}
   .mini_button a { font-size: var(--large-size) !important; color: var(--co-2) !important; border: none !important}
+  .cartesAn {height: 250px}
