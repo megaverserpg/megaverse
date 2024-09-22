@@ -5078,7 +5078,7 @@ button.more {
   .bujoDesc {display: block; background: var(--white); border: var(--spacing) solid var(--white); border-radius: var(--xs-radius)}
   .bujo {background: var(--white); border: var(--spacing) solid var(--white); border-radius: var(--xs-radius)}
   .bujo2 {display: grid; grid-auto-rows: min-content; gap: var(--spacing);  grid-template-columns: repeat(2, 1fr)}
-  .bujo3 {display: grid; gap: var(--spacing); grid-template-columns: repeat(3, 1fr); text-align: center}
+  .bujo3 {display: grid; gap: var(--spacing); grid-template-columns: repeat(3, 1fr)}
   .bujo4 {display: grid; gap: var(--spacing); grid-template-columns: repeat(4, 1fr)}
   .bujo5 {display: grid; gap: var(--spacing); grid-template-columns: repeat(5, 1fr)}
   .bujo5 .bujoInv {height: 180px;}
@@ -5115,6 +5115,7 @@ button.more {
   .liens .bujoInv table { grid-row: 1; grid-column: 1; }
   .lien_bg {height: 100%; border-radius: var(--xs-radius);}
   .lien_bg img { display: block; margin: auto; width: 90px; height: 90px; object-fit: cover; border-radius: 50%; }
+  .bag {text-align: center}
   .bag .bujoInv { height: 120px; }
   .fashion .bujoInv { height: 132px; }
   .bujoboard .bujoInv { height: 130px; }
