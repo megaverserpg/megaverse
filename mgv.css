@@ -5120,7 +5120,7 @@ button.more {
   .liens .bujoInv table { grid-row: 1; grid-column: 1; }
   .lien_bg {height: 100%; border-radius: var(--xs-radius);}
   .lien_bg img { display: block; margin: auto; width: 90px; height: 90px; object-fit: cover; border-radius: 50%; }
-  .bag {text-align: center}
+  .habits {text-align: center}
   .bag .bujoInv { height: 120px; }
   .fashion .bujoInv { height: 132px; }
   .bujoboard .bujoInv { height: 130px; }
