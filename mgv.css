@@ -2597,7 +2597,7 @@ duo.ok {
   }
   
   #blog .links_bar:first-child > span:first-child a {
-    color: var(--white);
+    color: var(--contrast);
   }
   
   #blog .links_bar:first-child {
