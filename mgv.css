@@ -901,6 +901,8 @@ opacity: 1;
     font-size: var(--large-size);
 }
 
+.forum-img img {width: 20px; opacity: 0}
+
 #c1 .forum:first-of-type .forum_avatar.lastpostavatar,
 #c1 .forum:first-of-type .lastpost,
 #c1 .forum:first-of-type .forum_details,
