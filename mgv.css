@@ -4681,7 +4681,7 @@ button.more {
     box-shadow: 0 0 10px var(--neutral);
 }
 
-#wombat button.more {
+.wombat-aside.open button.more {
     left: auto;
     top: 0;
     bottom: 0;
