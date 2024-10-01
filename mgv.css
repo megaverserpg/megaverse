@@ -4684,6 +4684,8 @@ button.more {
 #wombat button.more {
     left: auto;
     top: 0;
+    bottom: 0;
+    margin: auto;
     right: -25px;
 }
 
