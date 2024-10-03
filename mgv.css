@@ -4421,18 +4421,21 @@ transform: translateX(-20%);
     gap: 20px;
 }
 
-#userData label {
+#userData label,
+#userInventory label {
     font-size: var(--little-size);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-#userData label::before {
+#userData label::before,
+#userInventory label::before {
     content: "\2727\00263E\00A0";
     color: var(--co-1);
 }
 
-#userData textarea {
+#userData textarea,
+#userInventory textarea {
     width: 100%;
 }
 
