@@ -4269,13 +4269,18 @@ a.sceditor-button.sceditor-button-twemojifa {
 	position: absolute;
 	white-space: nowrap;
 }
+.save-bloc select {
+	background: var(--white);
+	margin-bottom: 5px;
+}
 .save-bloc div {
 	cursor: pointer;
 	color: var(--textColor);
 }
-.save-bloc select {
-	background: var(--neutralDark);
-	margin-bottom: 5px;
+.save-bloc > div {
+    background: var(--white);
+    padding: 10px !important;
+    border-radius: var(--xs-radius);
 }
 #saves span {
 	background: var(--co-gradient);
