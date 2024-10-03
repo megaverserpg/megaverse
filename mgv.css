@@ -4421,11 +4421,16 @@ transform: translateX(-20%);
     gap: 20px;
 }
 
-/* descriptions des champs en italic */
+/* profil & descriptions des champs en italic */
+.container:has(form#ucp) {
+    backdrop-filter: blur(20px);
+}
+
 span.italic {
     font-style: italic;
 }
 
+/* affichage champs */
 #userData label,
 #userInventory label {
     font-size: var(--little-size);
