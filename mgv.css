@@ -4421,6 +4421,11 @@ transform: translateX(-20%);
     gap: 20px;
 }
 
+/* descriptions des champs en italic */
+span.italic {
+    font-style: italic;
+}
+
 #userData label,
 #userInventory label {
     font-size: var(--little-size);
