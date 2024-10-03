@@ -1691,6 +1691,10 @@ background-color: var(--neutralDark);
     color: var(--co-1);
 }
 
+#main-content:has(.cate_events) t6 {
+    display: none;
+}
+
 /* ------------ GÉNÉRALITÉS ------------ */
 /* Emoji mis par défaut de FA
 * Les réduire les rend moins horribles à voir */
@@ -4468,6 +4472,18 @@ transform: translateX(-20%);
   #field_id40 label {
     display: none;
   }
+
+#field_id48 li::before {
+    content: "";
+    display: inline-block;
+    margin: 0 9px 1px 0;
+    outline: 1px solid var(--co-1);
+    outline-offset: 2px;
+    width: 4px;
+    height: 4px;
+    background: var(--co-1);
+    border-radius: 50%;
+}
   
   #userGame > *:not(.profile_data, #user_avatar),
   #userInfos {
@@ -4681,9 +4697,11 @@ button.more {
     box-shadow: 0 0 10px var(--neutral);
 }
 
-#wombat button.more {
+.wombat-aside.open button.more {
     left: auto;
     top: 0;
+    bottom: 0;
+    margin: auto;
     right: -25px;
 }
 
