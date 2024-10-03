@@ -1602,6 +1602,8 @@ grid-gap: 10px;
 margin-bottom: 10px;
 background: var(--neutral);
 border-radius: var(--radius);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
 overflow: hidden;
 }
 
@@ -1683,6 +1685,8 @@ background-color: var(--neutralDark);
     min-height: 35px;
     border-radius: var(--radius);
     margin-bottom: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }  
 
 .int_forum .forum_details::before {
