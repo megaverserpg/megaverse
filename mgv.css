@@ -4673,7 +4673,7 @@ transform: translateX(-20%);
 
 #userRelEvol textarea { height: 360px; }
 
-#userInventory label, #userRelEvol label, #userMultis label {
+#userRelEvol label, #userMultis label {
     display: none;
 }
 
