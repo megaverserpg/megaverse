@@ -1691,7 +1691,7 @@ background-color: var(--neutralDark);
     color: var(--co-1);
 }
 
-#main-content:has(.cate_events) t6 {
+.forum-page_title t6 {
     display: none;
 }
 
