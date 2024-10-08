@@ -2768,6 +2768,10 @@ duo.ok {
     margin: 15px 0 5px;
     align-items: stretch;
   }
+
+.sms .blog_comment > .flex:has(jr) {
+    margin-top: 60px !important;
+}
   
   .sms .blog_comment:nth-child(odd) > .flex > .comment_content > div { margin-left: 5px; background: var(--neutral); }
   .sms .blog_comment:nth-child(odd) > .flex > .comment_content > div::after {
