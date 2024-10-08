@@ -4728,6 +4728,7 @@ button.more {
     bottom: 0;
     margin: auto;
     right: -25px;
+    z-index: 1;
 }
 
 /* BADGES DANS LE PROFIL */
