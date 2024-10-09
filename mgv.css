@@ -3556,12 +3556,10 @@ duo.ok {
     display: block;
     width: 132px;
     padding: 5px;
-    font-size: var(--small-size);
-    line-height: var(--small-size);
+    font-size: var(--little-size);
+    line-height: var(--little-size);
     background-color: var(--neutralDarker);
     border-radius: var(--radius);
-    max-height: 65px;
-    overflow: auto;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s;
