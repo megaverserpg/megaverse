@@ -3558,7 +3558,7 @@ duo.ok {
     padding: 5px;
     font-size: var(--little-size);
     line-height: var(--little-size);
-    background-color: var(--neutralDarker);
+    background-color: var(--base-1);
     border-radius: var(--radius);
     opacity: 0;
     visibility: hidden;
