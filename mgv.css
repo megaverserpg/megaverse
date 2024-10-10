@@ -2891,7 +2891,8 @@ duo.ok {
   
   .sms blockquote cite {
     margin-left: 0;
-  color: var(--co-1);
+    color: var(--co-1);
+    font-size: 0;
   }
   
   .sms blockquote:has(cite) cite::before {
