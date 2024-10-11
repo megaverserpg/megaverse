@@ -2270,6 +2270,14 @@ ellipsis:nth-child(4) {
 .list_rp .check strong::after {content: 'à jour'}
 .list_rp .done strong::after {content: 'terminé'}
 
+/* bouton de traduction */
+*:has(.transl) { position: relative; } 
+.translbutton { cursor: pointer; position: absolute; top: 0px; color: white; background: var(--co-gradient); padding: 0 7px; border-radius: 0 0 5px 5px; } 
+.transl en, .transl fr { display: inline; } 
+.transl fr { display: none; } 
+.translbutton:hover ~ mad en { display: none; } 
+.translbutton:hover ~ mad fr { display: inline; }
+
 .flex {
 	display: flex;
 	gap: 20px;
