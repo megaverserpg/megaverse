@@ -4707,12 +4707,6 @@ span.italic {
 #userRelEvol,
 #userContent {margin-top: var(--spacing);}
 
-#userContent field > div {
-    margin: 0 22px;
-    font-size: 13px;
-    line-height: 120%;
-}
-
 .block:has(.userBujo) {background: transparent} 
 .userBujo label {display: none} 
 .userBujo textarea {width: 100%; min-height: 500px;}
@@ -5074,6 +5068,10 @@ button.more {
 }
 
 /* AESTHETICS PROFILS */
+#userContent field > div {
+    margin: 0 22px;
+}
+
 .profile_field:not(#field_id9) {
     font-size: 14px;
     line-height: 130%;
