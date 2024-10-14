@@ -4292,6 +4292,8 @@ a.sceditor-button.sceditor-button-twemojifa {
 	color: var(--textColor);
 }
 .save-bloc > div {
+    overflow: auto;
+    max-height: 300px;
     background: var(--white);
     padding: 10px !important;
     border-radius: var(--xs-radius);
