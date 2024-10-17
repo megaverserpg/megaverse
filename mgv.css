@@ -4432,9 +4432,7 @@ transform: translateX(-20%);
 }
 
 .userDataChildren {
-    display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 /* profil & descriptions des champs en italic */
@@ -4494,7 +4492,6 @@ span.italic {
     overflow: auto;
     height: 360px;
     border: 12px solid var(--white);
-    background-color: var(--white);
   }
 
 #field_id9 textarea {
