@@ -2272,7 +2272,7 @@ ellipsis:nth-child(4) {
 
 /* bouton de traduction */
 *:has(.transl) { position: relative; } 
-.translbutton { cursor: pointer; position: absolute; top: 0px; color: white; background: var(--co-gradient); padding: 0 7px; border-radius: 0 0 5px 5px; } 
+.translbutton { z-index: 2; cursor: pointer; position: absolute; top: 0px; color: white; background: var(--co-gradient); padding: 0 7px; border-radius: 0 0 5px 5px; } 
 .transl en, .transl fr { display: inline; } 
 .transl fr { display: none; } 
 .translbutton:hover ~ * en { display: none; } 
