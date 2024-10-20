@@ -4822,7 +4822,7 @@ button.more {
     text-transform: uppercase;
     font-size: 8px;
     background: var(--white);
-    padding: 5px;
+    padding: 5px 0;
     border-radius: var(--radius);
     text-align: center;
 }
