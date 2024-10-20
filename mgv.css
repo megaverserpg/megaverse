@@ -4827,7 +4827,7 @@ button.more {
     text-align: center;
 }
   
-  .post_rank b1 {font-size: 8px}
+  .post_rank b1 {font-size: 8px; letter-spacing: 0 !important}
   
   .post_rank b1::before {content: none}
   .post_rank b1::after {content: '\0027E1\000020' !important}
