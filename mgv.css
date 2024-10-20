@@ -4820,7 +4820,7 @@ button.more {
     width: 200px;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: 1px;
     background: var(--white);
     padding: 5px;
@@ -4828,7 +4828,7 @@ button.more {
     text-align: center;
 }
   
-  .post_rank b1 {font-size: 9px}
+  .post_rank b1 {font-size: 8px}
   
   .post_rank b1::before {content: none}
   .post_rank b1::after {content: '\0027E1\000020' !important}
