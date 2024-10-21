@@ -1815,6 +1815,7 @@ newsareal1 .topicslist_infos {
 	border-left: 1px solid var(--co-2);
 }
 .fiche_rs .flex > img {
+	flex-shrink: 0;
 	width: 70px;
 	height: 70px;
 	object-fit: cover;
