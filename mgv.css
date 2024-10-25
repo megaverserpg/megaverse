@@ -37,6 +37,7 @@
     position: fixed;
     right: 31px;
     bottom: 95px;
+    z-index: 2;
     display: flex;
     gap: 20px;
     justify-content: space-between;
