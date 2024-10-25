@@ -28,7 +28,7 @@
 	min-width: 980px;
 	width: 70vw;
 	margin: 0 auto;
-	padding: var(--spacing) 0;
+	padding-top: var(--spacing);
 	border-radius: var(--radius);
 }
 
