@@ -28,6 +28,7 @@
 	min-width: 980px;
 	width: 70vw;
 	margin: 0 auto;
+	padding: var(--spacing) 0;
 	border-radius: var(--radius);
 }
 
