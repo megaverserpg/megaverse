@@ -37,6 +37,7 @@
     position: fixed;
     right: 31px;
     bottom: 95px;
+    z-index: 2;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -1602,6 +1603,8 @@ grid-gap: 10px;
 margin-bottom: 10px;
 background: var(--neutral);
 border-radius: var(--radius);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
 overflow: hidden;
 }
 
@@ -1683,6 +1686,8 @@ background-color: var(--neutralDark);
     min-height: 35px;
     border-radius: var(--radius);
     margin-bottom: 20px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }  
 
 .int_forum .forum_details::before {
@@ -1811,6 +1816,7 @@ newsareal1 .topicslist_infos {
 	border-left: 1px solid var(--co-2);
 }
 .fiche_rs .flex > img {
+	flex-shrink: 0;
 	width: 70px;
 	height: 70px;
 	object-fit: cover;
@@ -2265,6 +2271,14 @@ ellipsis:nth-child(4) {
 .list_rp .uncheck strong::after {content: 'à faire'}
 .list_rp .check strong::after {content: 'à jour'}
 .list_rp .done strong::after {content: 'terminé'}
+
+/* bouton de traduction */
+*:has(.transl) { position: relative; } 
+.translbutton { z-index: 2; cursor: pointer; position: absolute; top: 0px; color: white; background: var(--co-gradient); padding: 0 7px; border-radius: 0 0 5px 5px; } 
+.transl en, .transl fr { display: inline; } 
+.transl fr { display: none; } 
+.translbutton:hover ~ * en { display: none; } 
+.translbutton:hover ~ * fr { display: inline; }
 
 .flex {
 	display: flex;
@@ -2757,7 +2771,6 @@ duo.ok {
     padding: 10px;
     width: fit-content;
     border-radius: 10px;
-    max-width: 305px
   }
   
   .sms .blog_comment > .flex {
@@ -2888,7 +2901,8 @@ duo.ok {
   
   .sms blockquote cite {
     margin-left: 0;
-  color: var(--co-1);
+    color: var(--co-1);
+    font-size: 0;
   }
   
   .sms blockquote:has(cite) cite::before {
@@ -2902,7 +2916,7 @@ duo.ok {
   
   .sms jr {
     position: absolute;
-    top: -35px;
+    top: -40px;
     left: 0;
     margin: 0 auto;
     display: flex;
@@ -2925,6 +2939,10 @@ duo.ok {
     height: 1px;
     background: var(--neutralDarker);
   }
+
+.has_prev .flex:has(jr) {
+    margin-top: 90px !important;
+}
   
   .sms .comment_avatar {
     position: absolute;
@@ -3549,12 +3567,10 @@ duo.ok {
     display: block;
     width: 132px;
     padding: 5px;
-    font-size: var(--small-size);
-    line-height: var(--small-size);
-    background-color: var(--neutralDarker);
+    font-size: var(--little-size);
+    line-height: var(--little-size);
+    background-color: var(--base-1);
     border-radius: var(--radius);
-    max-height: 65px;
-    overflow: auto;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s;
@@ -4269,13 +4285,20 @@ a.sceditor-button.sceditor-button-twemojifa {
 	position: absolute;
 	white-space: nowrap;
 }
+.save-bloc select {
+	background: var(--white);
+	margin-bottom: 5px;
+}
 .save-bloc div {
 	cursor: pointer;
 	color: var(--textColor);
 }
-.save-bloc select {
-	background: var(--neutralDark);
-	margin-bottom: 5px;
+.save-bloc > div {
+    overflow: auto;
+    max-height: 300px;
+    background: var(--white);
+    padding: 10px !important;
+    border-radius: var(--xs-radius);
 }
 #saves span {
 	background: var(--co-gradient);
@@ -4411,23 +4434,34 @@ transform: translateX(-20%);
 }
 
 .userDataChildren {
-    display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
-#userData label {
+/* profil & descriptions des champs en italic */
+.container:has(form#ucp) {
+    backdrop-filter: blur(20px);
+}
+
+span.italic {
+    font-style: italic;
+}
+
+/* affichage champs */
+#userData label,
+#userInventory label {
     font-size: var(--little-size);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-#userData label::before {
+#userData label::before,
+#userInventory label::before {
     content: "\2727\00263E\00A0";
     color: var(--co-1);
 }
 
-#userData textarea {
+#userData textarea,
+#userInventory textarea {
     width: 100%;
 }
 
@@ -4460,7 +4494,6 @@ transform: translateX(-20%);
     overflow: auto;
     height: 360px;
     border: 12px solid var(--white);
-    background-color: var(--white);
   }
 
 #field_id9 textarea {
@@ -4668,7 +4701,7 @@ transform: translateX(-20%);
 
 #userRelEvol textarea { height: 360px; }
 
-#userInventory label, #userRelEvol label, #userMultis label {
+#userRelEvol label, #userMultis label {
     display: none;
 }
 
@@ -4703,6 +4736,7 @@ button.more {
     bottom: 0;
     margin: auto;
     right: -25px;
+    z-index: 1;
 }
 
 /* BADGES DANS LE PROFIL */
@@ -4788,15 +4822,14 @@ button.more {
     width: 200px;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 9px;
-    letter-spacing: 1px;
+    font-size: 8px;
     background: var(--white);
-    padding: 5px;
+    padding: 5px 0;
     border-radius: var(--radius);
     text-align: center;
 }
   
-  .post_rank b1 {font-size: 9px}
+  .post_rank b1 {font-size: 8px; letter-spacing: 0 !important}
   
   .post_rank b1::before {content: none}
   .post_rank b1::after {content: '\0027E1\000020' !important}
@@ -5035,6 +5068,10 @@ button.more {
 }
 
 /* AESTHETICS PROFILS */
+#userContent field > div {
+    margin: 0 22px;
+}
+
 .profile_field:not(#field_id9) {
     font-size: 14px;
     line-height: 130%;
