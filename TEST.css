@@ -25,6 +25,8 @@
 
 /* ------------ STRUCTURE ------------ */
 .main_forum {
+	position: relative;
+	z-index: 1;
 	min-width: 980px;
 	width: 70vw;
 	margin: 0 auto;
