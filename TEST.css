@@ -1766,7 +1766,7 @@ newsareal1 .topicslist_infos {
     letter-spacing: 1px;
     padding: 0 5px;
     border-radius: var(--radius);
-    color: var(--textColorAccent);
+    color: var(--contrast);
     font-weight: 400;
 }
 
@@ -2869,6 +2869,7 @@ duo.ok {
     margin-left: 5px;
     height: fit-content;
     font-size: var(--small-size);
+    color: var(--contrast);
   }
 
 .sms .blog_comment .fa_like_list:not(:empty) {margin: 0}
