@@ -4859,11 +4859,11 @@ button.more {
   .field-cw-tw:hover .field_content { opacity: 1 }
   
   .field-cw-tw .field_label {
-    background: var(--co-2);
+    background: var(--white);
     padding: 0 4px 1px;
     border-radius: var(--radius);
     letter-spacing: 0;
-    color: white;
+    color: var(--contrast);
     margin-right: 5px;
   }
   
@@ -4983,7 +4983,7 @@ button.more {
   .field-pronom .field_content::before {
     font-family: var(--font-2);
     font-style: italic;
-    color: var(--co-2);
+    color: var(--contrast);
     font-weight: 600;
   }
 
