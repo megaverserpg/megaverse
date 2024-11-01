@@ -25,9 +25,12 @@
 
 /* ------------ STRUCTURE ------------ */
 .main_forum {
+	position: relative;
+	z-index: 1;
 	min-width: 980px;
 	width: 70vw;
 	margin: 0 auto;
+	padding-top: calc(2 * var(--spacing));
 	border-radius: var(--radius);
 }
 
@@ -170,7 +173,7 @@ clear: both;
 
 /* Barre de gestion 
 * Contient des boutons ou des liens spéciaux */
-#page-footer {display: flex; flex-direction: column-reverse; width: 100%; margin-bottom: 50px}
+#page-footer {position: relative; z-index: 1; display: flex; flex-direction: column-reverse; width: 100%; margin-bottom: 50px}
 
 .links_bar.links_qeel {
     position: relative;
@@ -1763,7 +1766,7 @@ newsareal1 .topicslist_infos {
     letter-spacing: 1px;
     padding: 0 5px;
     border-radius: var(--radius);
-    color: var(--textColorAccent);
+    color: var(--contrast);
     font-weight: 400;
 }
 
@@ -2867,6 +2870,7 @@ duo.ok {
     height: fit-content;
     font-size: var(--small-size);
   }
+.sms .blog_comment a span {color: var(--contrast)!important}
 
 .sms .blog_comment .fa_like_list:not(:empty) {margin: 0}
   
@@ -4822,14 +4826,14 @@ button.more {
     width: 200px;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 9px;
     background: var(--white);
     padding: 5px 0;
     border-radius: var(--radius);
     text-align: center;
 }
   
-  .post_rank b1 {font-size: 8px; letter-spacing: 0 !important}
+  .post_rank b1 {font-size: 9px}
   
   .post_rank b1::before {content: none}
   .post_rank b1::after {content: '\0027E1\000020' !important}
