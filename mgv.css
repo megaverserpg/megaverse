@@ -2871,7 +2871,7 @@ duo.ok {
     height: fit-content;
     font-size: var(--small-size);
   }
-.sms .blog_comment a span {color: var(--contrast)!important}
+.sms .blog_comment a span {color: var(--contrast)}
 
 .sms .blog_comment .fa_like_list:not(:empty) {margin: 0}
   
