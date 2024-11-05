@@ -3926,7 +3926,7 @@ a.sceditor-button.hover {
 div.sceditor-dropdown {
 	border: none !important;
 	margin-top: 45px !important;
-	background: transparent !important;
+	background: var(--neutralDarker) !important;
 	box-shadow: none !important;
 	padding: 0 !important;
 }
