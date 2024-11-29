@@ -4705,7 +4705,7 @@ span.italic {
     padding: 12px;
   }
 
-#userRelEvol textarea { height: 360px; }
+#userRelEvol textarea { height: 360px; max-width: 100%; }
 
 #userRelEvol label, #userMultis label {
     display: none;
