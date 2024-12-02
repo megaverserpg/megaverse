@@ -293,11 +293,6 @@ h2::after {
 	font-size: var(--little-size);
 }
 
-.tabs-onglets a:hover {
-	color: var(--contrast);
-	letter-spacing: 1px;
-}
-
 @media screen and (max-width: 1200px) {
 	.tabs-onglets a {
 		font-size: var(--small-size);
@@ -313,6 +308,11 @@ h2::after {
 		width: 155px;
 		font-size: var(--little-size);
 	}
+}
+
+.tabs-onglets a:hover {
+	color: var(--contrast);
+	letter-spacing: 1px;
 }
 
 /* ÉVOLUTION PARTICULARITÉS */
