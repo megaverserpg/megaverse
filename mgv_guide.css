@@ -286,12 +286,28 @@ h2::after {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 155px;
 	padding: 5px;
 	background: var(--co-gradient);
 	border-radius: var(--radius);
 	text-transform: uppercase;
 	font-size: var(--little-size);
+}
+
+@media screen and (max-width: 1200px) {
+	.tabs-onglets a {
+		font-size: var(--small-size);
+		white-space: nowrap;
+		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.tabs-onglets a {
+		width: 155px;
+		font-size: var(--little-size);
+	}
 }
 
 .tabs-onglets a:hover {
