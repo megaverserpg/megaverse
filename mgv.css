@@ -173,7 +173,7 @@ clear: both;
 
 /* Barre de gestion 
 * Contient des boutons ou des liens spéciaux */
-#page-footer {position: relative; display: flex; flex-direction: column-reverse; width: 100%; margin-bottom: 50px}
+#page-footer {position: relative; z-index: 1; display: flex; flex-direction: column-reverse; width: 100%; margin-bottom: 50px}
 
 .links_bar.links_qeel {
     position: relative;
@@ -1213,8 +1213,7 @@ opacity: 1;
     font-weight: 400;
 }
 
-.cate_title span.cp,
-.cate_title span:nth-child(3) {
+.cate_title span:not(:nth-child(2)) {
     display: none;
 }
 
@@ -2851,7 +2850,6 @@ duo.ok {
   
   .sms .blog_nameline {
     flex-shrink: 0;
-    display: flex;
     position: absolute;
     top: -10px;
     font-size: 10px;
@@ -2866,13 +2864,13 @@ duo.ok {
   }
   
   .sms .blog_comment .fa_like_list:not(:empty) { font-size: 0 !important; padding: 2px 4px; margin: 10px -10px -10px; border-radius: 0 0 10px 10px; }
-  .sms .blog_comment > a {
+  .sms .blog_comment a {
     display: block;
     margin-left: 5px;
     height: fit-content;
     font-size: var(--small-size);
   }
-.sms .blog_comment > a span {color: var(--contrast)}
+.sms .blog_comment a span {color: var(--contrast)!important}
 
 .sms .blog_comment .fa_like_list:not(:empty) {margin: 0}
   
@@ -3926,7 +3924,7 @@ a.sceditor-button.hover {
 div.sceditor-dropdown {
 	border: none !important;
 	margin-top: 45px !important;
-	background: var(--neutralDarker) !important;
+	background: transparent !important;
 	box-shadow: none !important;
 	padding: 0 !important;
 }
@@ -4705,7 +4703,7 @@ span.italic {
     padding: 12px;
   }
 
-#userRelEvol textarea { height: 360px; max-width: 100%; }
+#userRelEvol textarea { height: 360px; }
 
 #userRelEvol label, #userMultis label {
     display: none;
@@ -4861,11 +4859,11 @@ button.more {
   .field-cw-tw:hover .field_content { opacity: 1 }
   
   .field-cw-tw .field_label {
-    background: var(--white);
+    background: var(--co-2);
     padding: 0 4px 1px;
     border-radius: var(--radius);
     letter-spacing: 0;
-    color: var(--contrast);
+    color: white;
     margin-right: 5px;
   }
   
@@ -4985,7 +4983,7 @@ button.more {
   .field-pronom .field_content::before {
     font-family: var(--font-2);
     font-style: italic;
-    color: var(--contrast);
+    color: var(--co-2);
     font-weight: 600;
   }
 
