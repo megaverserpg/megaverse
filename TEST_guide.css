@@ -100,7 +100,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	z-index: 102;
+	z-index: 1000;
 	width: 20px;
 	height: 13px;
 	margin-left: auto;
@@ -170,7 +170,7 @@ a:hover {
             bottom: 0;
             left: 0;
             width: 280px;
-            z-index: 101;
+            z-index: 999;
             box-sizing: border-box;
             background: var(--neutralDark);
             backdrop-filter: blur(20px);
