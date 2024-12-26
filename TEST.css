@@ -305,9 +305,11 @@ padding: 4px 4px;
 }
 
 /* Lien \"notification\"*/
-a#fa_notifications::before {display: block;
-    margin-top: 2px;
-    content: var(--notificationsIcon); content: var(--notificationsIcon)}
+#fa_notifications::before {
+	display: block;
+	margin-top: 2px;
+	content: var(--notificationsIcon);
+}
 
 /* liens \"bienvenue\" et \"notification\" [AU CLIC] */
 #fa_right.welcome #fa_menu #fa_welcome,
