@@ -169,7 +169,7 @@ a:hover {
             top: 0;
             bottom: 0;
             left: 0;
-            width: 280px;
+            width: 300px;
             z-index: 101;
             box-sizing: border-box;
             background: var(--neutralDark);
@@ -193,10 +193,6 @@ a:hover {
 /* contenu */
 .nav_burger-grid {
 	transform: translateY(0px);
-	display: grid;
-	grid-template: repeat(4, auto) / 240px;
-	width: 980px;
-	margin: 0 auto;
 }
 
 .nav_burger-grid > div {
