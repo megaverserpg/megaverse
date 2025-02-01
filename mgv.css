@@ -3738,7 +3738,7 @@ duo.ok {
             top: 0;
             bottom: 0;
             left: 0;
-            width: 280px;
+            width: 300px;
             z-index: 101;
             box-sizing: border-box;
             background: var(--neutralDark);
@@ -3762,11 +3762,6 @@ duo.ok {
         /* contenu */
         .nav_burger-grid {
     	transform: translateY(0px);
-    	display: grid;
-    	gap: var(--spacing);
-    	margin: auto;
-    	padding-right: 5px;
-    	height: 100%;
         }
 
         .nav_burger-grid .sub-2 {
