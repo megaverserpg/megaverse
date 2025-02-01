@@ -3771,7 +3771,7 @@ duo.ok {
         .nav_burger-grid>div {
             display: flex;
             flex-direction: column;
-            border-radius: var(--radius)
+	    padding-right: 6px;
         }
 
         .nav_burger-grid>div>a,
