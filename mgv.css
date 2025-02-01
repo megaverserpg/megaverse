@@ -3831,7 +3831,7 @@ duo.ok {
             height: 1px;
         }
 
-.navig .grid {display: grid; justify-content: center; gap: 5px; border-radius: var(--radius); overflow: hidden}
+.navig .grid {display: grid; justify-content: center; gap: 5px; border-radius: var(--xs-radius); overflow: hidden}
       
 .navig .grid a {
        display: flex;
