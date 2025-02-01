@@ -188,6 +188,7 @@ a:hover {
 	margin: 35px 15px 15px;
 	overflow: hidden auto;
 	height: calc(100vh - 50px);
+	padding-right: 6px;
 }
 
 /* contenu */
