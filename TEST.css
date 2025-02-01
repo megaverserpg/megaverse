@@ -305,11 +305,9 @@ padding: 4px 4px;
 }
 
 /* Lien \"notification\"*/
-#fa_notifications::before {
-	display: block;
-	margin-top: 2px;
-	content: var(--notificationsIcon);
-}
+a#fa_notifications::before {display: block;
+    margin-top: 2px;
+    content: var(--notificationsIcon); content: var(--notificationsIcon)}
 
 /* liens \"bienvenue\" et \"notification\" [AU CLIC] */
 #fa_right.welcome #fa_menu #fa_welcome,
@@ -3740,7 +3738,7 @@ duo.ok {
             top: 0;
             bottom: 0;
             left: 0;
-            width: 280px;
+            width: 300px;
             z-index: 101;
             box-sizing: border-box;
             background: var(--neutralDark);
@@ -3764,11 +3762,6 @@ duo.ok {
         /* contenu */
         .nav_burger-grid {
     	transform: translateY(0px);
-    	display: grid;
-    	gap: var(--spacing);
-    	margin: auto;
-    	padding-right: 5px;
-    	height: 100%;
         }
 
         .nav_burger-grid .sub-2 {
@@ -3837,6 +3830,25 @@ duo.ok {
             width: 100%;
             height: 1px;
         }
+
+.navig .grid {display: grid; justify-content: center; gap: 5px; border-radius: var(--xs-radius); overflow: hidden}
+      
+.navig .grid a {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 8px;
+       padding: 5px;
+       background: var(--neutralDark);
+}
+      
+.navig .grid span:first-child {color: var(--co-2); transition: color .5s}
+.navig .grid b1 {text-align: center}
+.navig .grid a:hover span:first-child {color: var(--co-1)}
+.navig .grid span:last-child {
+       display: block; width: 100%; text-align: center;
+       line-height: 120%; font-size: var(--small-size); text-transform: uppercase;
+}
 
 /*** ------------------------------- ***/
 /*** ÉDITEUR DE TEXTE ------------ ***/
