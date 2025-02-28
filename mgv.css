@@ -2032,6 +2032,7 @@ more, .more {
 	width: 50px;
 	height: 50px;
 	background: radial-gradient(var(--co-2), var(--co-1));
+	color: white;
 	border-radius: 50%;
 	font-family: var(--font-2);
 	font-style: italic;
