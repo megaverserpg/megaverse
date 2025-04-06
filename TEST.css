@@ -80,7 +80,6 @@
     display: block;
     position: absolute;
     top: 86px;
-    left: 0;
     width: 2px;
     height: calc(100% - 52px);
     background: var(--white);
