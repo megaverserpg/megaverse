@@ -303,7 +303,7 @@
     background-attachment: fixed;
     height: 100%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
-    mask-image: linear-gradient(to bottom, transparent, black 0%);
+    mask-image: linear-gradient(to bottom, transparent, black 4%);
 }
 
 @media screen and (min-width: 980px) {
