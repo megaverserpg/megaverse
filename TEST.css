@@ -31,7 +31,7 @@
 	border-radius: var(--radius);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 780px) {
 	.main_forum {
 		width: 70vw;
 		margin: 0 auto 100px;
@@ -39,7 +39,7 @@
 	}
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 779px) {
 	.main_forum {
 		width: 70vw;
 		margin: 0 auto 100px;
@@ -190,13 +190,14 @@
 
 .header_ctnr img {
 	width: 100vw;
+	height: 100vh;
 	object-fit: cover;
 	object-position: center;
 	-webkit-mask-image: linear-gradient(to top, transparent 4%, black 40%);
 	mask-image: linear-gradient(to top, transparent 4%, black 40%);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 780px) {
 	.header_show {
 		position: relative;
 		display: grid;
@@ -227,7 +228,7 @@
 	transform-origin: bottom;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 780px) {
 	.header_ctnt {
 		grid-template-columns: repeat(2, auto);
 	}
@@ -235,10 +236,6 @@
 	.header_ctnr {
 		position: fixed;
 		top: 0;
-	}
-
-	.header_ctnr img {
-		height: 100vh;
 	}
 
 	.header_coded {
@@ -258,11 +255,7 @@
 	}
 }
 
-@media screen and (max-width: 599px) {
-	.header_ctnr img {
-		height: 50%;
-	}
-
+@media screen and (max-width: 779px) {
 	.header_coded {
 		position: absolute;
 		top: 0;
@@ -282,7 +275,7 @@
 	}
 }
 
-@media screen and (min-width: 410px) and (max-width: 599px) {
+@media screen and (min-width: 410px) and (max-width: 779px) {
 	.top_sites {
 		justify-content: space-between;
 	}
@@ -321,6 +314,9 @@
 	border-bottom: 2px solid var(--white);
 	-webkit-mask-image: linear-gradient(to top, transparent 0, black 5%);
 	mask-image: linear-gradient(to top, transparent 0, black 5%);
+	margin-top: 75vh;
+	opacity: 0;
+	animation: appears 1s forwards;
 }
 .global_fo > * {
 	grid-row: 1;
@@ -336,20 +332,6 @@
 	top: 0;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
 	mask-image: linear-gradient(to bottom, transparent, black 4%);
-}
-
-@media screen and (min-width: 600px) {
-	.global_fo {
-		margin-top: 75vh;
-		opacity: 0;
-		animation: appears 1s forwards;
-	}
-}
-
-@media screen and (min-width: 600px) {
-	.global_fo {
-		margin-top: 55vh;
-	}
 }
 
 /* ----------------------------------------------------------- FIN NEW INDEX -------------------------------------------------------------- */
