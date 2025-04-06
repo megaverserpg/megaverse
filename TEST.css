@@ -26,24 +26,21 @@
 
 /* ------------ STRUCTURE ------------ */
 .main_forum {
+	width: 100%;
 	position: relative;
 	z-index: 1;
 	border-radius: var(--radius);
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 600px) {
 	.main_forum {
-		width: 70vw;
-		margin: 0 auto 100px;
-		padding-top: calc(2 * var(--spacing));
+		padding: 200px 10vw;
 	}
 }
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 599px) {
 	.main_forum {
-		width: 70vw;
-		margin: 0 auto 100px;
-		padding-top: calc(2 * var(--spacing));
+		padding: 200px 10px;
 	}
 }
 
