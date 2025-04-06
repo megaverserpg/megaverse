@@ -178,8 +178,8 @@
     height: 100vh;
     object-fit: cover;
     object-position: center;
-    -webkit-mask-image: linear-gradient(to top, transparent 1%, black 40%);
-    mask-image: linear-gradient(to top, transparent 1%, black 40%);
+    -webkit-mask-image: linear-gradient(to top, transparent 4%, black 40%);
+    mask-image: linear-gradient(to top, transparent 4%, black 40%);
 }
 
 .header_show {
