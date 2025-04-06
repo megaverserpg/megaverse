@@ -40,7 +40,6 @@
 	display: grid;
 	grid-template-columns: auto 1fr;
 	width: 100%;
-	margin-top: 35px;
 }
 
 .mgv_content {
@@ -55,7 +54,7 @@
 }
 
 .mgv_content::before {
-    z-index: 1002;
+    z-index: 2;
     content: "";
     display: block;
     position: fixed;
@@ -64,7 +63,7 @@
     border: 1px solid transparent;
     border-color: inherit;
     transition: width .3s, height .3s;
-    top: 35px;
+    top: 60px;
     border-width: 0 1px 1px 0;
     background: linear-gradient(-45deg, #AAA, #FFF 40%, #999 50%, transparent 50%);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
@@ -73,7 +72,7 @@
 .mgv_content:hover::before {
         width: 50px;
 	height: 50px;
-	z-index: 9999;
+	z-index: 3;
 }
 
 .header_coded {
@@ -271,6 +270,7 @@
 }
 
 .global_fo {
+	z-index: 2;
 	position: relative;
 	display: grid;
 	border-top: 1px solid var(--co-2);
@@ -283,7 +283,7 @@
 .global_bg {
 	width: 100%;
 	height: 100vh;
-	background: var(--co-1grad);
+	background: var(--white);
 }
 
 @media screen and (min-width: 980px) {
