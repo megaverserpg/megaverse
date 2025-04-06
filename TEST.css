@@ -175,7 +175,6 @@
 
 .header_ctnr img {
     width: 100vw;
-    height: 100vh;
     object-fit: cover;
     object-position: center;
     -webkit-mask-image: linear-gradient(to top, transparent 4%, black 40%);
@@ -221,6 +220,10 @@
 		top: 0;
 	}
 
+	.header_ctnr img {
+    		height: 100vh;
+	}
+
 	.header_coded > a {
 		font-size: 5.5rem;
 	}
@@ -232,6 +235,10 @@
 }
 
 @media screen and (max-width: 979px) {
+	.header_ctnr img {
+    		height: 50%;
+	}
+	
 	.header_coded {
 		position: absolute;
 		top: 0;
