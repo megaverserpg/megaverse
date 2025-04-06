@@ -147,10 +147,6 @@
 	height: 100vh;
 }
 
-.header_show.open {
-	width: calc(100% - 310px);
-}
-
 .header_show span {
 	background: var(--base-1);
 }
