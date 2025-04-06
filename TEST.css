@@ -81,7 +81,7 @@
     position: absolute;
     top: 86px;
     width: 2px;
-    height: calc(100% - 52px);
+    height: calc(100% - 86px);
     background: var(--white);
 }
 
