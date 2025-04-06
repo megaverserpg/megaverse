@@ -830,7 +830,7 @@ div#fa_usermenu .bold {
 /* Conteneur de l'avatar toolbar */
 .fa_avatar {
 	z-index: 998;
-	position: absolute;
+	position: fixed;
 	display: grid;
 	place-items: center;
 	top: 60px;
