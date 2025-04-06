@@ -40,6 +40,7 @@
 	display: grid;
 	grid-template-columns: auto 1fr;
 	width: 100%;
+	margin-top: 35px;
 }
 
 .mgv_content {
@@ -47,8 +48,6 @@
     grid-column: 1 / span 2;
     margin-left: 0;
     transition: all 0.3s;
-    position: relative;
-    top: 35px;
 }
 
 .mgv_content.open {
@@ -156,19 +155,11 @@
 
 .header_ctnr {
 	display: grid;
-	position: sticky;
-	height: 100vh;
-	top: 0;
-	clip-path: polygon(25px 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 25px);
 }
 
 .header_ctnr > * {
 	grid-row: 1;
 	grid-column: 1;
-}
-
-.mgv_content:hover .header_ctnr {
-    clip-path: polygon(50px 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 50px);
 }
 
 .header_ctnr img {
@@ -214,6 +205,7 @@
 
 	.header_ctnr {
 		position: fixed;
+		top: 0;
 	}
 
 	.top_sites {
