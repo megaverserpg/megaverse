@@ -32,18 +32,6 @@
 	border-radius: var(--radius);
 }
 
-@media screen and (min-width: 600px) {
-	.main_forum {
-		padding: 100vh 10vw;
-	}
-}
-
-@media screen and (max-width: 599px) {
-	.main_forum {
-		padding: 75vh 10px;
-	}
-}
-
 /* ----------------------------------------------------------- NEW INDEX -------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -316,6 +304,17 @@
 	grid-column: 1;
 }
 
+@media screen and (min-width: 780px) {
+	.global_fo { 
+		top: 100vh;
+	}
+}
+@media screen and (max-width: 779px) {
+	.global_fo { 
+		top: 75vh;
+	}
+}
+
 .global_bg {
 	width: 100%;
 	background: var(--co-1grad);
@@ -325,17 +324,6 @@
 	top: 0;
 	-webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
 	mask-image: linear-gradient(to bottom, transparent, black 4%);
-}
-
-@media screen and (min-width: 780px) {
-	.global_bg { 
-		margin-top: 100vh;
-	}
-}
-@media screen and (max-width: 779px) {
-	.global_bg { 
-		margin-top: 75vh;
-	}
 }
 
 /* ----------------------------------------------------------- FIN NEW INDEX -------------------------------------------------------------- */
