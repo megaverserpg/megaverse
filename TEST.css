@@ -207,6 +207,10 @@
 		top: 0;
 	}
 
+	.header_coded > a {
+		font-size: 5.5rem;
+	}
+
 	.top_sites {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -238,9 +242,7 @@
 	.top_sites {
 		justify-content: space-between;
 	}
-}
-
-@media screen and (min-width: 410px) {
+	
 	.header_coded > a {
 		font-size: 4rem;
 	}
