@@ -78,10 +78,10 @@
 .mgv_content::after {
     content: "";
     display: block;
-    position: absolute;
-    top: 86px;
+    position: fixed;
+    bottom: 0;
     width: 2px;
-    height: calc(100% - 86px);
+    height: calc(100% - 52px);
     background: var(--white);
 }
 
