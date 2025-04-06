@@ -251,20 +251,18 @@
 	grid-column: 1;
 }
 
-@media screen and (min-width: 1260px) {
-	@media screen and (min-width: 980px) {
-		.global_bg {
-			position: sticky;
-			top: 0;
-			width: 100%;
-			height: 100vh;
-			background: var(--co-1grad);
-		}
-		.global_fo {
-			margin-top: 100vh;
-			opacity: 0;
-			animation: apparate 1s forwards;
-		}
+@media screen and (min-width: 980px) {
+	.global_bg {
+		position: sticky;
+		top: 0;
+		width: 100%;
+		height: 100vh;
+		background: var(--co-1grad);
+	}
+	.global_fo {
+		margin-top: 100vh;
+		opacity: 0;
+		animation: apparate 1s forwards;
 	}
 }
 
