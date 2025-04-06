@@ -829,27 +829,31 @@ div#fa_usermenu .bold {
 /* AVATAR TOOLBAR ---*/
 /* Conteneur de l'avatar toolbar */
 .fa_avatar {
+	z-index: 998;
 	position: absolute;
 	display: grid;
 	place-items: center;
+	top: 60px;
+	clip-path: polygon(27% 0%, 0 0, 0 27%);
+	background: var(--base-1);
+	transition: all .3s;
 }
 
-/* Image de l'avatar */
 .fa_avatar img {
 	object-fit: cover;
 	object-position: center;
-	width: 70px;
-	height: 65px;
-	border-radius: 5px;
-	clip-path: polygon(
-		0% 0%,
-		100% 0%,
-		100% 75%,
-		75% 75%,
-		75% 100%,
-		50% 75%,
-		0% 75%
-	);
+	width: 92px;
+	height: 92px;
+	opacity: 0;
+	transition: all .3s;
+}
+
+.mgv_content:hover .fa_avatar {
+	clip-path: polygon(52px 0%, 0 0, 0 52px);
+}
+
+.mgv_content:hover .fa_avatar img {
+	opacity: 1;
 }
 
 /*** ------------------------------- ***/
