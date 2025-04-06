@@ -176,6 +176,8 @@
 }
 
 .header_ctnr {
+	position: fixed;
+	top: 0;
 	display: grid;
 	background: var(--co-2grad);
 }
@@ -228,11 +230,6 @@
 @media screen and (min-width: 780px) {
 	.header_ctnt {
 		grid-template-columns: repeat(2, auto);
-	}
-
-	.header_ctnr {
-		position: fixed;
-		top: 0;
 	}
 
 	.header_coded {
@@ -481,11 +478,8 @@ textarea {
 }
 
 .links_bar.links_qeel {
-	position: relative;
-	z-index: 1;
 	text-transform: lowercase;
 	width: fit-content;
-	margin: 0 0 -100px 150px;
 	padding: 3px;
 }
 
