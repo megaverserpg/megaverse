@@ -16,12 +16,12 @@
 }
 
 ::-webkit-scrollbar-track-piece {
-	background-color: var(--neutralDarker);
+	background-color: var(--base-1);
 }
 
 ::-webkit-scrollbar-thumb {
 	background: var(--co-2grad);
-	border: 1.5px solid var(--white);
+	border: 1.5px solid var(--base-1);
 }
 
 /* ------------ STRUCTURE ------------ */
