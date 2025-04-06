@@ -844,7 +844,7 @@ div#fa_usermenu .bold {
 	position: fixed;
 	display: grid;
 	place-items: center;
-	top: 60px;
+	top: 59px;
 	clip-path: polygon(27% 0%, 0 0, 0 27%);
 	background: var(--base-1);
 	transition: all .3s;
