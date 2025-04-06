@@ -59,15 +59,15 @@
     z-index: 1002;
     content: "";
     display: block;
-    position: sticky;
+    position: fixed;
     width: 25px;
     height: 25px;
     border: 1px solid transparent;
     border-color: inherit;
     transition: width .3s, height .3s;
-    top: 0;
+    top: 35px;
     border-width: 0 1px 1px 0;
-    background: linear-gradient(-45deg, #AAA, #FFF 40%, #999 50%, var(--base-1) 50%);
+    background: linear-gradient(-45deg, #AAA, #FFF 40%, #999 50%, transparent 50%);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
