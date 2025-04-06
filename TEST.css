@@ -65,7 +65,7 @@
     top: 35px;
     border-width: 0 1px 1px 0;
     background: linear-gradient(-45deg, #AAA, #FFF 40%, #999 50%, #FFF 50%);
-    box-shadow: 3px 3px 3px var(--textColor);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 }
 
 .mgv_content:hover::before {
@@ -104,7 +104,7 @@
 }
 
 .header_text {
-	max-width: 37vw;
+	max-width: 387px;
 	height: 120px;
 	background: var(--neutral);
 	outline-offset: 5px;
@@ -155,6 +155,7 @@
 	height: calc(100vh - 35px);
 	margin-top: 35px;
 	overflow-y: hidden;
+	border-top-left-radius: 50px;
 }
 
 .header_ctnr > * {
@@ -4469,7 +4470,6 @@ button.rep-button .rep-nb {
 	left: 9px;
 	z-index: 1000;
 	box-sizing: border-box;
-        opacity: 0;
 }
 
 .navig > * {
@@ -4478,7 +4478,8 @@ button.rep-button .rep-nb {
 }
 
 .navig,
-.nav_burger-cnt {
+.nav_burger-cnt,
+.nav_burger {
 	transition: all 0.3s;
 }
 
@@ -4511,7 +4512,10 @@ button.rep-button .rep-nb {
     width: 17px;
     height: 13px;
     text-align: center;
+    opacity: 0;
 }
+
+.mgv_content:hover .nav_burger {opacity: 1}
 
 .nav_burger span {
 	display: block;
