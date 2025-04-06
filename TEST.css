@@ -28,10 +28,23 @@
 .main_forum {
 	position: relative;
 	z-index: 1;
-	width: 70vw;
-	margin: 0 auto 100px;
-	padding-top: calc(2 * var(--spacing));
 	border-radius: var(--radius);
+}
+
+@media screen and (min-width: 600px) {
+	.main_forum {
+		width: 70vw;
+		margin: 0 auto 100px;
+		padding-top: calc(2 * var(--spacing));
+	}
+}
+
+@media screen and (max-width: 599px) {
+	.main_forum {
+		width: 70vw;
+		margin: 0 auto 100px;
+		padding-top: calc(2 * var(--spacing));
+	}
 }
 
 /* ----------------------------------------------------------- NEW INDEX -------------------------------------------------------------- */
@@ -88,15 +101,11 @@
 
 .header_coded {
     z-index: 1;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 15vw;
-    margin: auto;
     max-width: fit-content;
     height: fit-content;
     opacity: 0;
     animation: appears 1.3s 0.9s forwards;
+    margin: auto;
 }
 
 .header_coded > a {
@@ -181,7 +190,8 @@
     mask-image: linear-gradient(to top, transparent 4%, black 40%);
 }
 
-.header_show {
+@media screen and (min-width: 600px) {
+	.header_show {
 	position: relative;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -224,6 +234,13 @@
     		height: 100vh;
 	}
 
+	.header_coded {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 15vw;
+	}
+
 	.header_coded > a {
 		font-size: 5.5rem;
 	}
@@ -245,7 +262,6 @@
 		bottom: 0;
 		left: 10px;
 		right: 10px;
-		margin: auto;
 	}
 
 	.gradient_infos {
@@ -309,27 +325,17 @@
     background: var(--co-1grad);
     background-attachment: fixed;
     height: 100%;
+	position: sticky;
+	top: 0;
     -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
     mask-image: linear-gradient(to bottom, transparent, black 4%);
 }
 
 @media screen and (min-width: 600px) {
-	.global_bg {
-		position: sticky;
-		top: 0;
-	}
 	.global_fo {
 		margin-top: 75vh;
 		opacity: 0;
 		animation: appears 1s forwards;
-	}
-}
-@media screen and (max-width: 599px) {
-	.global_bg {
-		
-	}
-	.global_fo {
-    		background-attachment: fixed;
 	}
 }
 
