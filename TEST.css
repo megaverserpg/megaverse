@@ -210,7 +210,7 @@
 	transform-origin: bottom;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 600px) {
 	.header_ctnt {
 		grid-template-columns: repeat(2, auto);
 	}
@@ -234,7 +234,7 @@
 	}
 }
 
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 599px) {
 	.header_ctnr img {
     		height: 50%;
 	}
@@ -259,7 +259,7 @@
 	}
 }
 
-@media screen and (min-width: 410px) and (max-width: 979px) {
+@media screen and (min-width: 410px) and (max-width: 599px) {
 	.top_sites {
 		justify-content: space-between;
 	}
@@ -313,7 +313,7 @@
     mask-image: linear-gradient(to bottom, transparent, black 4%);
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 600px) {
 	.global_bg {
 		position: sticky;
 		top: 0;
@@ -324,7 +324,7 @@
 		animation: appears 1s forwards;
 	}
 }
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 599px) {
 	.global_bg {
 		
 	}
