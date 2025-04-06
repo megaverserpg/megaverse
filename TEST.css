@@ -29,7 +29,7 @@
 	position: relative;
 	z-index: 1;
 	width: 70vw;
-	margin: 0 auto 200px;
+	margin: 0 auto 100px;
 	padding-top: calc(2 * var(--spacing));
 	border-radius: var(--radius);
 }
@@ -289,8 +289,8 @@
     position: relative;
     display: grid;
     border-bottom: 2px solid var(--white);
-    -webkit-mask-image: linear-gradient(to top, transparent 0, black 6%);
-    mask-image: linear-gradient(to top, transparent 0, black 6%);
+    -webkit-mask-image: linear-gradient(to top, transparent 0, black 5%);
+    mask-image: linear-gradient(to top, transparent 0, black 5%);
 }
 .global_fo > * {
 	grid-row: 1;
@@ -303,7 +303,7 @@
     background-attachment: fixed;
     height: 100%;
     -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
-    mask-image: linear-gradient(to bottom, transparent, black 4%);
+    mask-image: linear-gradient(to bottom, transparent, black 0%);
 }
 
 @media screen and (min-width: 980px) {
