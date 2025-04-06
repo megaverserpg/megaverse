@@ -29,7 +29,7 @@
 	position: relative;
 	z-index: 1;
 	width: 70vw;
-	margin: 0 auto;
+	margin: 0 auto 200px;
 	padding-top: calc(2 * var(--spacing));
 	border-radius: var(--radius);
 }
@@ -286,10 +286,11 @@
 }
 
 .global_fo {
-	position: relative;
-	display: grid;
-	border-bottom: 2px solid var(--white);
-	margin-bottom: 150px;
+    position: relative;
+    display: grid;
+    border-bottom: 2px solid var(--white);
+    -webkit-mask-image: linear-gradient(to top, transparent 0, black 6%);
+    mask-image: linear-gradient(to top, transparent 0, black 6%);
 }
 .global_fo > * {
 	grid-row: 1;
