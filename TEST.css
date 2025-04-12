@@ -3159,11 +3159,6 @@ ellipsis:nth-child(4) {
 .title_number_ctr.reverse_top .title_txt {
 	justify-self: start;
 }
-.pa_notes {
-	border: 1px solid var(--neutralDarker);
-	padding: 10px;
-	border-radius: var(--radius);
-}
 
 /* onglets dans les messages */
 .msg_ong_contenu > div.ongContent {
