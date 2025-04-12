@@ -857,7 +857,7 @@ div#fa_usermenu .bold {
     z-index: 1011;
     position: absolute;
     place-items: center;
-    left: 28px;
+    left: 35px;
     top: 5px;
     transition: all 0.3s;
 }
