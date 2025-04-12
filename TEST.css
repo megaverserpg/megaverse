@@ -3069,6 +3069,8 @@ ellipsis:nth-child(4) {
 	gap: 20px;
 }
 
+/* CSS GLOBAL : AESTHETIC */
+
 .block {
 	background: var(--neutral);
 	border-radius: var(--radius);
@@ -3102,6 +3104,65 @@ ellipsis:nth-child(4) {
 	top: -10px;
 	margin: auto;
 	font-size: var(--normal-size);
+}
+
+.title_number_ctr {
+	display: grid;
+	grid-template: 1fr / 1fr;
+	margin-bottom: 20px;
+}
+.title_number_ctr > *,
+.title_number_ctr > *::before,
+.title_number_ctr > *::after {
+	grid-row: 1;
+	grid-column: 1;
+}
+.title_number {
+	color: var(--co-2);
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: var(--l-size);
+}
+.title_number::after {
+	content: '';
+	display: block;
+	margin: 0 12px;
+	width: 3px;
+	height: calc(100% - 30px);
+	background: var(--co-gradient);
+}
+.title_txt {
+	justify-self: end;
+	margin-top: 37px;
+	width: calc(100% - 37px);
+} /* aligné à droite */
+.title_number_ctr.reverse_top .title_number {
+	display: grid;
+	grid-template: auto 1fr / 1fr auto;
+	gap: 7px;
+}
+.title_number_ctr.reverse_top .title_number::before {
+	grid-row: 1;
+	grid-column: 2;
+	content: '.0' counter(counter-index) !important;
+}
+.title_number_ctr.reverse_top .title_number span {
+	grid-row: 1;
+	grid-column: 1;
+	justify-self: end;
+}
+.title_number_ctr.reverse_top .title_number::after {
+	grid-row: 2;
+	grid-column: 2;
+	justify-self: end;
+}
+.title_number_ctr.reverse_top .title_txt {
+	justify-self: start;
+}
+.pa_notes {
+	border: 1px solid var(--neutralDarker);
+	padding: 10px;
+	border-radius: var(--radius);
 }
 
 /* onglets dans les messages */
