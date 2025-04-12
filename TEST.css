@@ -3173,6 +3173,9 @@ ellipsis:nth-child(4) {
     grid-row: 1;
     grid-column: 2;
 }
+.title_number_ctr.bottomright .title_number > span {
+    grid-row: 2;
+}
 .title_number_ctr.bottomright .title_txt {
     margin: 0 37px 37px 0;
 }
