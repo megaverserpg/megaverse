@@ -320,24 +320,6 @@
 /* ----------------------------------------------------------- FIN NEW INDEX -------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* ------------ MENU & FLOATING ELEMENTS ------------ */
-.ascenseur {
-	position: fixed;
-	right: 31px;
-	bottom: 95px;
-	z-index: 2;
-	display: flex;
-	gap: 20px;
-	justify-content: space-between;
-	height: 25px;
-}
-
-.ascenseur a i {
-	color: white !important;
-}
-
-/* boutton light/dark */
-
 /*** --------------------------------------- ***/
 /*** BOUTONS D'INTERACTION ET BARRE DE TEXTE ***/
 
