@@ -42,23 +42,6 @@
     margin:12px auto;
     z-index:1
 }
-#FAM-button-open {
-  border-radius: 10px;
-  position: fixed;
-  width: 70px;
-  height: 65px;
-  right: 20px;
-  bottom: 15px;
-  cursor: pointer;
-  z-index: 999;
-  transition-property: right;
-  transition-duration: 500ms;
-  display: grid;
-  place-items: center;
-}
-#FAM-button-open:hover{
-    color:var(--neutralDark)
-}
 #FAM[data-hidden="false"]~#FAM-button{
     color:var(--neutralDark)
 }
