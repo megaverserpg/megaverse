@@ -3109,14 +3109,14 @@ ellipsis:nth-child(4) {
 .title_number_ctr {
 	display: grid;
 	grid-template: 1fr / 1fr;
+	gap: 5px;
 }
-.title_number_ctr > *,
-.title_number_ctr > *::before,
-.title_number_ctr > *::after {
-	grid-row: 1;
-	grid-column: 1;
+.title_number_ctr > * {
+    grid-row: 1;
+    grid-column: 1;
 }
 .title_number {
+	display: grid;
 	color: var(--co-2);
 	text-transform: uppercase;
 	font-weight: 900;
@@ -3127,36 +3127,54 @@ ellipsis:nth-child(4) {
 	display: block;
 	margin: 0 12px;
 	width: 3px;
-	height: calc(100% - 30px);
+	height: 100%;
 	background: var(--co-gradient);
 }
 .title_txt {
 	justify-self: end;
 	margin-top: 37px;
 	width: calc(100% - 37px);
-} /* aligné à droite */
-.title_number_ctr.reverse_top .title_number {
-	display: grid;
-	grid-template: auto 1fr / 1fr auto;
-	gap: 7px;
+} 
+
+/* haut gauche */
+.title_number_ctr.topleft .title_number { grid-template: auto 1fr / auto 1fr; }
+.title_number_ctr.topleft .title_number::before {
+    grid-row: 1;
+    grid-column: 1;
 }
-.title_number_ctr.reverse_top .title_number::before {
-	grid-row: 1;
-	grid-column: 2;
-	content: '.0' counter(counter-index) !important;
+.title_number_ctr.topleft .title_number::after {
+    grid-row: 2;
+    grid-column: 1;
 }
-.title_number_ctr.reverse_top .title_number span {
-	grid-row: 1;
-	grid-column: 1;
-	justify-self: end;
+.title_number_ctr.topleft .title_txt {
+    margin-top: 37px;
 }
-.title_number_ctr.reverse_top .title_number::after {
-	grid-row: 2;
-	grid-column: 2;
-	justify-self: end;
+/* haut droite */
+.title_number_ctr.topright .title_number {grid-template: auto 1fr / auto 1fr;justify-self: end;}
+.title_number_ctr.topright .title_number::before {
+    grid-row: 1;
+    grid-column: 2;
 }
-.title_number_ctr.reverse_top .title_txt {
-	justify-self: start;
+.title_number_ctr.topright .title_number::after {
+    grid-row: 2;
+    grid-column: 2;
+}
+.title_number_ctr.topright .title_txt {
+    margin: 37px 37px 0 0;
+}
+
+/*bas droite*/
+.title_number_ctr.bottomright .title_number {grid-template: 1fr auto / 1fr auto;justify-self: end;}
+.title_number_ctr.bottomright .title_number::before {
+    grid-row: 2;
+    grid-column: 2;
+}
+.title_number_ctr.bottomright .title_number::after {
+    grid-row: 1;
+    grid-column: 2;
+}
+.title_number_ctr.bottomright .title_txt {
+    margin: 0 37px 37px 0;
 }
 
 /* onglets dans les messages */
