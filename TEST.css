@@ -834,10 +834,6 @@ div#fa_usermenu .bold {
     transition: all 0.3s;
 }
 
-.navbar:hover .fa_avatar {
-	transform: scale(1.1);
-}
-
 .fa_avatar img {
     object-fit: cover;
     object-position: center;
