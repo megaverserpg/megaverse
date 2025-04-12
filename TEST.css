@@ -69,7 +69,7 @@
 		#aaa,
 		#fff 40%,
 		#999 50%,
-		transparent 50%
+		var(--base-1) 50%
 	);
 	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
 }
@@ -78,16 +78,6 @@
 	width: 50px;
 	height: 50px;
 	z-index: 3;
-}
-
-.mgv_content::after {
-	content: '';
-	display: block;
-	position: fixed;
-	bottom: 0;
-	width: 2px;
-	height: calc(100% - 52px);
-	background: var(--white);
 }
 
 .header_coded {
