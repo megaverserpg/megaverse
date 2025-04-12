@@ -855,9 +855,9 @@ div#fa_usermenu .bold {
 /* Conteneur de l'avatar toolbar */
 .fa_avatar {
     z-index: 1011;
-    position: fixed;
+    position: absolute;
     place-items: center;
-    left: 40px;
+    left: 28px;
     top: 5px;
     transition: all 0.3s;
 }
