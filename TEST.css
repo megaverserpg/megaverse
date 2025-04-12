@@ -3109,7 +3109,6 @@ ellipsis:nth-child(4) {
 .title_number_ctr {
 	display: grid;
 	grid-template: 1fr / 1fr;
-	margin-bottom: 20px;
 }
 .title_number_ctr > *,
 .title_number_ctr > *::before,
