@@ -2820,8 +2820,8 @@ telepathy::after {
 }
 .sep-title2 {
 	font-size: var(--xxl-size);
-	line-height: 77%;
-	font-family: var(--font-2);
+	line-height: 82%;
+	font-family: var(--special-font);
 	text-transform: uppercase;
 	color: var(--co-1);
 	display: block;
@@ -2829,7 +2829,7 @@ telepathy::after {
 .sep-title2:nth-child(2) {
 	position: absolute;
 	color: var(--co-2);
-	clip-path: inset(-1% -1% 42% -1%);
+	clip-path: inset(-1% -1% 55% -1%);
 }
 
 t7 {
