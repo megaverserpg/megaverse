@@ -847,7 +847,7 @@ div#fa_usermenu .bold {
     z-index: 1011;
     position: absolute;
     place-items: center;
-    left: 35px;
+    left: 44px;
     top: 5px;
     transition: all 0.3s;
 }
@@ -4557,8 +4557,8 @@ button.rep-button .rep-nb {
 	display: grid;
 	z-index: 998;
 	position: fixed;
-	top: 11px;
-	left: 11px;
+	top: 0;
+	left: 0;
 	z-index: 1000;
 }
 
@@ -4599,9 +4599,10 @@ button.rep-button .rep-nb {
 	flex-direction: column;
 	justify-content: space-between;
 	z-index: 102;
-	width: 17px;
-	height: 13px;
-	text-align: center;
+	width: 44px;
+        height: 60px;
+        padding: 22px 12px;
+        text-align: center;
 }
 
 .nav_burger span {
