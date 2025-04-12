@@ -859,7 +859,6 @@ div#fa_usermenu .bold {
     place-items: center;
     left: 40px;
     top: 5px;
-    background: var(--base-1);
     transition: all 0.3s;
 }
 
@@ -874,6 +873,7 @@ div#fa_usermenu .bold {
     height: 50px;
     border: 1px solid var(--neutralDarker);
     border-radius: 50%;
+    background: var(--base-1);
 }
 
 /*** ------------------------------- ***/
