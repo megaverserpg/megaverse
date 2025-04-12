@@ -291,9 +291,7 @@
 .global_fo {
 	position: relative;
 	display: grid;
-	border-bottom: 2px solid var(--white);
-	-webkit-mask-image: linear-gradient(to top, transparent 0, black 5%);
-	mask-image: linear-gradient(to top, transparent 0, black 5%);
+	border-top: 2px solid var(--white);
 	opacity: 0;
 	animation: appears 1s forwards;
 }
