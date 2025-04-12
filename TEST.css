@@ -854,31 +854,26 @@ div#fa_usermenu .bold {
 /* AVATAR TOOLBAR ---*/
 /* Conteneur de l'avatar toolbar */
 .fa_avatar {
-	z-index: 998;
-	position: fixed;
-	display: grid;
-	place-items: center;
-	top: 59px;
-	clip-path: polygon(28px 0%, 0 0, 0 28px);
-	background: var(--base-1);
-	transition: all 0.3s;
+    z-index: 1011;
+    position: fixed;
+    place-items: center;
+    left: 40px;
+    top: 5px;
+    background: var(--base-1);
+    transition: all 0.3s;
+}
+
+.navbar:hover .fa_avatar {
+	transform: scale(1.1);
 }
 
 .fa_avatar img {
-	object-fit: cover;
-	object-position: center;
-	width: 92px;
-	height: 92px;
-	opacity: 0;
-	transition: all 0.3s;
-}
-
-.mgv_content:hover .fa_avatar {
-	clip-path: polygon(52px 0%, 0 0, 0 52px);
-}
-
-.mgv_content:hover .fa_avatar img {
-	opacity: 1;
+    object-fit: cover;
+    object-position: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--neutralDarker);
+    border-radius: 50%;
 }
 
 /*** ------------------------------- ***/
