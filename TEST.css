@@ -4661,7 +4661,7 @@ button.rep-button .rep-nb {
 
 .nav_menu {
 	margin: 7px 5px 7px 10px;
-	padding-top: 5px;
+	padding-top: 10px;
 	overflow: hidden auto;
 	height: calc(100vh - 13px);
 }
