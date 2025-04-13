@@ -4553,11 +4553,6 @@ button.rep-button .rep-nb {
 	transition: all 0.3s;
 }
 
-.nav_burger-cnt {
-	background-color: var(--base-1);
-	transform: translateX(-310px);
-}
-
 /* MENU BURGER (FRITES) */
 .nav_home {
 	position: absolute;
@@ -4649,11 +4644,11 @@ button.rep-button .rep-nb {
 	width: 310px;
 	z-index: 101;
 	box-sizing: border-box;
-	background: var(--neutralDark);
+	background-color: var(--base-1);
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 	line-height: 17px;
-	transform: translateX(-400px);
+	transform: translateX(-310px);
 	transition: all 0.2s ease-out;
 }
 
