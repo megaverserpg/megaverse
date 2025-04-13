@@ -3072,6 +3072,8 @@ ellipsis:nth-child(4) {
 	font-weight: 900;
 	font-size: var(--l-size);
 }
+.title_number { counter-increment: counter-index; }
+.title_number::before { content: "0" counter(counter-index) ". "; display: inline-block; width: 35px; text-align: center; color: white; font-size: var(--l-size); font-family: var(--special-font); } 
 .title_number::after {
 	content: '';
 	display: block;
