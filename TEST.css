@@ -1488,9 +1488,6 @@ div#fa_usermenu .bold {
 .cate_title h2 {
     grid-row: 1;
     grid-column: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     text-transform: uppercase;
     padding: 0 20px;
@@ -1498,18 +1495,32 @@ div#fa_usermenu .bold {
 }
 
 .cate_title h2:first-of-type {
+    position: relative;
+    padding-top: 5px;
     font-family: var(--special-font);
     font-size: var(--xxl-size);
     font-weight: 400;
     color: var(--co-1c);
 }
 
-.cate_title h2:nth-of-type(2) {
+.cate_title h2:first-of-type::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    width: 100%;
     height: 24px;
-    margin-bottom: 5px;
     border-radius: var(--radius);
     background: var(--co-1b);
     border: 1px solid var(--co-1c);
+}
+
+.cate_title h2:nth-of-type(2) {
+    position: relative;
     font-size: var(--normal-size);
     letter-spacing: 5px;
 }
