@@ -1154,9 +1154,19 @@ border-radius: 5px 50px 5px 5px;
 }
 
 /* dernier message*/
+.forum_lastpost br {
+    display: none;
+}
+
 .forum_lastpost {
-width: 100%;
-font-size: var(--little-size);
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+    font-size: var(--little-size);
+    white-space: nowrap;
+    background: var(--neutralDarker);
+    border-radius: var(--xs-radius);
+    padding: 0 3px;
 }
 
 /* liens des sous forums */
@@ -1192,6 +1202,7 @@ height: 100%;
 
 .fo_classic .forum_stats {
     transform: translateX(-45px);
+    margin-top: 10px;
 }
 
 .forum_stats {
@@ -1204,8 +1215,8 @@ gap: 10px;
 
 .fo_classic .fo_stats {
 transform: translateX(-45px);
-    position: absolute;
-    bottom: 20px;
+margin-top: 15px;
+width: 38px;
 }
 
 .fo_stats {
@@ -1225,6 +1236,7 @@ grid-area: foposteur;
     background: var(--co-gradient);
     border-radius: 50%;
     color: var(--white);
+    font-size: var(medium-size);
 }
 
 .fo_classic .forum_stats span:last-child {
@@ -1253,6 +1265,7 @@ align-self: center;
 
 .forum_desc .desc {
     grid-area: forumdesc;
+    margin: 0 15px 60px 0;
 }
 
 .forum_desc > br {
