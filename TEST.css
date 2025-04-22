@@ -1180,6 +1180,11 @@ color: white;
 
 
 /* ------------ CATÉGORIES ------------ */
+.forums {
+display: grid;
+gap: 30px;
+}
+
 .forum_content {
 height: 100%;
 }
@@ -1731,9 +1736,7 @@ display: none;
 
 @media screen and (min-width: 890px) {
 	#c2 .forums, #c7 .forums {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 30px; 
+	grid-template-columns: repeat(2, 1fr); 
 	}
 }
 
