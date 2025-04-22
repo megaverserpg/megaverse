@@ -1228,18 +1228,19 @@ grid-area: foposteur;
 }
 
 .fo_classic .forum_stats span:last-child {
+    white-space: nowrap;
     position: absolute;
     top: -10px;
     left: 10px;
     background: var(--neutralDarker);
-    border-radius: var(--radius);
+    border-radius: var(--xs-radius);
     font-size: var(--little-size);
     padding: 0 5px;
     opacity: 0;
     transition: .5s opacity;
 }
 
-.fo_classic .forum_stats span:last-child:hover { opacity: 1; }
+.fo_classic:hover .forum_stats span:last-child { opacity: 1; }
 
 a.forumtitle {
 grid-area: forumtitle;
@@ -1415,6 +1416,7 @@ display: none;
 	grid-area: forumimgnew;
 	font-size: var(--xl-size);
         transform: translateX(-45px);
+	color: var(--white);
 }
 
 .forum-img img {
