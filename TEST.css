@@ -1105,7 +1105,137 @@ div#fa_usermenu .bold {
 	display: none;
 }
 
+/*** ------------------------------- ***/
+/*** CATEGORIES -------------------- ***/
+
+.category {
+border-radius: 10px;
+}
+
+.category::after {
+content: '';
+display: block;
+margin: 45px auto;
+width: 35px;
+height: 13px;
+background-image: url(https://www.aht.li/3837602/sep.png);
+background-size: contain;
+}
+
+a.ovale_ssfo {
+position: absolute;
+left: 0;
+right: 0;
+bottom: 15px;
+margin: 0 auto;
+width: fit-content;
+background: var(--co-2grad);
+color: white;
+padding: 0 5px;
+border-radius: var(--xs-radius);
+font-size: var(--small-size);
+border: 1px solid white;
+}
+
+/*conteneur avatar du dernier posteur*/
+.forum_avatar {
+width: 50px;
+height: 50px;
+}
+
+.forum_avatar img {
+background: var(--neutralDark);
+width: 50px;
+height: 50px;
+object-fit: cover;
+object-position: center;
+border-radius: 5px;
+}
+
+/* dernier message*/
+.forum_lastpost {
+width: 100%;
+font-size: var(--little-size);
+}
+
+/* liens des sous forums */
+#subforum {
+font-size: 0; /*permet de retirer la virgule*/
+}
+
+#subforum a {
+padding: 5px;
+font-size: var(--small-size);
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-right: 10px;
+border-radius: var(--radius);
+}
+
+#subforum a:hover {
+background: var(--co-gradient);
+color: white;
+}
+
+
+
 /* ------------ CATÉGORIES ------------ */
+.forum_content {
+height: 100%;
+}
+
+.forum_stats {
+grid-area: forumstats;
+display: flex;
+flex-direction: column;
+font-weight: 600;
+font-size: var(--little-size);
+gap: 10px;
+border-radius: var(--radius);
+}
+
+.fo_stats {
+grid-area: foposteur;
+}
+
+a.forumtitle {
+grid-area: forumtitle;
+width: fit-content;
+font-size: var(--large-size);
+font-family: var(--font-2);
+text-transform: uppercase;
+align-self: center;
+}
+
+.forum_desc .desc {
+    grid-area: forumdesc;
+}
+
+.forum_desc > br {
+display: none;
+}
+
+.fo_deco {
+	grid-area: fodecoimg;
+	display: grid;
+}
+
+.fo_deco > * {
+	grid-row: 1;
+	grid-column: 1;
+}
+
+.fo_deco img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.9;
+}
+
+.fo_links {
+    grid-area: folinks;
+}
+
 /* cate en onglets */
 .tab-content {
 	display: none;
@@ -1239,6 +1369,7 @@ div#fa_usermenu .bold {
 }
 
 .forum-img {
+	grid-area: forumimgnew;
 	font-size: var(--large-size);
 }
 
@@ -1276,10 +1407,12 @@ div#fa_usermenu .bold {
 
 #c2 .forum .forum_desc,
 #c7 .forum .forum_desc {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	height: 100%;
+    display: grid;
+    grid-template-areas:
+        "forumimgnew forumtitle fodecoimg"
+        "forumstats forumdesc fodecoimg"
+        "foposteur forumdesc fodecoimg"
+        "folinks folinks folinks";
 }
 
 .c1_content {
@@ -1313,35 +1446,8 @@ div#fa_usermenu .bold {
 	height: 80px;
 }
 
-#c1 .forum:nth-child(2) .forumtitle,
-#c1 .forum:nth-child(2) .desc,
-#c1 .forum:nth-child(2) .fo_stats,
-#c1 .forum:nth-child(2) .fo_links,
-#c2 .forum .forumtitle,
-#c7 .forum .forumtitle,
-#c2 .forum .desc,
-#c7 .forum .desc,
-#c2 .forum .fo_stats,
-#c7 .forum .fo_stats,
-#c2 .forum .fo_links,
-#c7 .forum .fo_links {
-	margin-left: 20px;
-}
-
 #c1 .forum:nth-child(3) .desc {
 	margin-right: 20px;
-}
-
-#c1 .forum-img,
-#c2 .forum-img,
-#c7 .forum-img {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 25px 0 0 30px;
-	width: 70px;
-	height: 70px;
-	background-color: var(--white);
 }
 
 #c1 .forum-img.bounce,
@@ -1351,17 +1457,6 @@ div#fa_usermenu .bold {
 	padding: 20px 0 0 25px;
 }
 
-#c1 .forum:nth-child(2) .forum-img,
-#c2 .forum .forum-img,
-#c7 .forum .forum-img {
-	grid-row: 1 / span 4;
-	grid-column: 1;
-	justify-self: end;
-	align-self: end;
-	margin: 0 -1px -20px auto;
-	clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-	z-index: 1;
-}
 
 #c1 .forum:nth-child(3) .forum-img {
 	grid-row: 1 / span 4;
@@ -1373,22 +1468,6 @@ div#fa_usermenu .bold {
 	z-index: 1;
 }
 
-#c1 .forum:not(:first-of-type) .forum_desc,
-#c2 .forum .forum_desc,
-#c7 .forum .forum_desc {
-	display: grid;
-	grid-template-columns: repeat(2, 50%);
-	gap: 10px 0;
-}
-
-#c1 .forum:nth-child(2) .fo_stats,
-#c2 .forum .fo_stats,
-#c7 .forum .fo_stats {
-	grid-row: 3;
-	grid-column: 2;
-	margin-top: 5px;
-}
-
 #c1 .forum:nth-child(3) .fo_stats {
 	grid-row: 3;
 	grid-column: 1;
@@ -1398,13 +1477,6 @@ div#fa_usermenu .bold {
 #c3 .fo_stats,
 #c6 .fo_stats {
 	margin: 0 auto;
-}
-
-#c1 .fo_links,
-#c2 .fo_links,
-#c7 .fo_links {
-	grid-row: 4;
-	text-align: left;
 }
 
 .fo_links a {
@@ -1423,28 +1495,6 @@ div#fa_usermenu .bold {
 	display: none;
 }
 
-.fo_stats {
-	display: flex;
-	gap: 10px;
-	width: fit-content;
-}
-
-#c1 .forum_stats,
-#c2 .forum_stats,
-#c7 .forum_stats {
-	justify-self: center;
-	align-self: center;
-	flex-direction: column;
-}
-
-#c1 .forum:nth-child(2) .forum_stats,
-#c2 .forum .forum_stats,
-#c7 .forum .forum_stats {
-	grid-row: 1 / span 4;
-	grid-column: 1;
-	margin-left: -20px;
-}
-
 #c1 .forum:nth-child(3) .forum_stats {
 	grid-row: 1 / span 4;
 	grid-column: 2;
@@ -1459,15 +1509,6 @@ div#fa_usermenu .bold {
 	border-radius: var(--xs-radius);
 	text-align: center;
 	color: var(--contrast);
-}
-
-#c1 .forum:nth-child(2) .fo_deco,
-#c2 .forum .fo_deco,
-#c7 .forum .fo_deco {
-	grid-row: 1 / span 4;
-	grid-column: 1;
-	margin: -20px 0 -20px -20px;
-	overflow: hidden;
 }
 
 #c1 .forum:nth-child(3) .fo_deco {
@@ -1670,22 +1711,6 @@ div#fa_usermenu .bold {
 	color: white;
 }
 
-.fo_deco {
-	display: grid;
-}
-
-.fo_deco > * {
-	grid-row: 1;
-	grid-column: 1;
-}
-
-.fo_deco img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	opacity: 0.9;
-}
-
 #c4 .fo_deco img,
 #c5 .fo_deco img,
 #c8 .fo_deco img {
@@ -1704,11 +1729,12 @@ div#fa_usermenu .bold {
 	margin: -20px 0 0 -20px;
 }
 
-#c2 .forums,
-#c7 .forums {
+@media screen and (min-width: 890px) {
+	#c2 .forums, #c7 .forums {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: 30px;
+	gap: 30px; 
+	}
 }
 
 #c4 .tabs ul,
@@ -1729,6 +1755,7 @@ div#fa_usermenu .bold {
 #c5 .forum_content,
 #c8 .forum_content {
 	display: grid;
+	grid-area: fodecoimg;
 	grid-template: 140px 1fr / 1fr 30%;
 }
 
