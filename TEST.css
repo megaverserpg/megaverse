@@ -1410,8 +1410,7 @@ display: none;
 	height: 100%;
 }
 
-#c2 .forum .forum_desc,
-#c7 .forum .forum_desc {
+.fo_classic .forum_desc {
     display: grid;
     grid-template-areas:
         "forumimgnew forumtitle fodecoimg"
@@ -1443,12 +1442,6 @@ display: none;
 
 .c1_links a.odd {
 	background: var(--co-1grad);
-}
-
-#c1 .desc,
-#c2 .desc,
-#c7 .desc {
-	height: 80px;
 }
 
 #c1 .forum:nth-child(3) .desc {
@@ -1504,16 +1497,6 @@ display: none;
 	grid-row: 1 / span 4;
 	grid-column: 2;
 	margin-right: -20px;
-}
-
-#c1 .forum_stats span,
-#c2 .forum_stats span,
-#c7 .forum_stats span {
-	background: var(--neutralDark);
-	padding: 5px 10px;
-	border-radius: var(--xs-radius);
-	text-align: center;
-	color: var(--contrast);
 }
 
 #c1 .forum:nth-child(3) .fo_deco {
@@ -1928,7 +1911,7 @@ display: none;
 	overflow: hidden;
 }
 
-.forum:not(#c1 .forum:first-of-type, #c3 .forum, #c6 .forum, .forum.int_forum) {
+.fo_classic, .forum.int_forum {
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 }
