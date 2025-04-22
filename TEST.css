@@ -1286,6 +1286,8 @@ display: none;
 
 .fo_links {
     grid-area: folinks;
+    position: absolute;
+    bottom: -30px;
 }
 
 /* cate en onglets */
