@@ -1239,6 +1239,8 @@ grid-area: foposteur;
     transition: .5s opacity;
 }
 
+.fo_classic .forum_stats span:last-child:hover { opacity: 1; }
+
 a.forumtitle {
 grid-area: forumtitle;
 width: fit-content;
