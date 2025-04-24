@@ -1236,12 +1236,11 @@ grid-area: foposteur;
 
 .forum_stats:hover span:last-child { opacity: 1; }
 
-a.forumtitle {grid-area: forumtitle;grid-row: 1 / span 3;grid-column: 1 / span 2;margin: 15px 15px 0 15px;width: fit-content;font-size: var(--large-size);color: var(--co-2);font-weight: 900;text-transform: uppercase;}
+a.forumtitle {grid-area: forumtitle;display: grid;grid-row: 1 / span 3;grid-column: 1 / span 2;gap: 6px;margin: 15px 15px 0 15px;width: fit-content;font-size: var(--large-size);color: var(--co-2);font-weight: 900;text-transform: uppercase;}
 
 .forum_desc .desc {
     grid-area: forumdesc;
     align-self: start;
-    margin: 0 15px 55px 13px;
 }
 
 .forum_desc > br {
@@ -1251,8 +1250,9 @@ display: none;
 .fo_deco {
 	grid-area: fodecoimg;
 	display: grid;
+	align-items: center;
 	height: 298px;
-	overflow: hidden;
+	/* overflow: hidden; */
 }
 
 .fo_deco > * {
@@ -1262,7 +1262,7 @@ display: none;
 
 .fo_deco img {
 	width: 100%;
-	height: 100%;
+	height: 298px;
 	object-fit: cover;
 	opacity: 0.9;
 }
@@ -1271,7 +1271,6 @@ display: none;
     grid-area: folinks;
     position: absolute;
     bottom: -30px;
-    display: none;
 }
 
 /* cate en onglets */
@@ -1451,9 +1450,9 @@ display: none;
         "forumimgnew forumtitle fodecoimg"
         "forumstats forumdesc fodecoimg"
         "foposteur forumdesc fodecoimg";
-    grid-template-columns: auto 1fr 30%;
+    grid-template-columns: auto 1fr 35%;
     grid-template-rows: 38px 1fr 100px;
-    gap: 10px;
+    gap: 10px 15px;
 }
 
 .fo_classic .forum_desc > .desc {
@@ -3112,7 +3111,7 @@ ellipsis:nth-child(4) {
 }
 
 .forumtitle::after {
-	height: calc(100% - 121px);
+	height: calc(100% - 96px);
 	}
 
 .title_txt {
