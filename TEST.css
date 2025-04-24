@@ -1450,7 +1450,7 @@ display: none;
         "forumimgnew forumtitle fodecoimg"
         "forumstats forumdesc fodecoimg"
         "foposteur forumdesc fodecoimg";
-    grid-template-columns: auto 1fr 35%;
+    grid-template-columns: auto 1fr minmax(145px,25%);
     grid-template-rows: 38px 1fr 100px;
     gap: 10px 15px;
 }
