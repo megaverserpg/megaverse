@@ -1108,19 +1108,6 @@ div#fa_usermenu .bold {
 /*** ------------------------------- ***/
 /*** CATEGORIES -------------------- ***/
 
-.category {
-border-radius: 10px;
-}
-
-.category::after {
-content: '';
-display: block;
-margin: 45px auto;
-width: 35px;
-height: 13px;
-background-image: url(https://www.aht.li/3837602/sep.png);
-background-size: contain;
-}
 
 a.ovale_ssfo {
 position: absolute;
@@ -1233,7 +1220,21 @@ grid-area: foposteur;
 
 .forum_stats:hover span:last-child { opacity: 1; }
 
-a.forumtitle {grid-area: forumtitle;display: grid;grid-row: 1 / span 3;grid-column: 1 / span 2;gap: 6px;margin: 15px 15px 0 15px;width: fit-content;font-size: var(--large-size);color: var(--co-2);font-weight: 900;text-transform: uppercase;}
+a.forumtitle {
+    grid-area: forumtitle;
+    display: grid;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+    gap: 6px;
+    z-index: 1;
+    margin: 15px 15px 0 15px;
+    white-space: nowrap;
+    width: fit-content;
+    font-size: var(--large-size);
+    color: var(--co-2);
+    font-weight: 900;
+    text-transform: uppercase;
+}
 
 .forum_desc .desc {
     grid-area: forumdesc;
@@ -1714,9 +1715,9 @@ display: none;
 	margin: -20px 0 0 -20px;
 }
 
-@media screen and (min-width: 890px) {
-	#c2 .forums, #c7 .forums {
-	grid-template-columns: repeat(2, 1fr); 
+@media screen and (min-width: 1150px) {
+	.forums:not(.forums:has(.fo_onglets), #c9 .forums){
+		grid-template-columns: repeat(2, 1fr); 
 	}
 }
 
