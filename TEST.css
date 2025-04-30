@@ -1135,8 +1135,6 @@ height: 80px;
 /* dernier message*/
 .forum_lastpost {font-size: var(--little-size); background: var(--neutralDarker);border-radius: var(--xs-radius);padding: 0 3px;}
 
-.forum_lastpost .last-post-icon {margin-left: -8px}
-
 .fo_classic .forum_lastpost br {
     display: none;
 }
