@@ -1145,10 +1145,6 @@ height: 80px;
 }
 
 .forum_lastpost > span {display: flex;flex-direction: column;}
-
-.forum_lastpost br {
-    display: none;
-}
 	
 /* liens des sous forums */
 #subforum {
@@ -1246,6 +1242,11 @@ grid-area: foposteur;
 }
 
 .forum_stats:hover span:last-child { opacity: 1; }
+
+.fo_onglets .forum_lastpost > span > a:last-child {
+    display: block;
+    margin: -17px 0 0 0;
+}
 
 .fo_onglets .forum_details {position: absolute;left: 27px;bottom: 10px;width: 49.8%;height: 94px;overflow: auto;}
 
