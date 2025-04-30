@@ -1137,14 +1137,18 @@ height: 80px;
 
 .forum_lastpost .last-post-icon {margin-left: -8px}
 
+.fo_classic .forum_lastpost br {
+    display: none;
+}
+
 .fo_classic .forum_lastpost {
 	position: absolute;
     left: 100px;
-    bottom: 1px;
+    bottom: 10px;
 	white-space: nowrap; 
 }
 
-.forum_lastpost > span {display: flex;flex-direction: column;}
+.fo_onglets .forum_lastpost > span {display: flex;flex-direction: column;}
 	
 /* liens des sous forums */
 #subforum {
@@ -1243,7 +1247,6 @@ grid-area: foposteur;
 
 .forum_stats:hover span:last-child { opacity: 1; }
 
-.fo_onglets .forum_lastpost > span { flex-direction: column; }
 .fo_onglets .forum_lastpost > span > a:last-child {
     display: block;
     margin: -17px 0 0 0;
