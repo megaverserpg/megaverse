@@ -1133,14 +1133,22 @@ height: 80px;
 .forum_avatar img {background: var(--neutralDark);width: 80px;height: 80px;object-fit: cover;object-position: center;border: 5px solid var(--co-1);border-radius: 5px 45px 5px 5px;}
 
 /* dernier message*/
+.forum_lastpost {font-size: var(--little-size); background: var(--neutralDarker);border-radius: var(--xs-radius);padding: 0 3px;}
+
+.forum_lastpost .last-post-icon {margin-left: -8px}
+
+.fo_classic .forum_lastpost {
+	position: absolute;
+    left: 100px;
+    bottom: 1px;
+	white-space: nowrap; 
+}
+
+.forum_lastpost > span {display: flex;flex-direction: column;}
+
 .forum_lastpost br {
     display: none;
 }
-
-.forum_lastpost {position: absolute;left: 100px;bottom: 1px;font-size: var(--little-size); white-space: nowrap; background: var(--neutralDarker);border-radius: var(--xs-radius);padding: 0 3px;}
-.forum_lastpost > span {display: flex;gap: 5px;}
-
-.forum_lastpost .last-post-icon {margin-left: -8px}
 	
 /* liens des sous forums */
 #subforum {
@@ -1171,9 +1179,7 @@ color: white;
 	}
 }
 
-.forum_content {
-height: 100%;
-}
+.forum_content {height: 100%;position: relative;}
 
 .fo_classic .forum_stats {
     align-self: end;
@@ -1241,8 +1247,32 @@ grid-area: foposteur;
 
 .forum_stats:hover span:last-child { opacity: 1; }
 
-.forum_details {
-    grid-area: forumdetails;
+.fo_onglets .forum_details {position: absolute;left: 27px;bottom: 10px;width: 49.8%;height: 94px;overflow: auto;}
+
+.fo_onglets #subforum a:not(a:nth-child(odd):last-of-type) {
+    flex: 0 1 calc(50% - 10px);
+}
+
+.fo_onglets #subforum {display: flex;flex-wrap: wrap;row-gap: 5px;}
+
+.fo_onglets #subforum a:nth-child(odd):last-of-type {
+    flex: 0 1 calc(100% - 15px);
+}
+
+.fo_onglets .lastpost {
+    width: 100%;
+    height: 80px;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.fo_onglets .fo_stats {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    grid-row: 2 / span 3;
+    align-self: end;
+    margin-bottom: 105px;
 }
 
 .forum_desc .desc {
@@ -1399,7 +1429,7 @@ display: none;
 	margin: 0 auto;
 }
 
-.fo_links a {
+.fo_links a, #subforum a {
 	display: inline-block;
 	background: var(--co-2grad);
 	margin-right: 5px;
@@ -1658,10 +1688,11 @@ display: none;
     grid-template-areas:
         "forumimgnew forumtitle forumstats fodecoimg"
         ". forumdesc forumstats fodecoimg"
-        "foposteur forumdetails . fodecoimg";
-    grid-template-columns: 80px 1fr 0px 1fr;
+        ". foposteur . fodecoimg";
+    grid-template-columns: 36px 1fr 0px 1fr;
     grid-template-rows: 37px 1fr auto;
     gap: 10px 19px;
+    margin-bottom: 20px;
 }
 
 .fo_onglets .forum-img {
@@ -1669,13 +1700,14 @@ display: none;
 }
 
 .fo_onglets .forum_desc .desc {
-    margin-left: -40px;
+    height: 50%;
+    grid-row: 2 / span 3;
 }
 
 .fo_onglets .fo_deco {
     margin: -5px -5px -5px 0;
-    height: calc(100% + 10px);
-    border-radius: 0 7px 7px 0;
+    height: calc(100% + 30px);
+    border-radius: 0 12px 12px 0;
     overflow: hidden;
 }
 
