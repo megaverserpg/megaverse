@@ -1200,7 +1200,7 @@ gap: 10px;
 
 .fo_classic .fo_stats {align-self: end;transform: translateX(-45px);margin-bottom: 15px;width: 38px;}
 
-a.forumtitle {
+a.forumtitle:not(a.forumtitle:has(t6)) {
     grid-area: forumtitle;
     display: grid;
     grid-row: 1 / span 3;
@@ -1335,9 +1335,10 @@ display: none;
 
 /* cate spéciales : index ; guide ? */
 
-#c1 .forum:first-of-type .forumtitle {
+.forumtitle:has(t6) {
 	margin: auto;
 	border-bottom: none;
+	width: 100%;
 }
 
 #c1 .forums {
