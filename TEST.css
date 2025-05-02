@@ -1339,6 +1339,7 @@ display: none;
 	margin: auto;
 	border-bottom: none;
 	width: 100%;
+	padding: var(--spacing);
 }
 
 #c1 .forums {
@@ -1354,6 +1355,8 @@ display: none;
 
 #c1 .forum:first-of-type > .forum_content {
 	height: 100%;
+	background: var(--co-2grad);
+	border-radius: var(--radius);
 }
 
 .forum-img {
@@ -1422,6 +1425,7 @@ display: none;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+	padding: var(--spacing);
 }
 
 .c1_links a::before {
