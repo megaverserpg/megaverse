@@ -341,13 +341,13 @@ input[type='submit'],
 input[type='button'],
 input[type='hidden'],
 input[type='reset'] {
-	font-size: var(--normal-size);
-	padding: 2px 8px !important;
-	border-radius: 5px;
-	background: var(--neutralDarker);
-	color: var(--contrastLight);
-	font-weight: 600;
-	border: none;
+    font-size: var(--normal-size);
+    padding: 2px 8px !important;
+    border-radius: 50px;
+    background: var(--co-2);
+    color: white;
+    font-weight: 600;
+    border: none;
 }
 
 input[type='submit']:hover,
