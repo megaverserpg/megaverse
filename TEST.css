@@ -1133,20 +1133,23 @@ height: 80px;
 .forum_avatar img {background: var(--neutralDark);width: 80px;height: 80px;object-fit: cover;object-position: center;border: 5px solid var(--co-1);border-radius: 5px 45px 5px 5px;}
 
 /* dernier message*/
-.forum_lastpost {font-size: var(--little-size); background: var(--neutralDarker);border-radius: var(--xs-radius);padding: 0 3px;}
+.forum_lastpost {display: flex;gap: 10px;font-size: var(--little-size);background: var(--neutralDarker);border-radius: var(--xs-radius);padding: 0 3px;}
 
 .fo_classic .forum_lastpost br {
     display: none;
 }
 
 .fo_classic .forum_lastpost {
-	position: absolute;
+    position: absolute;
     left: 100px;
     bottom: 10px;
-	white-space: nowrap; 
+    white-space: nowrap; 
 }
-.forum_lastpost > span {display: flex}
 
+.fo_classic .forum_lastpost > span {gap: 5px}
+	
+.fo_onglets .forum_lastpost > span {display: flex;flex-direction: column;}
+	
 /* liens des sous forums */
 #subforum {
 font-size: 0; /*permet de retirer la virgule*/
@@ -1192,8 +1195,6 @@ gap: 10px;
 }
 
 .fo_classic .fo_stats {align-self: end;transform: translateX(-45px);margin-bottom: 15px;width: 38px;}
-
-.fo_classic .forum_lastpost > span {gap: 5px}
 
 a.forumtitle {
     grid-area: forumtitle;
@@ -1251,7 +1252,14 @@ grid-area: foposteur;
     margin: -17px 0 0 0;
 }
 
-.fo_onglets .forum_details {position: absolute;left: 27px;bottom: 10px;width: 49.8%;height: 80px;overflow: auto;}
+.fo_onglets .forum_details {position: absolute;left: 27px;bottom: 10px;width: 49.8%;height: 90px;overflow: auto;}
+
+.fo_onglets:has(#subforum:not(:empty)) .forum_desc::after {
+    grid-area: foempty;
+    content: "";
+    display: block;
+    height: 100px;
+}
 
 .fo_onglets #subforum a:not(a:nth-child(odd):last-of-type) {
     flex: 0 1 calc(50% - 10px);
@@ -1268,18 +1276,18 @@ grid-area: foposteur;
     height: 80px;
     text-align: left;
     padding: 5px 10px;
+    flex: 1 0 calc(100% - 98px);
 }
 
 .fo_onglets .fo_stats {
     display: flex;
     gap: 20px;
     text-align: center;
-    grid-row: 2 / span 3;
-    align-self: end;
-    margin-bottom: 105px;
+    /* grid-row: 2 / span 3; */
+    /* align-self: end; */
+    /* margin-bottom: 105px; */
+    /* justify-content: center; */
 }
-
-.fo_onglets .forum_lastpost > span {flex-direction: column}
 
 .forum_desc .desc {
     grid-area: forumdesc;
@@ -1694,10 +1702,12 @@ display: none;
     grid-template-areas:
         "forumimgnew forumtitle forumstats fodecoimg"
         ". forumdesc forumstats fodecoimg"
-        ". foposteur . fodecoimg";
+        ". foposteur . fodecoimg"
+        "foempty foempty foempty fodecoimg";
     grid-template-columns: 36px 1fr 0px 1fr;
     grid-template-rows: 37px 1fr auto;
-    gap: 10px 19px;
+    gap: 15px 19px;
+    height: 455px;
 }
 
 .fo_onglets .forum-img {
@@ -1705,14 +1715,13 @@ display: none;
 }
 
 .fo_onglets .forum_desc .desc {
-    height: 50%;
-    grid-row: 2 / span 3;
+    height: 100%;
+    /* grid-row: 2 / span 3; */
 }
 
 .fo_onglets .fo_deco {
-    margin: -5px -5px -20px 0;
-    height: 454px;
-    border-radius: 0 12px 12px 0;
+    margin: -5px -5px -15px 0;
+    border-radius: 0 10px 10px 0;
     overflow: hidden;
 }
 
@@ -2992,8 +3001,12 @@ a.forumtitle:not(a.forumtitle:has(t6))::after {
 	background: var(--co-gradient);
 }
 
-.forumtitle::after {
-	height: calc(100% - 96px) !important;
+.forumtitle:has(.forum_avatar:empty) .forumtitle::after {
+	height: calc(100% - 96px);
+}
+
+.forum:has(.forum_avatar:empty) .forumtitle::after {
+	height: calc(100% - 60px);
 }
 
 .title_txt {
