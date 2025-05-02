@@ -1774,11 +1774,11 @@ display: none;
     transition: 0.5s all;
 }
 
-.tabs ul li a:hover .cp {
+.tabs ul li a:not(.showForum):hover .cp {
     color: var(--white);
 }
 
-.tabs ul li a:hover span:nth-child(3)::before {
+.tabs ul li a:not(.showForum):hover span:nth-child(3)::before {
     background: var(--white);
 }
 
@@ -1792,7 +1792,8 @@ display: none;
 .tabs ul li a span:nth-child(3) {
 	font-size: var(--small-size);
 	text-transform: uppercase;
-	width: 100%;text-align: center;
+	width: 100%;
+	text-align: center;
 }
 .tabs ul li a span:nth-child(3)::before {
     content: "";
