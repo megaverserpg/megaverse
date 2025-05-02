@@ -1419,23 +1419,23 @@ display: none;
 }
 
 .c1_links {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.c1_links a::before {
+    content: '➤';
+    color: var(--co-2);
+    margin-right: 10px;
 }
 
 .c1_links a {
-	background: var(--co-2grad);
-	padding: 5px;
-	border-radius: var(--radius);
-	font-size: var(--little-size);
-	text-align: center;
+	font-size: var(--medium-size);
+	text-align: left;
+	text-transform: uppercase;
 	color: white;
-}
-
-.c1_links a.odd {
-	background: var(--co-1grad);
+	font-weight: 900;
 }
 
 #c1 .forum-img.bounce,
