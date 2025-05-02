@@ -1125,15 +1125,13 @@ border: 1px solid white;
 }
 
 /*conteneur avatar du dernier posteur*/
-.forum_avatar {
-width: 80px;
-height: 80px;
-}
+.forum_avatar:not(:empty) {width: 80px;height: 80px;}
 
-.forum_avatar img {background: var(--neutralDark);width: 80px;height: 80px;object-fit: cover;object-position: center;border: 5px solid var(--co-1);border-radius: 5px 45px 5px 5px;}
+.forum_avatar img {background: var(--neutralDark);width: 80px;object-fit: cover;object-position: center;border: 5px solid var(--co-1);border-radius: 5px 45px 5px 5px;}
 
 /* dernier message*/
-.forum_lastpost {display: flex;gap: 10px;font-size: var(--little-size);background: var(--neutralDarker);border-radius: var(--xs-radius);padding: 0 3px;}
+.forum_lastpost {display: flex;gap: 10px;font-size: var(--little-size);border-radius: var(--xs-radius);padding: 0 3px;}
+.forum_lastpost:has(.lastpost_link:not(:empty)) {background: var(--neutralDarker)}
 
 .fo_classic .forum_lastpost br {
     display: none;
@@ -1146,9 +1144,11 @@ height: 80px;
     white-space: nowrap; 
 }
 
+.forum_lastpost > span {display: flex}
+
 .fo_classic .forum_lastpost > span {gap: 5px}
 	
-.fo_onglets .forum_lastpost > span {display: flex;flex-direction: column;}
+.fo_onglets .forum_lastpost > span {flex-direction: column;}
 	
 /* liens des sous forums */
 #subforum {
@@ -1271,7 +1271,7 @@ grid-area: foposteur;
     flex: 0 1 calc(100% - 15px);
 }
 
-.fo_onglets .lastpost {
+.fo_onglets .lastpost:has(.lastpost_link:not(:empty)) {
     width: 100%;
     height: 80px;
     text-align: left;
@@ -1705,7 +1705,7 @@ display: none;
         ". foposteur . fodecoimg"
         "foempty foempty foempty fodecoimg";
     grid-template-columns: 36px 1fr 0px 1fr;
-    grid-template-rows: 37px 1fr auto;
+    grid-template-rows: 37px 1fr auto auto;
     gap: 15px 19px;
     height: 455px;
 }
@@ -3001,11 +3001,11 @@ a.forumtitle:not(a.forumtitle:has(t6))::after {
 	background: var(--co-gradient);
 }
 
-.forumtitle:has(.forum_avatar:empty) .forumtitle::after {
+.forum:not(.fo_onglets, .forum_avatar:empty) .forumtitle::after {
 	height: calc(100% - 96px);
 }
 
-.forum:has(.forum_avatar:empty) .forumtitle::after {
+.forum:not(.fo_onglets):has(.forum_avatar:empty) .forumtitle::after {
 	height: calc(100% - 60px);
 }
 
