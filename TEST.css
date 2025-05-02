@@ -1448,6 +1448,8 @@ display: none;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0px 0px transparent;
+    font-size: var(--large-size);
+    transition: 0.5s all;
 }
 
 #c1 .forum-img.bounce,
