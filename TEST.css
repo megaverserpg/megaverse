@@ -1775,6 +1775,10 @@ display: none;
 }
 
 .tabs ul li a:not(.showForum):hover .cp {
+	background: transparent;
+    -webkit-background-clip: inherit;
+    -webkit-text-fill-color: inherit;
+    text-shadow: inherit;
     color: var(--white);
 }
 
