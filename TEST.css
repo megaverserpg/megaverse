@@ -1683,7 +1683,7 @@ display: none;
 /* catégories RP */
 .category > .tabs {
 	display: grid;
-	grid-template-columns: 170px 1fr;
+	grid-template-columns: 180px 1fr;
 }
 
 .category > .tabs ul {
@@ -1751,15 +1751,13 @@ display: none;
 .tabs ul li a {
 	position: relative;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
-	
-	padding: 5px;
+	gap: 3px 5px;
+	padding: 10px 5px;
 	height: 100%;
 	background: var(--neutral);
 	backdrop-filter: blur(20px);
-	border-left: 5px solid transparent;
 	border-radius: var(--radius);
 	border-bottom: none !important;
 	transition: 0.5s all;
@@ -1768,20 +1766,42 @@ display: none;
 .tabs ul li a:not(.showForum) { margin-right: 15px; }
 
 .tabs ul li a:hover {
-	background: var(--neutralDarker);
+	background: var(--co-2);
+}
+
+.tabs ul li a .cp {
+    font-size: var(--inter-size);
+    transition: 0.5s all;
+}
+
+.tabs ul li a:hover .cp {
+    color: var(--white);
+}
+
+.tabs ul li a:hover span:nth-child(3)::before {
+    background: var(--white);
 }
 
 .tabs ul li a span:nth-child(2) {
 	text-align: center;
-	font-size: var(--medium-size);
 	line-height: 100%;
-	font-family: var(--font-2);
-	font-style: italic;
+	font-family: var(--special-font);
+	text-transform: uppercase;
 }
 
 .tabs ul li a span:nth-child(3) {
 	font-size: var(--small-size);
 	text-transform: uppercase;
+	width: 100%;text-align: center;
+}
+.tabs ul li a span:nth-child(3)::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+    margin-bottom: 2px;
+    background: var(--co-gradient);
+    transition: 0.5s all;
 }
 
 .category .tabs li > span {
