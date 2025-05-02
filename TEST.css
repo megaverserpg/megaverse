@@ -368,8 +368,7 @@ input[type='reset']:hover {
 
 /* MENUS DEROULANTS --- */
 select {
-	background: var(--neutral);
-	border: 1px solid var(--co-2);
+	border: none;
 	border-radius: var(--radius);
 	font-size: var(--normal-size);
 	padding: 0 7px;
