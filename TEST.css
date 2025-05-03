@@ -1354,7 +1354,7 @@ display: none;
 
 #c1 .forum:first-of-type > .forum_content {
 	height: 100%;
-	background: var(--co-2grad);
+	background: var(--co-gradient2);
 	border-radius: var(--radius);
 }
 
