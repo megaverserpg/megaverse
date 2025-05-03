@@ -1434,6 +1434,7 @@ display: none;
 }
 
 .c1_links a {
+	height: 30px;
 	font-size: var(--medium-size);
 	text-align: left;
 	text-transform: uppercase;
