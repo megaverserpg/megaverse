@@ -183,6 +183,7 @@
 body.is-homepage .header_show span {
 	height: 100vh;
 	background: var(--base-1);
+	transform: scaleY(1);
 }
 
 body.is-homepage .header_show span:nth-child(1) {
