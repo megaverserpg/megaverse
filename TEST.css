@@ -151,9 +151,7 @@
 .header_ctnr {
 	position: fixed;
 	top: 0;
-	bottom: 0;
 	display: grid;
-	z-index: 1;
 	background: var(--co-2grad);
 }
 
@@ -171,12 +169,15 @@
 
 @media screen and (min-width: 890px) {
 	body.is-homepage .header_show {
-		position: relative;
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		width: 100%;
-		height: 100%;
-	}
+	z-index: 1;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        height: 100vh;
+    }
 }
 
 body.is-homepage .header_show span {
