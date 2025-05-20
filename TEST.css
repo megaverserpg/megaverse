@@ -80,6 +80,16 @@
 	right: calc(100% - 50px);
 }
 
+/* header */
+[data-color-scheme='dark'] .header_ctnr .header_light,
+html:not(html[data-color-scheme='dark']) .header_dark { display: none }
+
+/* global */
+.mgv_content.open::before { right: calc(100% - 335px) }
+.mgv_content.open:hover::before { right: calc(100% - 360px) }
+
+[data-color-scheme='dark'] .global_bg {background: var(--base-gradient)}
+
 .header_coded {
 	z-index: 1;
 	max-width: fit-content;
@@ -165,42 +175,6 @@
 	height: 100vh;
 	object-fit: cover;
 	object-position: center;
-}
-
-@media screen and (min-width: 890px) {
-	body.is-homepage .header_show {
-	z-index: 1;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        width: 100%;
-        height: 0;
-    }
-}
-
-body.is-homepage .header_show span {
-	height: 100vh;
-	background: var(--base-1);
-	transform: scaleY(1);
-}
-
-body.is-homepage .header_show span:nth-child(1) {
-	animation: headershow 0.6s 0.9s forwards;
-	transform-origin: top;
-}
-body.is-homepage .header_show span:nth-child(2) {
-	animation: headershow 0.6s forwards;
-	transform-origin: bottom;
-}
-body.is-homepage .header_show span:nth-child(3) {
-	animation: headershow 0.6s 0.6s forwards;
-	transform-origin: top;
-}
-body.is-homepage .header_show span:nth-child(4) {
-	animation: headershow 0.9s 0.6s forwards;
-	transform-origin: bottom;
 }
 
 @media screen and (min-width: 890px) {
@@ -321,6 +295,65 @@ body.is-homepage .header_show span:nth-child(4) {
 		padding: 40px;
 	}
 }
+
+/* sidebar title */
+.nav_title { margin: 0 28px 20px; padding-right: 0 !important; }
+.nav_title > .flex {margin-top: 10px; justify-content: center}
+.nav_title button, .nav_title a { background: var(--co-gradient); background-size: 100%; font-size: 28px; line-height: 75%; text-align: center; border-radius: 50%; border-bottom: none !important; width: 30px; height: 30px; transition: .5s all; }
+.nav_title button:hover, .nav_title a:hover {background-size: 300%}
+.nav_title button i, .nav_title a i { color: white !important }
+.nav_title button i {font-size: 28px}
+.nav_title a i {font-size: 15px}
+
+#sidebar-label, #sidebar-checkbox {
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  z-index: 4;
+  width: 25px; height: 25px;
+  clip-path: polygon(25px 0%, 0 0, 0 25px); 
+  transition: all 0.3s;
+}
+.mgv_content:hover #sidebar-label {width: 50px; height: 50px; clip-path: polygon(50px 0%, 0 0, 0 50px);}
+
+#sidebar-checkbox {opacity: 0}
+
+#sidebar-label {display: flex ; flex-direction: column; gap: 2px; padding: 6px; font-size: var(--small-size)}
+#sidebar-label bg1 { transform: scale(0.8); width: 56px; margin: -7px 0 0 -11px; background: none; border-bottom: 2px solid var(--co-1); color: var(--contrast); padding: 0px 2px; border-radius: 0 0 var(--xs-radius) 0; }
+#sidebar-label i {position: absolute; color: var(--contrast); opacity: 0}
+#sidebar-label i:nth-of-type(1) {transform: rotate(-120deg) translate(-10px, -10px); height: 5px; overflow: hidden; animation: walk 4s linear infinite 2s; }
+#sidebar-label i:nth-of-type(2) {transform: rotate(-76deg) translate(-14px, 9px); display: flex ; align-items: end; height: 5px; overflow: hidden; animation: walk 4s linear infinite 1s; }
+#sidebar-label i:nth-of-type(3) {transform: rotate(-100deg) translate(-30px, -5px); height: 5px; overflow: hidden; animation: walk 4s linear infinite; }
+
+@keyframes walk {
+  25%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#sidebar-label.open, #sidebar-checkbox.open {
+    left: 310px;
+}
+
+#sidebar-checkbox:checked + .mgv_content > #sidebar-label { clip-path: none; }
+
+#sidebar-checkbox:checked + .mgv_content::before {
+    box-shadow: none;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(  -45deg,  #aaa,  #fff 40%,  #999 50%,  transparent 50% );
+    top: 205px;
+    right: -50px;
+}
+
+.sidebarMenu {z-index: 1;position: fixed;top: -110px;left: calc(-100% + 25px);width: 100%;transition: all 0.3s;}
+.mgv_content:hover .sidebarMenu { top: -84px; left: calc(-100% + 50px); }
+
+#sidebar-checkbox:checked + .mgv_content > .sidebarMenu {left: 0;right: 0;top: 60px;}
+.sidebarMenu.open { left: calc(-100% + 645px); width: calc(100% - 310px); }
+#sidebar-checkbox:checked + .mgv_content > .sidebarMenu.open { left: 310px; }
+.mgv_content:hover .sidebarMenu.open { left: calc(-100% + 670px); }
+
+.sidebar {position: relative;background-color: var(--base-1);inset: 0;width: 100%;height: 195px;margin: 0 auto;padding: 0 var(--spacing) var(--spacing) var(--spacing);display: flex;flex-direction: column;justify-content: space-between;border-radius: 0 0 var(--xs-radius) var(--xs-radius);box-shadow: inset 1px -4px 4px rgba(0,0,0,0.1);transition: all 0.3s;}
 
 /* ----------------------------------------------------------- FIN NEW INDEX -------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------------------- */
@@ -1537,7 +1570,7 @@ display: none;
     width: 100%;
     height: 20px;
     border-radius: var(--radius);
-    background: var(--co-1c);
+    background: var(--neutralDarker);
     border: 1px solid var(--co-1b);
 }
 
