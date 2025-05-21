@@ -160,9 +160,9 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 
 .header_ctnr {
 	position: fixed;
-	top: 0;
+	top: 60px;
 	display: grid;
-	background: var(--co-2grad);
+	width: 100vw;
 }
 
 .header_ctnr > * {
