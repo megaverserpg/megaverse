@@ -95,7 +95,6 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 	max-width: fit-content;
 	height: fit-content;
 	opacity: 0;
-	animation: appears 1s 1.1s forwards;
 	margin: auto;
 }
 
