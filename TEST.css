@@ -159,10 +159,11 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 }
 
 .header_ctnr {
-	position: fixed;
-	top: 60px;
-	display: grid;
-	width: 100vw;
+    position: fixed;
+    top: 60px;
+    display: grid;
+    width: 100%;
+    height: calc(100vh - 60px);
 }
 
 .header_ctnr > * {
