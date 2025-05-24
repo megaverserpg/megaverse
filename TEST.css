@@ -1506,11 +1506,6 @@ display: none;
 	padding: 20px 0 0 25px;
 }
 
-#c3 .fo_stats,
-#c6 .fo_stats {
-	margin: 0 auto;
-}
-
 .fo_links a, #subforum a {
 	display: inline-block;
 	background: var(--co-2grad);
@@ -1590,10 +1585,127 @@ display: none;
     display: none;
 }
 
-#c3 .cate_title,
-#c6 .cate_title {
-    display: none;
+@media screen and (min-width: 1150px) {
+	#c3 .forums,
+	#c6 .forums {
+		grid-template-columns: repeat(2, 1fr); 
+	}
 }
+
+#c3 .forum,
+#c6 .forum {
+	border: 1px solid var(--co-2b);
+	
+}
+
+#c3 .forumtitle, 
+#c6 .forumtitle {
+	grid-template: auto / 23px 1fr;align-items: center;width: 100%;margin: 0;padding: 15px 5px;border-bottom: 1px solid var(--co-2);}
+
+#c3 .forumtitle > div,
+#c6 .forumtitle > div,
+#c3 .forum-img,
+#c6 .forum-img {
+    position: absolute;
+}
+
+#c3 .forumtitle > div,
+#c6 .forumtitle > div {
+	display: flex;
+	flex-direction: column;
+	width: calc(100% - 165px);
+	top: 96px;
+	left: 30px;
+	bottom: 100px;
+	color: var(--contrast);
+	padding: 0 5px;
+}
+
+@media screen and (max-width: 614px) {
+	#c3 .forumtitle > div,
+	#c6 .forumtitle > div {
+		font-size: var(--l-size);
+		line-height: 100%;
+	}
+}
+@media screen and (min-width: 615px) {
+	#c3 .forumtitle > div,
+	#c6 .forumtitle > div {
+		font-size: var(--xl-size);
+		line-height: 100%;
+	}
+}
+@media screen and (max-width: 1149px) {
+	#c3 .forumtitle > div,
+	#c6 .forumtitle > div {
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media screen and (min-width: 1150px) {
+	#c3 .forumtitle > div,
+	#c6 .forumtitle > div {
+	}
+}
+
+@media screen and (max-width: 654px) {
+	#c3 .forumtitle > div > span::after,
+	#c6 .forumtitle > div > span:after {
+		height: 10px;
+		margin: -10px 0 0;
+	}
+}
+
+@media screen and (min-width: 655px) {
+	#c3 .forumtitle > div > span::after,
+	#c6 .forumtitle > div > span:after {
+		height: 20px;
+		margin: -20px -5px 0;
+	}
+}
+
+#c3 .forumtitle > div > span::after,
+#c6 .forumtitle > div > span:after {
+	content: "";
+	display: block;
+}
+
+#c3 .forumtitle > div > span:first-child::after,
+#c6 .forumtitle > div > span:first-child:after {
+	background: var(--co-2);
+}
+
+#c3 .forumtitle > div > span:last-child::after,
+#c6 .forumtitle > div > span:last-child:after {
+	background: var(--co-1);
+}
+
+#c3 .forumtitle::before,
+#c6 .forumtitle::before {
+	content: "←";
+	font-size: var(--normal-size);
+	color: var(--co-1);
+	padding-top: 2px;
+}
+
+#c3 .forum_stats,
+#c6 .forum_stats,
+#c3 .ovale_ssfo,
+#c6 .ovale_ssfo { display: none }
+
+#c3 .fo_stats,
+#c6 .fo_stats {
+	margin: 30px;
+}
+
+#c3 .fo_stats .forum_avatar, #c6 .fo_stats .forum_avatar {
+	margin: 0 0 15px auto;
+}
+
+#c3 .forum-img,
+#c6 .forum-img {top: 10px;right: 15px;}
+
+/* 
 
 #c3 .forum_content,
 #c6 .forum_content {
@@ -1635,7 +1747,7 @@ display: none;
 	display: none;
 }
 
-/* OVALES */
+/ OVALES /
 #c3 .forum:nth-child(1)::after,
 #c6 .forum:nth-child(1)::after {
 	transform: rotate3d(-5, 1, 0, 58deg);
@@ -1729,6 +1841,8 @@ display: none;
 #c6 .forum_lastpost span.c1 {
 	color: white;
 }
+
+*/
 
 #c4 .forumtitle span:not(:nth-child(2)),
 #c5 .forumtitle span:not(:nth-child(2)),
