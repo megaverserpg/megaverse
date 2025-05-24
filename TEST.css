@@ -1365,8 +1365,10 @@ display: none;
 	padding: var(--spacing) var(--spacing) 0 var(--spacing);
 }
 
-#c1 .forums {
-	grid-template: repeat(2, auto) / repeat(2, 1fr);
+@media screen and (min-width: 1150px) {
+	#c1 .forums {
+		grid-template: repeat(2, auto) / repeat(2, 1fr);
+	}	
 }
 
 #c1 .forum:first-of-type {
