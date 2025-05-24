@@ -1167,7 +1167,8 @@ border: 1px solid white;
 
 .forum_lastpost > span {display: flex}
 
-.fo_classic .forum_lastpost > span {gap: 5px}
+.fo_classic .forum_lastpost > span,
+.fo_rsflood .forum_lastpost > span {gap: 5px}
 	
 .fo_onglets .forum_lastpost > span {flex-direction: column;}
 	
@@ -1648,7 +1649,7 @@ display: none;
 	}
 }
 
-@media screen and (max-width: 654px) {
+@media screen and (max-width: 614px) {
 	#c3 .forumtitle > div > span::after,
 	#c6 .forumtitle > div > span:after {
 		height: 10px;
@@ -1656,7 +1657,7 @@ display: none;
 	}
 }
 
-@media screen and (min-width: 655px) {
+@media screen and (min-width: 615px) {
 	#c3 .forumtitle > div > span::after,
 	#c6 .forumtitle > div > span:after {
 		height: 20px;
