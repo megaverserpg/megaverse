@@ -1418,10 +1418,13 @@ display: none;
 }
 
 .fo_deco {
-	grid-area: fodecoimg;
 	display: grid;
 	align-items: center;
 	overflow: hidden;
+}
+
+.category .fo_deco {
+    grid-area: fodecoimg;
 }
 
 .fo_deco > * {
