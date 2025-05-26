@@ -1885,6 +1885,10 @@ display: none;
     transform: translate(-8px, -30px);
 }
 
+.fo_onglets .fo_deco img {
+	height: 465px;
+}
+
 .fo_onglets .forum_desc .desc {
     height: 100%;
     /* grid-row: 2 / span 3; */
