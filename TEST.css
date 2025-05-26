@@ -1795,7 +1795,7 @@ display: none;
 @media screen and (min-width: 2150px) {
 	#fo_rsflood .forumtitle > div > span:after {
 		height: 20px;
-		margin: -15px -5px 5px;
+		margin: -20px -5px 0px;
 	}
 }
 
