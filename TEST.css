@@ -1221,6 +1221,7 @@ display: none;
 }
 
 .qeel_stats strong {
+    font-family: var(--special-font);
     font-size: var(--l-size);
 }
 
