@@ -1168,7 +1168,8 @@ object-fit: cover;
 border: 5px solid var(--co-1);
 }
 
-.qeel_newest > span:first-child a {
+.qeel_newest > *:first-child {
+    font-family: var(--special-font);
     text-transform: uppercase;
     font-weight: 700;
     color: var(--co-1);
