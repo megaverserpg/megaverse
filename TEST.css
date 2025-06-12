@@ -470,9 +470,11 @@ textarea {
 }
 
 .links_bar.links_qeel {
-	text-transform: lowercase;
-	width: fit-content;
-	padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr 1fr;
+    text-transform: lowercase;
+    margin-bottom: 5px;
+    padding: 3px;
 }
 
 #bottom.links_bar {
@@ -868,7 +870,6 @@ div#fa_usermenu .bold {
 /*** ------------------------------- ***/
 /*** SWITCHEROO - Par Monomer ------ ***/
 /*** Gestionnaire de multicompte --- ***/
-
 :root {
 	--ease: cubic-bezier(0.4, 0, 0.2, 1);
 	--ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
@@ -1124,6 +1125,110 @@ div#fa_usermenu .bold {
 .switcheroo__form-label,
 .monomer-close {
 	display: none;
+}
+
+/*** -------------------- QEEL --------------------- ***/
+/*** QUI EST EN LIGNE -------------- ***/
+.qeel {
+    display: grid;
+    gap: 30px 40px;
+    counter-reset: counter-index;
+}
+
+@media screen and (min-width: 890px) {
+    .qeel {
+        grid-template: repeat(2, auto) / repeat(2, 1fr);
+    }
+}
+
+/* dernier inscrit */
+.qeel_newest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--neutral);
+    border-radius: var(--radius);
+    line-height: 120%;
+    padding: 0 5px;
+}
+
+.qeel_lastuser-data {
+    display: flex;
+    gap: 10px;
+}
+
+#lastuser_avatar img {
+object-position: center;
+border-radius: 50px 5px 5px 5px;
+width: 90px;
+height: 90px;
+object-fit: cover;
+border: 5px solid var(--co-1);
+}
+
+.qeel_newest > span:first-child a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--co-1);
+}
+
+.qeel_newest > span:last-child {
+    font-style: italic;
+}
+
+/*X connectés :: 1 membre, 0 invisible, 0 invité*/
+#total_users {
+display: inline;
+font-size: var(--little-size);
+background-color: var(--co-1);
+border-radius: var(--xs-radius);
+color: white;
+margin-right: 5px;
+padding: 0 3px;
+}
+
+/*ne pas supprimer*/
+#total_users>strong:first-of-type {display: none}
+
+#online_users br {
+display: none;
+}
+
+/* messages membres et groupes */
+
+.qeel .title_newsPA > *, .qeel .title_newsPA::before {
+    font-size: var(--little-size);
+    font-weight: 900;
+}
+
+.qeel .title_newsPA {
+    padding: 0 5px;
+}
+
+.qeel .pa_grp {margin-top: 20px}
+
+.qeel_stat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    line-height: 120%;
+}
+
+.qeel_stats strong {
+    font-size: var(--l-size);
+}
+
+.qeel_stat span {font-style: italic}
+
+.qeel_stats .block2:first-of-type strong {
+    color: var(--co-1);
+}
+
+.qeel_stats .block2:last-of-type strong {
+    color: var(--co-2);
 }
 
 /*** ------------------------------- ***/
@@ -1402,10 +1507,6 @@ grid-area: foposteur;
     display: flex;
     gap: 20px;
     text-align: center;
-    /* grid-row: 2 / span 3; */
-    /* align-self: end; */
-    /* margin-bottom: 105px; */
-    /* justify-content: center; */
 }
 
 .forum_desc .desc {
@@ -1448,8 +1549,6 @@ display: none;
     align-self: end;
     height: 46px;
 }
-
-
 
 /* cate spéciales : index ; guide ? */
 .select_parto {width: 100%; background: var(--co-1c); border: 1px solid var(--co-1b); transition: 0.5s border}
