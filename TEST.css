@@ -1197,14 +1197,20 @@ display: none;
 }
 
 /* messages membres et groupes */
-
 .qeel .title_newsPA > *, .qeel .title_newsPA::before {
     font-size: var(--little-size);
     font-weight: 900;
 }
 
+.qeel .block2:nth-child(even) .title_newsPA {
+    background: var(--co-1);
+}
+.qeel .block2:nth-child(even) .title_newsPA::before {
+    color: var(--co-2);
+}
+
 .qeel .title_newsPA {
-    padding: 0 5px;
+    padding: 2px 5px;
 }
 
 .qeel .pa_grp {margin-top: 20px}
