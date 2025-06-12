@@ -1790,6 +1790,8 @@ display: none;
     border: 1px solid var(--co-1b);
 }
 
+[data-color-scheme='dark'] .cate_title h2:first-of-type::after {border: 1px solid var(--base-2)}
+
 .cate_title h2:nth-of-type(2) {
     position: relative;
     font-size: var(--inter-size);
