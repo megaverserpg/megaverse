@@ -1531,10 +1531,14 @@ display: none;
 	gap: 20px;
 }
 @media screen and (max-width: 1150px) {
-	height: 415px;
+	#c1 .forum:first-of-type .forum_desc {
+		height: 415px;
+	}
 }
 @media screen and (min-width: 1149px) {
-	height: 104.5%;
+	#c1 .forum:first-of-type .forum_desc {
+		height: 104.5%;
+	}
 }
 
 .fo_classic .forum_desc {
