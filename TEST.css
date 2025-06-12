@@ -1771,7 +1771,7 @@ display: none;
     font-size: var(--extra-size);
     line-height: 100%;
     font-weight: 400;
-    color: var(--co-1b);
+    color: var(--neutralDark);
 }
 
 .cate_title h2:first-of-type::after {
