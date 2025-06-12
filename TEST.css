@@ -1562,7 +1562,7 @@ display: none;
 }
 
 /* cate spéciales : index ; guide ? */
-.select_parto {width: 100%; background: var(--co-1c); border: 1px solid var(--co-1b); transition: 0.5s border}
+.select_parto {width: 100%; background: var(--co-1c); border: 1px solid var(--co-1b); color: var(--white); transition: 0.5s border}
 .select_parto:hover {border: 1px solid var(--co-2b)}
 
 .forumtitle:has(t6) {
