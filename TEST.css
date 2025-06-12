@@ -88,8 +88,6 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 .mgv_content.open::before { right: calc(100% - 335px) }
 .mgv_content.open:hover::before { right: calc(100% - 360px) }
 
-[data-color-scheme='dark'] .global_bg {background: var(--base-gradient)}
-
 .header_coded > a {
 	display: block;
 	grid-column: 1 / span 2;
@@ -261,12 +259,14 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 }
 
 .global_bg {
-	width: 100%;
-	background: var(--co-1grad);
-	background-attachment: fixed;
-	height: 100%;
-	position: sticky;
-	top: 0;
+    width: 100%;
+    background: var(--texture), var(--base-gradient);
+    background-size: 50px, cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    height: 100%;
+    position: sticky;
+    top: 0;
 }
 
 @media screen and (min-width: 890px) {
