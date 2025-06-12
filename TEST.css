@@ -1529,7 +1529,12 @@ display: none;
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
 	gap: 20px;
+}
+@media screen and (max-width: 1150px) {
 	height: 104.5%;
+}
+@media screen and (min-width: 1149px) {
+	height: 415px;
 }
 
 .fo_classic .forum_desc {
