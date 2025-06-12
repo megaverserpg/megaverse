@@ -1209,19 +1209,13 @@ display: none;
 
 .qeel .pa_grp {margin-top: 20px}
 
-.qeel_stat {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    text-align: center;
-    line-height: 120%;
+.qeel_stats .block2 {
+    width: 100%;
 }
 
 .qeel_stats strong {
     font-size: var(--l-size);
 }
-
-.qeel_stat span {font-style: italic}
 
 .qeel_stats .block2:first-of-type strong {
     color: var(--co-1);
@@ -1230,6 +1224,16 @@ display: none;
 .qeel_stats .block2:last-of-type strong {
     color: var(--co-2);
 }
+
+.qeel_stat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    line-height: 120%;
+}
+
+.qeel_stat span {font-style: italic}
 
 /*** ------------------------------- ***/
 /*** CATEGORIES -------------------- ***/
