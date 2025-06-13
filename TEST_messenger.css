@@ -15,7 +15,6 @@
     font-size:var(--normal-size);
     background: var(--base-gradient);
     position:fixed;
-    height:100%;
     width:90%;
     max-width:50%;
     right:0;
