@@ -618,7 +618,7 @@ a.FAM-attachment-thumb{
     color:var(--co-1)
 }
 .FAM-chat:hover .FAM-chat-content{
-    background-color:var(--neutralDark)
+    background-color:var(--neutralDarker)
 }
 .FAM-forum-name,.FAM-topic-name{
     display:none;
@@ -681,7 +681,8 @@ a.FAM-attachment-thumb{
     border-radius:0 10px 10px 0;
     min-height:70px;
     display:grid;
-    align-items:center
+    align-items:center;
+    background: var(--neutralDark)
 }
 .FAM-chat-date,.FAM-chat-title{
     width:100%;
