@@ -13,12 +13,13 @@
     grid-template-rows:max-content max-content 1fr;
     color:var(--contrast);
     font-size:var(--normal-size);
-    background:var(--neutralDark);
+    background: var(--base-gradient);
     position:fixed;
     height:100%;
     width:90%;
     max-width:50%;
-    left:0;
+    right:0;
+    top: 60px;
     z-index:999;
     visibility:visible;
     opacity:1;
@@ -57,8 +58,8 @@
     gap:15px
 }
 .FAM-maintitle{
-    text-align:left;
-    font-size:var(--title-size);
+    text-align:center;
+    font-size:var(--xl-size);
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
@@ -105,7 +106,7 @@
     display:grid;
     grid-template-rows:1fr max-content;
     overflow:auto;
-    background:var(--neutralDarker);
+    background:var(--neutral);
     border-radius:10px 10px 0 0;
     margin:10px 15px 0 15px
 }
@@ -616,7 +617,7 @@ a.FAM-attachment-thumb{
 .FAM-chat:hover,.FAM-chat:hover a{
     color:var(--co-1)
 }
-.FAM-chat:hover .FAM-chat-avatar,.FAM-chat:hover .FAM-chat-content{
+.FAM-chat:hover .FAM-chat-content{
     background-color:var(--neutralDark)
 }
 .FAM-forum-name,.FAM-topic-name{
@@ -650,7 +651,7 @@ a.FAM-attachment-thumb{
 .FAM-chat-date>a.lastpost_link:after{
     content:","
 }
-.FAM-forum .FAM-chat-avatar,.FAM-forum .FAM-chat-content{
+.FAM-forum .FAM-chat-content{
     background-color:var(--neutralDark)
 }
 .FAM-topic:nth-of-type(4) .FAM-topic-name{
@@ -664,10 +665,12 @@ a.FAM-attachment-thumb{
     opacity:.8
 }
 .FAM-chat-avatar img{
-    height:40px;
-    width:40px;
-    border-radius:100%;
-    object-fit:cover;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid var(--co-1);
+    border-radius: 5px 45px 5px 5px;
     object-position:center
 }
 .FAM-chat-content{
