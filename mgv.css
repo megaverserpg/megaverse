@@ -795,7 +795,6 @@ div#fa_usermenu .bold {
 	font-size: 0;
 	background: var(--co-gradient);
 	border-radius: 50%;
-	filter: brightness(1.3);
 	position: absolute;
 	top: 2px;
 	right: 2px;
