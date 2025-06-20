@@ -1982,7 +1982,7 @@ display: none;
 /* catégories RP */
 .category > .tabs {
 	display: grid;
-	grid-template-columns: 195px 1fr;
+	grid-template-columns: 200px 1fr;
 }
 
 .category > .tabs ul {
