@@ -5045,6 +5045,8 @@ div.sceditor-dropdown {
 	display: none;
 }
 
+#message-box { width: 100% }
+
 #quick_reply #textarea_content,
 #message-box #textarea_content {
 	background: var(--body-img) center;
@@ -5057,7 +5059,7 @@ div.sceditor-dropdown {
 }
 
 #message-box textarea {
-	height: 500px !important;
+	min-height: 500px !important;
 }
 
 /* compteur de mots */
