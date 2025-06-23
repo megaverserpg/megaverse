@@ -259,7 +259,7 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 }
 
 .global_bg {
-    width: 100%;
+    width: 100vw;
     background: var(--texture), var(--base-gradient);
     background-size: 50px, cover;
     background-attachment: fixed;
@@ -267,6 +267,8 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
     height: 100%;
     position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 @media screen and (min-width: 890px) {
