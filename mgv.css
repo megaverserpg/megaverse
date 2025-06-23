@@ -259,7 +259,6 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 }
 
 .global_bg {
-    width: 100vw;
     background: var(--texture), var(--base-gradient);
     background-size: 50px, cover;
     background-attachment: fixed;
