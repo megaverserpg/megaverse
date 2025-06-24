@@ -2692,8 +2692,7 @@ cwtw:hover::before {
 }
 .fiche3 > .block:first-of-type b5,
 .fiche3 > .block:first-of-type b6 {
-	display: inline-block;
-	width: 125px;
+	margin-right: 5px;
 	font-size: var(--small-size);
 }
 .fiche3 > .block:last-of-type {
