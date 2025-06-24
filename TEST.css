@@ -259,7 +259,6 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 }
 
 .global_bg {
-    width: 100%;
     background: var(--texture), var(--base-gradient);
     background-size: 50px, cover;
     background-attachment: fixed;
@@ -267,11 +266,16 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
     height: 100%;
     position: sticky;
     top: 0;
+    left: 0;
+    right: 0;
 }
 
 @media screen and (min-width: 890px) {
 	.main_forum {
 		padding: 80px 10vw;
+	}
+	.main_forum.open {
+		padding: 40px;
 	}
 }
 @media screen and (max-width: 889px) {
@@ -2688,8 +2692,7 @@ cwtw:hover::before {
 }
 .fiche3 > .block:first-of-type b5,
 .fiche3 > .block:first-of-type b6 {
-	display: inline-block;
-	width: 125px;
+	margin-right: 5px;
 	font-size: var(--small-size);
 }
 .fiche3 > .block:last-of-type {
@@ -5045,6 +5048,8 @@ div.sceditor-dropdown {
 	display: none;
 }
 
+#message-box { width: 100% }
+
 #quick_reply #textarea_content,
 #message-box #textarea_content {
 	background: var(--body-img) center;
@@ -5057,7 +5062,7 @@ div.sceditor-dropdown {
 }
 
 #message-box textarea {
-	height: 500px !important;
+	min-height: 500px !important;
 }
 
 /* compteur de mots */
