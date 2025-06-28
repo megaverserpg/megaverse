@@ -5723,7 +5723,7 @@ span.italic {
 	content: 'messages';
 }
 #field_id-13 field::after {
-	content: 'gallions';
+	content: 'naaksha';
 }
 
 #field_id-6 .field_uneditable,
@@ -6114,7 +6114,7 @@ button.more {
 }
 
 .field-messages,
-.field-gallions,
+.field-naaksha,
 .field-dimension,
 .field-avatar,
 .field-credits,
@@ -6133,13 +6133,13 @@ button.more {
 }
 
 .field-messages .field_content,
-.field-gallions .field_content,
+.field-naaksha .field_content,
 .field-dimension .field_content {
 	font-size: var(--title-size);
 	font-family: var(--font-2);
 }
 
-.field-gallions {
+.field-naaksha {
 	width: 115px;
 	left: 109px;
 	border-left: 1px solid var(--co-2);
@@ -6191,7 +6191,7 @@ button.more {
 }
 
 .field-messages .field_label,
-.field-gallions .field_label,
+.field-naaksha .field_label,
 .field-dimension .field_label,
 .field-avatar .field_label,
 .field-credits .field_label,
