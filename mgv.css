@@ -4421,7 +4421,7 @@ button.rep-button .rep-nb {
 }
 
 /*** ÉVOLUTION JAUGE PROFIL ***/
-.occlu1 {
+.obvan1 {
 	--step1: "l'occumens s'efforce de vider totalement son esprit grâce à la méditation.";
 	--step2: "capacité à détecter les tentatives d'intrusion dans l'esprit, l'occlumens apprend à repérer les attaques mentales et à ériger ses défenses en conséquence.";
 	--step3: 'iel ferme son esprit contre les intrusions mentales, cachant ses pensées et émotions, rendant son bouclier plus résistant aux attaques psychiques et aux sortilèges de manipulation.';
@@ -4429,7 +4429,7 @@ button.rep-button .rep-nb {
 	--step5: "iel peut repousser les intrus, les perdre dans son monde mental ou lui opposer des défenses psychologiques (expl : monstres mentaux). la maîtrise est telle qu'il lui est possible de résister à l'imperium et au véritaserum, bien que non sans difficulté et impacts sur la psyché.";
 }
 
-.occlu2 {
+.obvan2 {
 	--step1: "modification d'un détail d'un souvenir spécifique.";
 	--step2: 'remplacement du souvenir visé par un autre existant.';
 	--step3: 'projection de pensées en vrac afin de noyer toute la toile de souvenirs liés.';
@@ -4437,7 +4437,7 @@ button.rep-button .rep-nb {
 	--step5: "modelage de l'esprit, des pensées et des souvenirs afin de transmettre de fausses vérités.";
 }
 
-.animagus1 {
+.anim1 {
 	--step1: "(étapes 1 à 5 du rituel) l'apprenti·e cherche à entrer intérieurement en contact avec son animal totem, survient ensuite la phase d'éveil — l'apprenti·e animagus appréhende son animal, parvient enfin à le visualiser. c'est une découverte mutuelle, des heures passées à entrer en contact pour se dompter l'un·e l'autre.";
 	--step2: "la métamorphose est à portée de main, de terriblement douloureuse elle devient indolore. elle n'est toutefois pas systématique : il arrive de ne pas parvenir à la déclencher ou de peiner à retrouver forme humaine.";
 	--step3: 'la mécanique est tout à fait maîtrisée, permettant des transformations complètes aisées.';
@@ -4445,7 +4445,7 @@ button.rep-button .rep-nb {
 	--step5: "le contrôle est tel que la baguette n'est plus une nécessité pour les transformations. elles sont immédiates et peu coûteuses en énergie, de même que l'animagus parvient sans peine à se servir sous forme humaine des caractéristiques de son animal totem.";
 }
 
-.animagus2 {
+.anim2 {
 	--step1: "le second battement de cœur permettant à l'apprenti d'établir les bases d'une connexion avec son animal, cette seconde conscience qui l'habite a pour effet de l'aider à mieux comprendre la nature et à se faire accepter d'elle. iel ressent une différence dans l'attitude de la faune à son égard : un début de confiance.";
 	--step2: "les hésitations se dissipent, la cohésion avec la faune se concrétise, la confiance et la compréhension sont indéniables. il arrive que l'espèce correspondant à l'animal totem de l'apprenti·e, en particulier, vienne à lui spontanément, comme s'iel était des leurs.";
 	--step3: "au-delà de l'appartenance, c'est une véritable communication non verbale qui s'établit, d'abord avec l'espèce de l'animal totem puis avec d'autres créatures similaires. d'instinct l'apprenti·e comprend la gestuelle, les sons et les besoins, et parvient à se faire entendre d'eux en retour.";
@@ -4516,7 +4516,7 @@ button.rep-button .rep-nb {
 	--step5: "sa maîtrise lui rend accessible la création d'amulettes efficaces, mais aussi de charger des objets en énergie, ou encore de faire des âmes franchir le voile. iels prennent en charge les fléaux dont iels parviennent à tempérer la malédiction (souvent accompagné·e·s d'apprenti·e·s).";
 }
 
-.legili1 {
+.men1 {
 	--step1: "le don se manifeste de façon aléatoire pendant l'enfance, iels entendent alors des murmures indistincts.";
 	--step2: "les murmures intrusifs s'intensifient, se clarifient et forment des phrases distinctes, l'invasion n'en est que plus pénible plongeant progressivement le·a legilimens dans un état de confusion entre les pensées et les dires d'autrui.";
 	--step3: 'les murmures deviennent voix, leur provenance se fait plus claire permettant aux legilimens de distinguer à qui elles appartiennent. iels parviennent également à dissocier les pensées des paroles.';
@@ -4524,7 +4524,7 @@ button.rep-button .rep-nb {
 	--step5: "possibilité de déceler des secrets qu'ils soient enfouis, inconscients, niés ou réprimés.";
 }
 
-.legili2 {
+.men2 {
 	--step1: "le·a legilimens est incapable de stopper le flux de pensées d'autrui, les intrusions sont constantes et les saturations fréquentes.";
 	--step2: 'iels sont en mesure de réduire les sons étouffants de quelques personnes durant un court de laps de temps. les paroles deviennent alors des souffles fugaces, et les cris, de simple échos.';
 	--step3: "capacité à atténuer l'entièreté des sons alentours, les pertes de contrôle sont pourtant fréquentes en fonction des émotions des legilimens, brisant alors l'équilibre fragile de leur tranquillité.";
@@ -4563,7 +4563,7 @@ button.rep-button .rep-nb {
 	--step5: "totale maîtrise, capacité d'influencer les pensées et actions de plusieurs personnes simultanément.";
 }
 
-.vel1 {
+.nae1 {
 	--step1: "profonde instabilité émotionnelle, à la moindre contrariété ou peine apparaissent des écailles, les traits s'allongent et la douceur naturelle se mue en laideur repoussante.";
 	--step2: "meilleure maîtrise des émotions, possibilité d'atténuer ou d'estomper les changements dûs aux émotions négatives mais jamais d'y échapper tout à fait.";
 	--step3: "la beauté devient surnaturelle, impliquant une attirance sur les personnes de la tranche d'âge des vélanes ainsi qu'une fascination sur autrui de manière générale.";
@@ -4571,7 +4571,7 @@ button.rep-button .rep-nb {
 	--step5: "capacité de stopper la fascination ou de l'intensifier.";
 }
 
-.vel2 {
+.nae2 {
 	--step1: 'affinité avec UN élément. si présent alentours, il réagit aux émotions de manière incontrôlée, comme une simple réponse de la nature.';
 	--step2: "influence sur l'élément si présent dans l'environnement, possibilité de lui donner des ordres simples.";
 	--step3: "invocation de l'élément même lorsqu'il est absent du décor, la création est toutefois de petite ampleur (flammèches, gouttes d'eau, brise, donner forme à une petite parcelle de terre et l'animer ou faire trembler la terre sur une zone minime).";
