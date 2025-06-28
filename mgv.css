@@ -4422,10 +4422,10 @@ button.rep-button .rep-nb {
 
 /*** ÉVOLUTION JAUGE PROFIL ***/
 .obvan1 {
-	--step1: "l'occumens s'efforce de vider totalement son esprit grâce à la méditation.";
-	--step2: "capacité à détecter les tentatives d'intrusion dans l'esprit, l'occlumens apprend à repérer les attaques mentales et à ériger ses défenses en conséquence.";
-	--step3: 'iel ferme son esprit contre les intrusions mentales, cachant ses pensées et émotions, rendant son bouclier plus résistant aux attaques psychiques et aux sortilèges de manipulation.';
-	--step4: "le bouclier se complexifie en labyrinthe impénétrable de pensées et d'idées. l'occlumens cloisonne également ses souvenirs sensibles, compartimente ses émotions envahissantes, érigeant des portes closes ou coffres, selon la façon dont iel le visualise.";
+	--step1: "l'obvantis s'efforce de vider totalement son esprit grâce à la méditation.";
+	--step2: "capacité à détecter les tentatives d'intrusion dans l'esprit, l'obvantis apprend à repérer les attaques mentales et à ériger ses défenses en conséquence.";
+	--step3: "iel ferme son esprit contre les intrusions mentales, cachant ses pensées et émotions, rendant son bouclier plus résistant aux attaques psychiques et aux sortilèges de manipulation.";
+	--step4: "le bouclier se complexifie en labyrinthe impénétrable de pensées et d'idées. l'obvantis cloisonne également ses souvenirs sensibles, compartimente ses émotions envahissantes, érigeant des portes closes ou coffres, selon la façon dont iel le visualise.";
 	--step5: "iel peut repousser les intrus, les perdre dans son monde mental ou lui opposer des défenses psychologiques (expl : monstres mentaux). la maîtrise est telle qu'il lui est possible de résister à l'imperium et au véritaserum, bien que non sans difficulté et impacts sur la psyché.";
 }
 
@@ -4433,24 +4433,24 @@ button.rep-button .rep-nb {
 	--step1: "modification d'un détail d'un souvenir spécifique.";
 	--step2: 'remplacement du souvenir visé par un autre existant.';
 	--step3: 'projection de pensées en vrac afin de noyer toute la toile de souvenirs liés.';
-	--step4: "altération de souvenirs. la multiplication des changements menace toutefois ses propres certitudes, l'occlumens n'est plus certain·e de la réalité.";
+	--step4: "altération de souvenirs. la multiplication des changements menace toutefois ses propres certitudes, l'obvantis n'est plus certain·e de la réalité.";
 	--step5: "modelage de l'esprit, des pensées et des souvenirs afin de transmettre de fausses vérités.";
 }
 
 .anim1 {
-	--step1: "(étapes 1 à 5 du rituel) l'apprenti·e cherche à entrer intérieurement en contact avec son animal totem, survient ensuite la phase d'éveil — l'apprenti·e animagus appréhende son animal, parvient enfin à le visualiser. c'est une découverte mutuelle, des heures passées à entrer en contact pour se dompter l'un·e l'autre.";
-	--step2: "la métamorphose est à portée de main, de terriblement douloureuse elle devient indolore. elle n'est toutefois pas systématique : il arrive de ne pas parvenir à la déclencher ou de peiner à retrouver forme humaine.";
-	--step3: 'la mécanique est tout à fait maîtrisée, permettant des transformations complètes aisées.';
+	--step1: "(étapes 1 à 5 du rituel) l'apprenti·e crée un lien stable avec son animal totem, éveille ses instincts et apprend à équilibrer forme humaine et essence animale.";
+	--step2: "de terriblement douloureuse, la métamorphose devient indolore. elle n'est toutefois pas systématique : il arrive de ne pas parvenir à la déclencher ou de peiner à retrouver forme humaine.";
+	--step3: "la mécanique est tout à fait maîtrisée, permettant des transformations complètes aisées.";
 	--step4: "iel s'habitue progressivement aux sens de l'animal, à cette nouvelle forme, aux perceptions nouvelles du monde à travers cet autre regard. il est aussi temps d'apprendre à en évoquer des éléments sous sa forme humaine (transformation partielle).";
-	--step5: "le contrôle est tel que la baguette n'est plus une nécessité pour les transformations. elles sont immédiates et peu coûteuses en énergie, de même que l'animagus parvient sans peine à se servir sous forme humaine des caractéristiques de son animal totem.";
+	--step5: "le contrôle est tel que la baguette n'est plus une nécessité pour les transformations. elles sont immédiates et peu coûteuses en énergie, de même que l'animorphe parvient sans peine à se servir sous forme humaine des caractéristiques de son animal totem.";
 }
 
 .anim2 {
-	--step1: "le second battement de cœur permettant à l'apprenti d'établir les bases d'une connexion avec son animal, cette seconde conscience qui l'habite a pour effet de l'aider à mieux comprendre la nature et à se faire accepter d'elle. iel ressent une différence dans l'attitude de la faune à son égard : un début de confiance.";
+	--step1: "(dès l'étape 4) la fusion des formes intensifie la connexion entre l'humain·e et l'animal, aide l'apprenti·e animorphe à mieux comprendre la nature, se faire accepter d'elle. iel ressent une différence dans l'attitude de la faune à son égard : un début de confiance.";
 	--step2: "les hésitations se dissipent, la cohésion avec la faune se concrétise, la confiance et la compréhension sont indéniables. il arrive que l'espèce correspondant à l'animal totem de l'apprenti·e, en particulier, vienne à lui spontanément, comme s'iel était des leurs.";
 	--step3: "au-delà de l'appartenance, c'est une véritable communication non verbale qui s'établit, d'abord avec l'espèce de l'animal totem puis avec d'autres créatures similaires. d'instinct l'apprenti·e comprend la gestuelle, les sons et les besoins, et parvient à se faire entendre d'eux en retour.";
-	--step4: "la communication s'étend à de multiples espèces, en fonction des affinités et des rivalités intrinsèques à la nature. en parallèle, l'instinct et l'attention de l'animagus s'aiguisent, lui permettant de déceler les dangers de la nature. parallèlement, iel court aussi le risque d'être rongé·e par le caractère primal de cet instinct naissant : iel développe des traits propres à son animal et doit apprendre à les dompter. ";
-	--step5: "l'instinct est fiable et les réflexes s'imposent telle une évidence, sans pour autant prendre le pas sur l'animagus qui peut écouter ou faire taire à volonté cette nouvelle part d'iel.";
+	--step4: "la communication s'étend à de multiples espèces, en fonction des affinités et des rivalités intrinsèques à la nature. en parallèle, l'instinct et l'attention de l'animorphe s'aiguisent, lui permettant de déceler les dangers de la nature. parallèlement, iel court aussi le risque d'être rongé·e par le caractère primal de cet instinct naissant : iel développe des traits propres à son animal et doit apprendre à les dompter.";
+	--step5: "l'instinct est fiable et les réflexes s'imposent telle une évidence, sans pour autant prendre le pas sur l'animorphe qui peut écouter ou faire taire à volonté cette nouvelle part d'iel.";
 }
 
 .lg1 {
@@ -4518,31 +4518,31 @@ button.rep-button .rep-nb {
 
 .men1 {
 	--step1: "le don se manifeste de façon aléatoire pendant l'enfance, iels entendent alors des murmures indistincts.";
-	--step2: "les murmures intrusifs s'intensifient, se clarifient et forment des phrases distinctes, l'invasion n'en est que plus pénible plongeant progressivement le·a legilimens dans un état de confusion entre les pensées et les dires d'autrui.";
-	--step3: 'les murmures deviennent voix, leur provenance se fait plus claire permettant aux legilimens de distinguer à qui elles appartiennent. iels parviennent également à dissocier les pensées des paroles.';
+	--step2: "les murmures intrusifs s'intensifient, se clarifient et forment des phrases distinctes, l'invasion n'en est que plus pénible plongeant progressivement le·a mentis dans un état de confusion entre les pensées et les dires d'autrui.";
+	--step3: 'les murmures deviennent voix, leur provenance se fait plus claire permettant aux mentis de distinguer à qui elles appartiennent. iels parviennent également à dissocier les pensées des paroles.';
 	--step4: "c'est volontairement désormais qu'iels partent en quête des pensées d'autrui. aptes à rechercher et sélectionner des informations spécifiques dans un nuage d'idées.";
 	--step5: "possibilité de déceler des secrets qu'ils soient enfouis, inconscients, niés ou réprimés.";
 }
 
 .men2 {
-	--step1: "le·a legilimens est incapable de stopper le flux de pensées d'autrui, les intrusions sont constantes et les saturations fréquentes.";
+	--step1: "le·a mentis est incapable de stopper le flux de pensées d'autrui, les intrusions sont constantes et les saturations fréquentes.";
 	--step2: 'iels sont en mesure de réduire les sons étouffants de quelques personnes durant un court de laps de temps. les paroles deviennent alors des souffles fugaces, et les cris, de simple échos.';
-	--step3: "capacité à atténuer l'entièreté des sons alentours, les pertes de contrôle sont pourtant fréquentes en fonction des émotions des legilimens, brisant alors l'équilibre fragile de leur tranquillité.";
-	--step4: "les émotions intempestives des legilimens n'impactent plus leur aptitude à estomper les voix.";
-	--step5: "comme un switch bienvenu, les voix s'éteignent ou reviennent à volonté. le contrôle offre aux legilimens l'apaisement si longtemps recherché.";
+	--step3: "capacité à atténuer l'entièreté des sons alentours, les pertes de contrôle sont pourtant fréquentes en fonction des émotions des mentis, brisant alors l'équilibre fragile de leur tranquillité.";
+	--step4: "les émotions intempestives des mentis n'impactent plus leur aptitude à estomper les voix.";
+	--step5: "comme un switch bienvenu, les voix s'éteignent ou reviennent à volonté. le contrôle offre aux mentis l'apaisement si longtemps recherché.";
 }
 
 .meta1 {
 	--step1: "les changements sont aléatoires et surviennent dès la naissance. il est plus fréquent qu'ils touchent les cheveux et les yeux, ils peuvent être arbitraires ou en harmonie avec les émotions, qu'ils trahissent la majorité du temps. Parfois s'invitent des traits animaux, totalement inopinés.";
-	--step2: "le·a métamorphomage parvient à déclencher les transformations mais de façon brève et non systématique. elles ne sont pas tout à fait ciblées : il arrive que d'autres parties du corps se calquent sur elles de manière hasardeuse.";
+	--step2: "le·a métamorphe parvient à déclencher les transformations mais de façon brève et non systématique. elles ne sont pas tout à fait ciblées : il arrive que d'autres parties du corps se calquent sur elles de manière hasardeuse.";
 	--step3: "iel peut à présent se focaliser sur plusieurs de ses traits, voire s'offrir un ravalement de façade cohérent (maîtrise des proportions). la durée est brève.";
 	--step4: 'gestion délicate des détails (carnation, grains de beauté, …), transformation du corps tout entier sur la durée.';
-	--step5: "la transformation animale est désormais accessible, les changements sont si pointus que le·a métamorphomage parvient à adopter une consistance totalement différente (écailles, plumes, etc), bien qu'iel ne pourra jamais adopter entièrement l'apparence d'une créature.";
+	--step5: "la transformation animale est désormais accessible, les changements sont si pointus que le·a métamorphe parvient à adopter une consistance totalement différente (écailles, plumes, etc), bien qu'iel ne pourra jamais adopter entièrement l'apparence d'une créature.";
 }
 .meta2 {
 	--step1: "l'allure, la démarche et la façon de se tenir sont les premières caractéristiques sur lesquelles se focaliser pour ne pas être démasqué·e en un instant.";
 	--step2: "apprentissage des mimiques inhérentes à la personne imitée, sa voix, sa manière de s'exprimer. l'observation du caractère et des habitudes en est la clé.";
-	--step3: "le·a métamorphomage se sent plus à l'aise dans ses corps d'emprunt. iel gagne en assurance, accroissant la stabilité de ses transformations. c'est ce qui fait la différence entre les bon·ne·s métamorphomages (apparence) et les expert·e·s (sosie associé à la psychologie).";
+	--step3: "le·a métamorphe se sent plus à l'aise dans ses corps d'emprunt. iel gagne en assurance, accroissant la stabilité de ses transformations. c'est ce qui fait la différence entre les bon·ne·s métamorphes (apparence) et les expert·e·s (sosie associé à la psychologie).";
 	--step4: "comme un·e acteur·ice débutant iel se perd dans ses rôles, à force d'apprendre l'autre iel ne sait plus qui iel est, peut peiner à retrouver ses traits d'origine ou sa véritable personnalité.";
 	--step5: "acteur·ice chevronné·e iel établit une distinction ferme entre sa personne et celles imitées. passer d'un rôle à l'autre devient plus spontané et sa crédibilité à toute épreuve peut duper même les plus méfiant·e·s.";
 }
@@ -4566,8 +4566,8 @@ button.rep-button .rep-nb {
 .nae1 {
 	--step1: "profonde instabilité émotionnelle, à la moindre contrariété ou peine apparaissent des écailles, les traits s'allongent et la douceur naturelle se mue en laideur repoussante.";
 	--step2: "meilleure maîtrise des émotions, possibilité d'atténuer ou d'estomper les changements dûs aux émotions négatives mais jamais d'y échapper tout à fait.";
-	--step3: "la beauté devient surnaturelle, impliquant une attirance sur les personnes de la tranche d'âge des vélanes ainsi qu'une fascination sur autrui de manière générale.";
-	--step4: "le·a vélane peut parvenir à cerner les véritables désirs, les réelles envies de sa·on interlocuteur·ice, permettant de s'assurer de la sincérité de celleux qu'iel côtoie.";
+	--step3: "la beauté devient surnaturelle, impliquant une attirance sur les personnes de la tranche d'âge des naelides ainsi qu'une fascination sur autrui de manière générale.";
+	--step4: "le·a naelide peut parvenir à cerner les véritables désirs, les réelles envies de sa·on interlocuteur·ice, permettant de s'assurer de la sincérité de celleux qu'iel côtoie.";
 	--step5: "capacité de stopper la fascination ou de l'intensifier.";
 }
 
