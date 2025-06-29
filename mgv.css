@@ -20,7 +20,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	background: var(--co-2grad);
+	background: var(--co-gradient);
 	border: 1.5px solid var(--base-1);
 }
 
