@@ -133,12 +133,11 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 .gradient_infos span {
 	padding: 1px 5px;
 	background: var(--co-gradient);
-	border: 1px solid var(--white);
 	border-radius: var(--radius);
 	text-align: center;
 	font-size: var(--little-size);
 	font-weight: 600;
-	color: var(--white);
+	color: white;
 }
 
 .top_sites {
