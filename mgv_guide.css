@@ -627,6 +627,12 @@ bc3::before {
 	-webkit-mask-composite: xor;
 	mask-composite: exclude;
 }
+u {
+    font-family: var(--font-2);
+    text-decoration: none;
+    border-bottom: 2px double var(--co-1);
+    letter-spacing: 1px;
+}
 u1,
 u2 {
 	color: var(--contrast);
