@@ -2575,7 +2575,7 @@ annee {
 	font-style: italic;
 	letter-spacing: -2px;
 	margin: 0px 0 -15px 10px;
-	color: var(--co-3);
+	color: var(--co-2b);
 	z-index: 0;
 }
 card {
@@ -2729,7 +2729,7 @@ card {
 	bottom: -6px;
 	width: 12px;
 	height: 12px;
-	background: radial-gradient(var(--co-3), var(--co-1));
+	background: radial-gradient(var(--co-2b), var(--co-1));
 	border-radius: 50%;
 	transition: left 0.5s;
 }
@@ -3680,7 +3680,7 @@ a.groupe {
 
 duo.ok {
 	padding: 0 5px;
-	background: var(--co-3);
+	background: var(--co-2b);
 	text-transform: uppercase;
 	text-align: center;
 	font-size: var(--little-size);
