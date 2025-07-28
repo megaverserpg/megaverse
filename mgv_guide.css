@@ -424,6 +424,59 @@ h2::after {
 }
 
 /* AESTHETIC */
+
+/*** INFOBULLES ***/ /* Tooltip container */
+.tooltip {
+	color: var(--contrast);
+	position: relative;
+	display: inline-block;
+} /* Tooltip text */
+.tooltip .toolcnt {
+	visibility: hidden;
+	position: absolute;
+	bottom: 30px;
+	left: -150px;
+	right: -150px;
+	margin: 0 auto;
+	background-color: var(--neutralDarker);
+	color: var(--contrast);
+	font-size: var(--little-size);
+	line-height: var(--normal-size);
+	padding: 5px;
+	border-radius: var(--radius);
+	z-index: 1;
+	text-transform: none !important;
+	font-family: var(--font);
+	color: var(--textColor);
+	font-weight: normal;
+	font-style: normal;
+	max-width: 300px;
+	width: fit-content;
+	opacity: 0;
+	transition: opacity 0.6s;
+}
+.tooltip::after {
+	content: '';
+	visibility: hidden;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: var(--neutralDarker) transparent transparent transparent;
+	opacity: 0;
+	transition: opacity 0.6s;
+} /* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover {
+	z-index: 2;
+}
+.tooltip:hover .toolcnt,
+.tooltip:hover::after {
+	visibility: visible;
+	opacity: 1;
+}
+
 blockquote2 {display: block; margin: 0 20px}
 blockquote3 {display: block; margin: 0 40px; border-left: 1px solid var(--co-1); padding-left: 20px}
 
