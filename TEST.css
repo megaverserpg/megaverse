@@ -5088,6 +5088,17 @@ button.rep-button .rep-nb {
 	text-transform: uppercase;
 }
 
+/*lexique*/
+#lexique-toggle {
+    margin-top: 8px;
+    color: white;
+}
+
+.lexique-panel {
+    font-size: var(--inter-size);
+    display: none; /* pour qu'il soit masqué au chargement */
+}
+
 /*** ------------------------------- ***/
 /*** ÉDITEUR DE TEXTE ------------ ***/
 
