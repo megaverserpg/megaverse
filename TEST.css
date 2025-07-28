@@ -4050,16 +4050,19 @@ inv {
 }
 
 button.rep-button .rep-nb {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: -4px;
-	font-size: 7px;
-	background: var(--co-1);
-	color: white;
-	border-radius: 50%;
-	width: 10px;
-	height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+    padding: 3px;
+    font-size: 8px;
+    background: var(--neutralDark);
+    border: 1px solid var(--white);
+    color: var(--co-2);
+    font-weight: 700;
+    border-radius: var(--xs-radius);
+    width: 10px;
+    height: 10px;
 }
 
 .sms blockquote:has(cite) {
