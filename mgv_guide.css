@@ -291,6 +291,17 @@ h2::after {
        line-height: 120%; font-size: var(--small-size); text-transform: uppercase;
 }
 
+/*lexique*/
+#lexique-toggle {
+    margin-top: 8px;
+    color: white;
+}
+
+.lexique-panel {
+    font-size: var(--inter-size);
+    display: none; /* pour qu'il soit masqué au chargement */
+}
+
 /* PARTICULARITÉS */
 .tabs-onglets {
     position: absolute;
