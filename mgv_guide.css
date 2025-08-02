@@ -296,7 +296,8 @@ h2::after {
     margin-top: 8px;
     color: white;
     background: var(--co-gradient);
-    border-radius: var(--xs-radius);
+    border: none;
+    border-radius: var(--radius);
 }
 
 .lexique-panel {
