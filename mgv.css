@@ -133,12 +133,11 @@ html:not(html[data-color-scheme='dark']) .header_dark { display: none }
 .gradient_infos span {
 	padding: 1px 5px;
 	background: var(--co-gradient);
-	border: 1px solid var(--white);
 	border-radius: var(--radius);
 	text-align: center;
 	font-size: var(--little-size);
 	font-weight: 600;
-	color: var(--white);
+	color: white;
 }
 
 .top_sites {
@@ -1659,8 +1658,8 @@ display: none;
 }
 
 /* cate spéciales : index ; guide ? */
-.select_parto {width: 100%; background: var(--co-1c); border: 1px solid var(--co-1b); color: var(--white); transition: 0.5s border}
-.select_parto:hover {border: 1px solid var(--co-2b)}
+.select_parto {width: 100%; background: var(--base-2); border: 1px solid var(--co-2); text-transform: uppercase; font-size: var(--little-size); font-weight: 600; letter-spacing: 1px; transition: 0.5s border}
+.select_parto:hover {border: 1px solid var(--co-1)}
 
 .forumtitle:has(t6) {
 	margin-top: auto;
@@ -2575,7 +2574,7 @@ annee {
 	font-style: italic;
 	letter-spacing: -2px;
 	margin: 0px 0 -15px 10px;
-	color: var(--co-3);
+	color: var(--co-2b);
 	z-index: 0;
 }
 card {
@@ -2729,7 +2728,7 @@ card {
 	bottom: -6px;
 	width: 12px;
 	height: 12px;
-	background: radial-gradient(var(--co-3), var(--co-1));
+	background: radial-gradient(var(--co-2b), var(--co-1));
 	border-radius: 50%;
 	transition: left 0.5s;
 }
@@ -3680,7 +3679,7 @@ a.groupe {
 
 duo.ok {
 	padding: 0 5px;
-	background: var(--co-3);
+	background: var(--co-2b);
 	text-transform: uppercase;
 	text-align: center;
 	font-size: var(--little-size);
@@ -4051,16 +4050,19 @@ inv {
 }
 
 button.rep-button .rep-nb {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: -4px;
-	font-size: 7px;
-	background: var(--co-1);
-	color: white;
-	border-radius: 50%;
-	width: 10px;
-	height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+    padding: 3px;
+    font-size: 8px;
+    background: var(--neutralDark);
+    border: 1px solid var(--white);
+    color: var(--co-2);
+    font-weight: 700;
+    border-radius: var(--xs-radius);
+    width: 10px;
+    height: 10px;
 }
 
 .sms blockquote:has(cite) {
@@ -5084,6 +5086,17 @@ button.rep-button .rep-nb {
 	line-height: 120%;
 	font-size: var(--small-size);
 	text-transform: uppercase;
+}
+
+/*lexique*/
+#lexique-toggle {
+    margin-top: 8px;
+    color: white;
+}
+
+.lexique-panel {
+    font-size: var(--inter-size);
+    display: none; /* pour qu'il soit masqué au chargement */
 }
 
 /*** ------------------------------- ***/
