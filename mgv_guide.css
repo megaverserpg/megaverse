@@ -10,7 +10,7 @@
 	--neutral: #09090969;
 	--neutralDark: #0b0b0bcc;
 	--neutralDarker: #0a0a0a;
-	--co-gradient: linear-gradient(to right, var(--co-1), var(--co-2));
+	--co-gradient: linear-gradient(115deg, var(--co-2), var(--co-1));
 
 	--small-size: 0.625rem;
 	--little-size: 0.75rem;
