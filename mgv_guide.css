@@ -269,6 +269,13 @@ h2::after {
     content: '\0027E2\0027E1';
 }
 
+hr {
+    border: none;
+    background: var(--contrast);
+    height: 1px;
+    opacity: 0.1;
+}
+
 .navig .grid {display: grid; justify-content: center; gap: 5px; border-radius: var(--radius); overflow: hidden}
       
 .navig .grid a {
