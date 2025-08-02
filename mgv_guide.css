@@ -293,11 +293,18 @@ h2::after {
 
 /*lexique*/
 #lexique-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 8px;
     color: white;
     background: var(--co-gradient);
     border: none;
     border-radius: var(--radius);
+}
+#lexique-toggle i {
+	display: inline-block;
+	margin: 3px 3px 0 0;
 }
 
 .lexique-panel {
