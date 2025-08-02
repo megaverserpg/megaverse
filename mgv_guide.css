@@ -295,6 +295,8 @@ h2::after {
 #lexique-toggle {
     margin-top: 8px;
     color: white;
+    background: var(--co-gradient);
+    border-radius: var(--xs-radius);
 }
 
 .lexique-panel {
