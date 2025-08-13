@@ -5764,6 +5764,7 @@ span.italic {
 	overflow: auto;
 	height: 360px;
 	border: 12px solid var(--white);
+	overflow-x: hidden;
 }
 
 #field_id9 textarea {
