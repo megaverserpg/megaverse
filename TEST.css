@@ -6773,7 +6773,6 @@ button.more {
 	display: block;
 	z-index: 1;
 	padding: 8px;
-	height: 100%;
 	background: var(--neutralDarker);
 	border-radius: 5px;
 	text-align: justify;
