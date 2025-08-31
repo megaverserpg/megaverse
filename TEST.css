@@ -6931,6 +6931,28 @@ button.more {
 .bujoboard2 .bujoInv {
 	height: 132px;
 }
+.bag .bujoInv {
+    height: 120px;
+}
+.bag .desc {
+    height: 116px;
+}
+.fashion .bujoInv {
+    height: 132px;
+}
+.fashion .desc {
+    height: 128px;
+}
+.bujoboard .desc {
+    height: 126px;
+}
+.bujoboard1 .bujoInv {
+    height: 126px;
+}
+.bujoboard2 .bujoInv {
+    height: 128px;
+}
+
 .bujoInv:has(.bujoCard)::before {
 	content: '?';
 	position: absolute;
@@ -6947,13 +6969,6 @@ button.more {
 	font-size: var(--small-size);
 	font-weight: 600;
 }
-
-/*inventaire & liens */
-.bujoboard2 .bujoCard .desc,
-.liens .bujoInv .desc {height: 128px}
-
-/*physical*/
-.bujoboard1 .bujoCard .desc {height: 126px}
 
 .mini_plays br {
 	display: none;
