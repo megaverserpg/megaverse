@@ -6917,34 +6917,28 @@ button.more {
 	text-align: center;
 }
 .bag .bujoInv {
-	height: 120px;
-}
-.fashion .bujoInv {
-	height: 132px;
-}
-.bujoboard .bujoInv {
-	height: 130px;
-}
-.bujoboard1 .bujoInv {
-	height: 130px;
-}
-.bujoboard2 .bujoInv {
-	height: 132px;
-}
-.bag .bujoInv {
     height: 120px;
 }
 .bag .desc {
     height: 116px;
 }
-.fashion .desc {
-    height: 128px;
+.fashion .bujoInv {
+    height: 132px;
+}
+.bujoboard .bujoInv {
+    height: 130px;
 }
 .bujoboard .desc {
     height: 126px;
 }
+.bujoboard1 .bujoInv {
+    height: 130px;
+}
 .bujoboard1 .desc {
     height: 126px;
+}
+.bujoboard2 .bujoInv {
+    height: 132px;
 }
 .bujoboard2 .desc {
     height: 128px;
