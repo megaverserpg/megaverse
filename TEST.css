@@ -6937,19 +6937,16 @@ button.more {
 .bag .desc {
     height: 116px;
 }
-.fashion .bujoInv {
-    height: 132px;
-}
 .fashion .desc {
     height: 128px;
 }
 .bujoboard .desc {
     height: 126px;
 }
-.bujoboard1 .bujoInv {
+.bujoboard1 .desc {
     height: 126px;
 }
-.bujoboard2 .bujoInv {
+.bujoboard2 .desc {
     height: 128px;
 }
 
