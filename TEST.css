@@ -5198,7 +5198,7 @@ div.sceditor-dropdown {
 	display: none;
 }
 
-#message-box { width: 100% }
+
 
 #quick_reply #textarea_content,
 #message-box #textarea_content {
@@ -6948,6 +6948,14 @@ button.more {
 	font-size: var(--small-size);
 	font-weight: 600;
 }
+
+/*inventaire & liens */
+.bujoboard2 .bujoCard .desc,
+.liens .bujoInv .desc {height: 128px}
+
+/*physical*/
+.bujoboard1 .bujoCard .desc {height: 126px}
+
 .mini_plays br {
 	display: none;
 }
