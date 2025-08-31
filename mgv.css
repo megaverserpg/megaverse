@@ -5199,7 +5199,9 @@ div.sceditor-dropdown {
 }
 
 #message-box {
-	width: -webkit-fill-available;
+	width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
 }
 #quick_reply #textarea_content,
 #message-box #textarea_content {
