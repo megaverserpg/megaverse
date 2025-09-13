@@ -1732,11 +1732,11 @@ display: none;
 #c1 .forum:first-of-type .forum_details,
 #c1 .forum:first-of-type .forum-img,
 #c1 .forum:first-of-type .forum_stats,
-#c1 .forum_details,
 #c1 .forum:first-of-type .fo_stats,
 #c1 .forum_details,
 #c2 .forum_details,
-#c7 .forum_details {
+#c7 .forum_details,
+.fo_classic .forum_details {
 	display: none;
 }
 
