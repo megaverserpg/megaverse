@@ -3627,6 +3627,8 @@ ellipsis:nth-child(4) {
 	margin-bottom: 10px;
 }
 
+bb8, bb9 { font-family: var(--font-2) } bb8 { color: var(--co-1); text-shadow: 0 0 3px var(--co-1) } bb9 { color: var(--co-2); text-shadow: 0 0 3px var(--co-2) }
+
 .dim {
 	display: flex;
 	flex-wrap: wrap;
