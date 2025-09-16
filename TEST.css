@@ -1154,6 +1154,7 @@ div#fa_usermenu .bold {
     justify-content: center;
     align-items: center;
     width: 100%;
+	height: 97px;
     background-color: var(--neutral);
     border-radius: var(--radius);
     line-height: 120%;
@@ -1731,11 +1732,11 @@ display: none;
 #c1 .forum:first-of-type .forum_details,
 #c1 .forum:first-of-type .forum-img,
 #c1 .forum:first-of-type .forum_stats,
-#c1 .forum_details,
 #c1 .forum:first-of-type .fo_stats,
 #c1 .forum_details,
 #c2 .forum_details,
-#c7 .forum_details {
+#c7 .forum_details,
+.fo_classic .forum_details {
 	display: none;
 }
 
@@ -5198,8 +5199,11 @@ div.sceditor-dropdown {
 	display: none;
 }
 
-
-
+#message-box {
+	width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
 #quick_reply #textarea_content,
 #message-box #textarea_content {
 	background: var(--body-img) center;
@@ -6773,6 +6777,7 @@ button.more {
 	display: block;
 	z-index: 1;
 	padding: 8px;
+	height: 100%;
 	background: var(--neutralDarker);
 	border-radius: 5px;
 	text-align: justify;
@@ -6943,7 +6948,6 @@ button.more {
 .bujoboard2 .desc {
     height: 128px;
 }
-
 .bujoInv:has(.bujoCard)::before {
 	content: '?';
 	position: absolute;
@@ -6960,7 +6964,6 @@ button.more {
 	font-size: var(--small-size);
 	font-weight: 600;
 }
-
 .mini_plays br {
 	display: none;
 }
