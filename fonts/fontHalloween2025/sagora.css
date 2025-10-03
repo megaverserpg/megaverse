@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'UT Sagora Glamour Demo';
     src: url('UTSagoraGlamourDemo-Regular.woff2') format('woff2'),
-        url('UTSagoraGlamourDemo-Regular.woff') format('woff');
+        url('UTSagoraGlamourDemo-Regular.woff') format('woff'),
+        url('UTSagoraGlamourDemo-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
