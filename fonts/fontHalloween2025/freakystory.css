@@ -1,9 +1,0 @@
-@font-face {
-	font-family: 'Freaky Story';
-	src: url('FreakyStory-Regular.woff2') format('woff2'),
-		url('FreakyStory-Regular.woff') format('woff'),
-		url('FreakyStory.otf') format('otf');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
