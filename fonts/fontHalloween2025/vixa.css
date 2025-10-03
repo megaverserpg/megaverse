@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Vixa';
-    src: url('Vixa-Regular.woff2') format('woff2'),
-        url('Vixa-Regular.woff') format('woff');
+    src: url('Vixa-Regular.otf') format('otf');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
