@@ -366,7 +366,7 @@ var markersData = [
             },
        {
        "title": "The Bottled Dreams",
-                "coordinates": [1088, 2170],
+                "coordinates": [1074, 2170],
       		"markerClass": "place",
                 "description": "<bg3>Marchand de rêves</bg3> Nichée entre deux <i3>façades</i3> changeant chaque nuit : elle choisit elle-même qui <u1>croise</u1> sa route. Sa lanterne n'éclaire que les <bb2>indécis·e·s</bb2> franchissant sa porte, cachée <i3>derrière</i3> un rideau de perles aux reflets opalins. Minuscule au <u1>premier</u1> abord, elle s'étend à <ls>l'infini</ls> une fois le seuil franchi. Étagères <bb2>instables</bb2> ployant sous des fioles colorées, flacons <i3>étiquetés</i3> à la main, poudres impossibles à <u1>identifier</u1> et objets sans <ls>utilité</ls> apparente constituent le décor. Le marchand, haut de forme <bb2>enfoncé</bb2> jusqu'aux sourcils et lunettes cerclées d'or, se fait avare en <i3>explications</i3>; préférant observer. Et s'il attend les <u1>propositions</u1>, ce n'est pas l'or qui <bb2>l'intéresse</bb2> — friand de vérité et de promesses qu'il enferme dans un <i3>bocal</i3> pour se les accaparer en <u1>échange</u1> d'un indice sur le jeu. Gare aux tricheur·euse·s, la boutique referme ses <bb2>murs</bb2> comme une mâchoire vous gardant dans l'obscurité jusqu'à ce que le <i3>marchand</i3> décide de vous relâcher.",
      		"img": "https://www.aht.li/3936811/thebottleddreams.jpg",
@@ -394,7 +394,7 @@ var markersData = [
             },
        {
        "title": "The Court of Silences",
-                "coordinates": [1186, 2056],
+                "coordinates": [1142, 2043],
       		"markerClass": "place",
                 "description": "<bg3>les anges de la mort</bg3> Cloître en forme de <i3>couloir</i3>, aux alcôves ornées de statues <u1>voilées</u1>, les mains tendues vers l’avant — celles-ci sont si <ls>réalistes</ls> que c’en est effrayant. L’objectif est de <bb2>traverser</bb2> tout en gardant le contact visuel avec les <i3>statues</i3> [ la meilleure <u1>technique</u1> serait alors d’être en binôme, dos à dos ] : les quitter des yeux un instant permet alors à celles-ci de se <bb2>déplacer</bb2> vers les joueur·euse·s pour tenter de les garder <i3>captif·ve·s</i3> entre leurs bras de pierre. Au fond, une fois les <u1>lourdes</u1> portes passées, un puits d’eau noire <bb2>trône</bb2>, où les joueur·se·s peuvent chuchoter une <i3>question</i3> et entendre l’écho d’une réponse-indice.",
      		"img": "https://www.aht.li/3936815/thecourtofsilences.jpg",
