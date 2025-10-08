@@ -359,7 +359,7 @@ var markersData = [
             },
        {
        "title": "The Midnight Market",
-                "coordinates": [1133, 2039],
+                "coordinates": [1135, 2039],
       		"markerClass": "place",
                 "description": "<bg3>Marché nocturne</bg3> S'éveille à la <i3>tombée</i3> de la nuit l'immense place du centre-ville. En son <u1>centre</u1> trône un carrousel de verre, entouré de rosiers <bb2>vermeilles</bb2> dont les reflets offrent une teinte rubis. Aquaglion, Mirastra et <ls>Magmaficient</ls> ornent le manège enchanté. Grimper sur la <i3>bonne</i3> monture [ changeant à chaque tour ] offre un <ls>indice</ls> sur le jeu — se tromper, à l'inverse, vous coince pour l'heure quitte à perdre un <u1>temps</u1> précieux. Autour, les étals se dressent en cercle <bb2>parfait</bb2>, offrant une composition aussi <i3>changeante</i3> que variée. Comptoirs à pâtisseries deviennent <u1>échoppes</u1> à bijoux d'un clignement d'oeil s'adaptant aux <ls>pensées</ls> des flâneur·euse·s, des cartes de tarot flottent à même les <bb2>airs</bb2> tirant leurs prédictions sans autorisation. Et si par le plus grand des <i3>hasards</i3>, vous voyez l'une des montures de verre s'échapper de son socle pour mieux se balader à travers les <u1>passant·e·s</u1>, il est judicieux de la suivre pour y découvrir l'un des <ls>nombreux</ls> passages secrets de Noctivale.",
      		"img": "https://www.aht.li/3936810/themidnightmarket.jpg",
@@ -380,7 +380,7 @@ var markersData = [
             },
        {
        "title": "The Glass Garden",
-                "coordinates": [1130, 2039],
+                "coordinates": [1135, 2199],
       		"markerClass": "place",
                 "description": "<bg3>Serre magique</bg3> Jardin <i3>secret</i3> situé derrière une serre de <u1>verre</u1> toujours couverte de buée de l'extérieur — à <bb2>l'intérieur</bb2>, les vitres prennent mille reflets des <i3>étoiles</i3> et deux lunes de Noctivale pour parer la <ls>végétation</ls> de ses lumières. Les fleurs qui y <u1>poussent</u1> semblent toutes faites de cristal : il s'agit en <bb2>réalité</bb2> d'un sucre fin, qui, une fois un pétale fondu sur la langue, donne pour un court <i3>instant</i3> des capacités à cellui qui la goûte. Bonus ou malus, <u1>impossible</u1> de le savoir tant que les plantes n'ont pas été savourées. Attention à la gourmandise <bb2>exacerbée</bb2>, seuls deux pétales peuvent être <i3>cueillis</i3> par personne : quiconque en <u1>subtilisera</u1> davantage [ pour ellui-même ou un·e autre ] finira en <bb2>statue</bb2> de sucre jusqu'à la fin des jeux.",
      		"img": "https://www.aht.li/3936813/theglassgarden.jpg",
