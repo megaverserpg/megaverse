@@ -3406,9 +3406,9 @@ ellipsis:nth-child(4) {
 
 .block2_ctnr { border: 1px solid var(--neutralDarker); padding: 10px; border-radius: var(--radius) }
 .block2 { background: var(--neutral); backdrop-filter: blur(20px); border-radius: var(--radius); }
-.block2 .desc { 
-	border: 10px solid transparent;
-    background: var(--neutralDark);
+.block2 .desc { border: 10px solid transparent; }
+.header_ctnt .block2 .desc { 
+    background: var(--neutral);
     border-radius: var(--radius);
 }
 
