@@ -3406,7 +3406,11 @@ ellipsis:nth-child(4) {
 
 .block2_ctnr { border: 1px solid var(--neutralDarker); padding: 10px; border-radius: var(--radius) }
 .block2 { background: var(--neutral); backdrop-filter: blur(20px); border-radius: var(--radius); }
-.block2 .desc { border: 10px solid transparent; }
+.block2 .desc { 
+	border: 10px solid transparent;
+    background: var(--neutralDark);
+    border-radius: var(--radius);
+}
 
 .note {
 	position: relative;
