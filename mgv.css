@@ -3408,7 +3408,7 @@ ellipsis:nth-child(4) {
 .block2 { background: var(--neutral); backdrop-filter: blur(20px); border-radius: var(--radius); }
 .block2 .desc { border: 10px solid transparent; }
 .header_ctnt .block2 .desc { 
-    background: var(--neutral);
+    background: var(--neutralDark);
     border-radius: var(--radius);
 }
 
