@@ -1002,8 +1002,8 @@ div#fa_usermenu .bold {
 	position: absolute;
 	width: 16px;
 	height: 16px;
-	top: -7px;
-	right: 14px;
+	top: -5px;
+    right: 3px;
 	border-radius: 50%;
 	background-color: var(--co-2);
 	transform: scale(0);
