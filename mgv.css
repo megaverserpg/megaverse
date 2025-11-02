@@ -1820,6 +1820,9 @@ display: none;
     transition: 0.5s all;
 }
 
+[data-color-scheme='dark'] .c1_links a::before {color: var(--co-2c)}
+[data-color-scheme='dark'] .c1_links a:hover {background: var(--co-2c)}
+
 #c1 .forum-img.bounce,
 #c2 .forum-img.bounce,
 #c7 .forum-img.bounce {
