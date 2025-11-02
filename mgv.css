@@ -1822,10 +1822,10 @@ display: none;
 
 [data-color-scheme='dark'] .c1_links a::before {color: var(--co-2c)}
 [data-color-scheme='dark'] .c1_links a:hover {
+	background: var(--co-2c);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0px 0px transparent;
-	background: var(--co-2c);
 }
 
 #c1 .forum-img.bounce,
