@@ -7099,3 +7099,10 @@ button.more {
 .heart { width: 40px; height: 40px; border-radius: 100%; background: var(--co-1grad); color: white; font-size: 18px; font-weight: bold; border: 1px solid #FFF; transform: rotate(-25deg);}
 .btn-message { background: var(--co-1); color: #fff; } 
 .btn { display: inline-block; border-radius: 5px; padding: 5px; font-size: 12px; text-transform: uppercase; font-weight: bold; margin: 0 6px; }
+
+.table-wrapper { background: var(--co-1); border-radius: 20px; padding: 15px; max-width: 410px; border: 10px solid var(--white); margin-top: 15px; }
+.header-table { background: var(--white); border-radius: 15px; padding: 15px; text-align: left; }
+.header-title { font-size: var(--large-size); font-weight: 600; color: var(--co-2); }
+.header-subtitle { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; }
+.grid-table { background: var(--neutral); border-radius: 20px; margin-top: 15px; padding: 20px; border: 2px solid var(--white); border-spacing: 15px; }
+.grid-item img { object-fit: cover; border-radius: 10px; border: 2px solid var(--white); }
