@@ -7086,7 +7086,7 @@ button.more {
 .polaroidimg1 { width: 100px; padding: 5px; background: var(--white); box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); font-family: var(--font-2); font-style: italic; font-size: 12px; text-align:center; transform: rotate(-5deg); }
 .polaroidimg2 { width: 100px; padding: 5px; background: var(--white); box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); font-family: var(--font-2); font-style: italic; font-size: 12px; text-align:center; transform: rotate(10deg); }
 .polaroidimg3 { width: 100px; padding: 5px; background: var(--white); box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); font-family: var(--font-2); font-style: italic; font-size: 12px; text-align:center; transform: rotate(-15deg);}
-.polaroidimg img { object-fit: cover;) }
+.polaroid img { object-fit: cover;) }
 
 .quoteblock { margin: 20px auto; background: var(--co-2grad); padding: 10px; border: 10px solid var(--white); border-radius: 15px; }
 .quote-block { background: var(--white); padding: 20px; height: 120px; display: block; overflow: auto; }
