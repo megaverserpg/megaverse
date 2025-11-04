@@ -7095,7 +7095,7 @@ button.more {
 .match-table { display: flex ; justify-content: center; background: var(--co-gradient); border-radius: 15px; color: #fff; text-align: center; }
 .match-title { font-size: var(--xl-size); font-family: var(--special-font); color: var(--co-1); display: flex ; justify-content: center; }
 .match-subtitle { font-size: 12px; letter-spacing: 1px; display: flex ; justify-content: center; }
-.match-photos img { border-radius: 100%; background: #ddd; border: 5px solid rgba(255, 255, 255, 0.6); box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); margin-right: -12px; margin-left: -12px;}
+.match-photos img { border-radius: 100%; background: #ddd; border: 5px solid rgba(255, 255, 255, 0.6); box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); margin-right: -12px; margin-left: -12px; object-fit: cover;}
 .heart { width: 40px; height: 40px; border-radius: 100%; background: var(--co-1grad); color: white; font-size: 18px; font-weight: bold; border: 1px solid #FFF; transform: rotate(-25deg);}
 .btn-message { background: var(--co-1); color: #fff; } 
 .btn { display: inline-block; border-radius: 5px; padding: 5px; font-size: 12px; text-transform: uppercase; font-weight: bold; margin: 0 6px; }
