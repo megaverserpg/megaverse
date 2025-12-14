@@ -310,17 +310,21 @@ ls {
 	font-family: courier new;
 	letter-spacing: 4px;
 }
-sp:not(sp:hover),
-sp:not(sp:hover) > * {
-	transition: all 0.5s;
-	background: var(--neutralDarker);
-	color: transparent !important;
-	text-decoration: none !important;
-	border-radius: 5px;
+sp {
+  display: inline-block !important;
+  position: relative!important;
+  transition: filter .4s ease, opacity .4s ease!important;
 }
+
+sp:not(:hover) {
+  filter: blur(6px)!important;
+  opacity: .35!important;
+  pointer-events: auto!important;
+}
+
 sp:hover {
-	background: none;
-	color: var(--textColor);
+  filter: none!important;
+  opacity: 1!important;
 }
 bb1,
 bb2,
