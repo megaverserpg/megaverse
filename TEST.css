@@ -4947,7 +4947,7 @@ button.rep-button .rep-nb {
 	width: 310px;
 	z-index: 101;
 	box-sizing: border-box;
-	background-color: var(--base-1);
+	background-color: var(--neutral);
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 	line-height: 17px;
