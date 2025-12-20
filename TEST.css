@@ -33,7 +33,6 @@
 
 @media screen and (min-width: 890px) {
 	.main_forum {
-		max-width: calc(100vw - 10px);
 		padding: 80px 10vw;
 	}
 	.main_forum.open {
