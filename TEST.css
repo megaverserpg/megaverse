@@ -1672,7 +1672,7 @@ display: none;
 
 #c1 .forum:first-of-type > .forum_content {
 	height: 100%;
-	background: var(--co-gradient2);
+	background: var(--co-gradient);
 	border-radius: var(--radius);
 }
 
@@ -1781,7 +1781,7 @@ display: none;
 
 .c1_links a::before {
     content: '➤';
-    color: var(--co-2);
+    color: var(--co-2b);
     margin-right: 10px;
 }
 
