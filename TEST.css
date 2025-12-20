@@ -344,7 +344,7 @@ input[type='password'],
 input.inputbox {
 	border: none;
 	border-radius: 5px;
-	background: var(--neutralDark);
+	background: var(--neutralDarker);
 	font-size: var(--normal-size);
 	color: var(--contrastLight);
 	padding: 2px 6px;
@@ -5140,7 +5140,7 @@ div#quickreply_content .h3 + br {
 .sceditor-container textarea {
 	border-radius: 0 0 var(--radius) var(--radius);
 	min-height: 250px !important;
-	background-color: var(--neutralDark) !important;
+	background-color: var(--neutralDarker) !important;
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 	width: 100% !important;
