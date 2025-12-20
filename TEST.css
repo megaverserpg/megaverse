@@ -29,6 +29,7 @@
 	position: relative;
 	z-index: 1;
 	max-width: 1020px;
+	margin: 0 auto;
 	padding: 30px;
 	border-radius: var(--radius);
 }
