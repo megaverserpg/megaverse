@@ -1864,7 +1864,7 @@ display: none;
     font-size: var(--extra-size);
     line-height: 100%;
     font-weight: 400;
-    color: var(--neutralDark);
+    color: var(--neutralDarker);
 }
 
 .cate_title h2:first-of-type::after {
@@ -1879,8 +1879,9 @@ display: none;
     width: 100%;
     height: 20px;
     border-radius: var(--radius);
-    background: var(--neutralDarker);
-    border: 1px solid var(--co-1b);
+	background: var(--neutral);
+    border: 1px solid var(--neutralDarker);
+    backdrop-filter: blur(20px);
 }
 
 [data-color-scheme='dark'] .cate_title h2:first-of-type::after {border: 1px solid var(--base-2)}
