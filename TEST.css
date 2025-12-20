@@ -2441,7 +2441,9 @@ display: none;
 #newsareal1 .topicslist_infos {
 	min-height: 0;
 	border-radius: var(--radius);
+	overflow: hidden;
 	background: var(--neutral) !important;
+	border: var(--borderDarker);
 	margin-bottom: 6px;
 	padding: 0;
 }
