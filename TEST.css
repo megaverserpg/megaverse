@@ -5058,7 +5058,7 @@ button.rep-button .rep-nb {
 	align-items: center;
 	gap: 8px;
 	padding: 5px;
-	background: var(--neutral);
+	background: var(--neutralDarker);
 	transition: 0.5s all;
 }
 
