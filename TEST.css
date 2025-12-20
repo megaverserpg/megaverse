@@ -1799,7 +1799,7 @@ display: none;
 }
 
 .c1_links a:hover {
-    background: var(--co-gradient);
+    background: var(--co-1c);
     transform: translateX(30px);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
