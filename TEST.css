@@ -3572,7 +3572,6 @@ ellipsis:nth-child(4) {
 .txt_mod1 {
 	background-color: var(--neutralDarker);
 	padding: var(--spacing);
-	z-index: 1;
 	position: relative;
 	border-radius: var(--radius);
 	border-bottom: 1px solid var(--co-1);
